@@ -940,6 +940,7 @@ function simulateLoadingSteps() {
 }
 
 function showToast(message, type = 'info') {
+  window.showToast = showToast;
   const toast = document.createElement('div');
   toast.className = `toast toast-${type}`;
 

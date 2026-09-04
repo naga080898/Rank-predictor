@@ -116,18 +116,44 @@
   <link rel="icon" type="image/jpeg" href="/assets/logo.jpeg">
 
   <!-- Stylesheet -->
-  <link rel="stylesheet" href="/css/styles.css?v=3">
-  
-  <!-- Theme Initialization (prevents flash) -->
+  <link rel="stylesheet" href="/css/styles.css?v=6">
+
+  <!-- Theme Manager (Instant & Flash-Free) -->
   <script>
-    (function() {
-      const savedTheme = localStorage.getItem('rankpulse-theme');
-      if (savedTheme === 'light' || (!savedTheme && window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches)) {
-        document.documentElement.setAttribute('data-theme', 'light');
-      } else {
-        document.documentElement.setAttribute('data-theme', 'dark');
+    function applyTheme(theme) {
+      document.documentElement.setAttribute('data-theme', theme);
+      if (document.body) {
+        document.body.classList.toggle('light-theme', theme === 'light');
       }
+      localStorage.setItem('rankpulse-theme', theme);
+      const btn = document.getElementById('theme-toggle-btn');
+      if (btn) {
+        const label = theme === 'light' ? 'Switch to Dark Mode' : 'Switch to Light Mode';
+        btn.setAttribute('title', label);
+        btn.setAttribute('aria-label', label);
+      }
+    }
+
+    function toggleTheme() {
+      const current = document.documentElement.getAttribute('data-theme') || 'dark';
+      const target = current === 'light' ? 'dark' : 'light';
+      applyTheme(target);
+      if (typeof showToast === 'function') {
+        showToast(`Switched to ${target === 'light' ? 'Light' : 'Dark'} Mode`, 'info');
+      }
+    }
+
+    (function () {
+      const savedTheme = localStorage.getItem('rankpulse-theme');
+      const isLight = savedTheme === 'light' || (!savedTheme && window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches);
+      document.documentElement.setAttribute('data-theme', isLight ? 'light' : 'dark');
+      document.documentElement.classList.toggle('light-theme', isLight);
     })();
+
+    document.addEventListener('DOMContentLoaded', function() {
+      const current = document.documentElement.getAttribute('data-theme') || 'dark';
+      applyTheme(current);
+    });
   </script>
 </head>
 
@@ -197,8 +223,10 @@
           </svg>
           <span>Find Scorecard</span>
         </button>
-        <button class="theme-toggle-btn" id="theme-toggle-btn" title="Toggle Dark / Light Mode" aria-label="Toggle Dark / Light Mode">
-          <svg class="sun-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <button class="theme-toggle-btn" id="theme-toggle-btn" onclick="toggleTheme()" title="Toggle Dark / Light Mode"
+          aria-label="Toggle Dark / Light Mode">
+          <svg class="sun-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <circle cx="12" cy="12" r="5"></circle>
             <line x1="12" y1="1" x2="12" y2="3"></line>
             <line x1="12" y1="21" x2="12" y2="23"></line>
@@ -209,7 +237,8 @@
             <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
             <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
           </svg>
-          <svg class="moon-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <svg class="moon-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
           </svg>
         </button>
@@ -228,7 +257,7 @@
          VIEW 1: PREDICTOR / UPLOAD VIEW
          ==================================================================== -->
     <section id="view-predictor" class="tab-view active">
-      <!-- <div class="hero-section">
+      <div class="hero-section">
         <div class="hero-pill">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <path
@@ -239,7 +268,7 @@
         </div>
         <h1 class="hero-title">AP AEE <span class="text-gradient">Rank Predictor</span></h1>
         <p class="hero-subtitle">Powered by Next level</p>
-      </div> -->
+      </div>
 
       <!-- Predictor Layout (Upload + Quick Links) -->
       <div class="predictor-layout">
@@ -757,7 +786,7 @@
   <div class="toast-container" id="toast-container"></div>
 
   <!-- Application Logic -->
-  <script src="/js/app.js"></script>
+  <script src="/js/app.js?v=6"></script>
 </body>
 
 </html>

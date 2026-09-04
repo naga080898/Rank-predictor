@@ -2,7 +2,8 @@
    RankPulse AI — Premium Glassmorphic Design System
    ========================================================================== */
 
-:root {
+:root,
+html[data-theme="dark"] {
   /* Color Palette (Dark Theme Default) */
   --bg-dark: #070b14;
   --bg-surface: #0f172a;
@@ -76,6 +77,9 @@
   --radius-full: 9999px;
 }
 
+:root[data-theme="light"],
+html[data-theme="light"],
+body.light-theme,
 [data-theme="light"] {
   /* Color Palette (Light Theme) */
   --bg-dark: #f1f5f9;
