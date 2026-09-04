@@ -28,6 +28,7 @@ const DOM = {
   tabBtnStats: document.getElementById('tab-btn-stats'),
   apiStatusText: document.getElementById('api-status-text'),
   btnOpenLookup: document.getElementById('btn-open-lookup'),
+  themeToggleBtn: document.getElementById('theme-toggle-btn'),
 
   // Views
   viewPredictor: document.getElementById('view-predictor'),
@@ -117,11 +118,38 @@ const DOM = {
 // Initialization
 // ============================================================================
 document.addEventListener('DOMContentLoaded', () => {
+  initTheme();
   initEventListeners();
   checkApiHealth();
 });
 
+function initTheme() {
+  const currentTheme = document.documentElement.getAttribute('data-theme') || 'dark';
+  updateThemeToggleUI(currentTheme);
+}
+
+function toggleTheme() {
+  const currentTheme = document.documentElement.getAttribute('data-theme') || 'dark';
+  const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+  document.documentElement.setAttribute('data-theme', newTheme);
+  localStorage.setItem('rankpulse-theme', newTheme);
+  updateThemeToggleUI(newTheme);
+  showToast(`Switched to ${newTheme === 'light' ? 'Light' : 'Dark'} Mode`, 'info');
+}
+
+function updateThemeToggleUI(theme) {
+  if (!DOM.themeToggleBtn) return;
+  const title = theme === 'light' ? 'Switch to Dark Mode' : 'Switch to Light Mode';
+  DOM.themeToggleBtn.setAttribute('title', title);
+  DOM.themeToggleBtn.setAttribute('aria-label', title);
+}
+
 function initEventListeners() {
+  // Theme Toggle
+  if (DOM.themeToggleBtn) {
+    DOM.themeToggleBtn.addEventListener('click', toggleTheme);
+  }
+
   // Navigation Tabs
   DOM.navTabs.addEventListener('click', (e) => {
     const btn = e.target.closest('.nav-tab-btn');
