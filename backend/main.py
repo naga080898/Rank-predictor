@@ -92,6 +92,14 @@ def sitemap_xml():
         return FileResponse(str(sitemap_file), media_type="application/xml")
     return FileResponse(None, media_type="application/xml")
 
+@app.get("/google34ad3825dcab38a5.html", include_in_schema=False)
+def google_verification():
+    """Serves Google Search Console ownership verification file."""
+    verify_file = frontend_dir / "google34ad3825dcab38a5.html"
+    if verify_file.exists():
+        return FileResponse(str(verify_file), media_type="text/html")
+    return {}
+
 @app.get("/health", tags=["System"])
 def health_check(db: Session = Depends(get_db)):
     """Health check endpoint for monitoring uptime (e.g. UptimeRobot) and cold-start keep-alive."""
