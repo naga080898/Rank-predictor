@@ -63,7 +63,6 @@ def _process_and_save_result(
         submission.negative_marking = summary["negative_marking"]
         submission.final_score = summary["final_score"]
         submission.sections_json = json.dumps(sections)
-        submission.questions_json = json.dumps(questions)
         submission.file_name = file_name
         submission.ip_address = client_ip
     else:
@@ -85,7 +84,6 @@ def _process_and_save_result(
             negative_marking=summary["negative_marking"],
             final_score=summary["final_score"],
             sections_json=json.dumps(sections),
-            questions_json=json.dumps(questions),
             file_name=file_name,
             ip_address=client_ip
         )
@@ -229,7 +227,7 @@ def get_candidate_evaluation(
         raise HTTPException(status_code=404, detail="Candidate submission not found.")
 
     sections = json.loads(sub.sections_json) if sub.sections_json else {}
-    questions = json.loads(sub.questions_json) if sub.questions_json else []
+    questions = []
 
     rank_estimate = calculate_rank_estimate(db=db, submission=sub)
 

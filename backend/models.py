@@ -28,7 +28,6 @@ class CandidateSubmission(Base):
 
     # Detailed Structured JSON payloads
     sections_json = Column(Text, nullable=True)   # JSON string for per-section stats
-    questions_json = Column(Text, nullable=True)  # JSON string for question-by-question review
 
     # System & Audit info
     ip_address = Column(String(50), nullable=True)
