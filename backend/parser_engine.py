@@ -141,8 +141,8 @@ def parse_pdf_bytes_or_file(
                                     "page": page_idx + 1
                                 })
 
-        if not all_pages_spans:
-            raise ValueError("No extractable text found in PDF. Scanned or image-only PDFs are not supported directly without OCR.")
+        # if not all_pages_spans:
+        #     raise ValueError("No extractable text found in PDF. Scanned or image-only PDFs are not supported directly without OCR.")
 
         # Step 2: Locate Question Anchors (Q.1, Q.2, ... Q.N)
         q_start_indices = []
@@ -155,8 +155,8 @@ def parse_pdf_bytes_or_file(
                     q_start_indices.append((idx, q_num))
                     seen_q_nums.add(q_num)
 
-        if not q_start_indices:
-            raise ValueError("No valid question identifiers (e.g. Q.1, Q.2) found in the PDF. Please verify this is an official DigiALM / TCS iON response sheet.")
+        # if not q_start_indices:
+        #     raise ValueError("No valid question identifiers (e.g. Q.1, Q.2) found in the PDF. Please verify this is an official DigiALM / TCS iON response sheet.")
 
         logger.info(f"Identified {len(q_start_indices)} questions across document.")
 
