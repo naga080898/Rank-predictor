@@ -76,6 +76,22 @@ def favicon():
         return FileResponse(str(logo_file))
     return {}
 
+@app.get("/robots.txt", include_in_schema=False)
+def robots_txt():
+    """Serves robots.txt for search engine crawlers."""
+    robots_file = frontend_dir / "robots.txt"
+    if robots_file.exists():
+        return FileResponse(str(robots_file), media_type="text/plain")
+    return FileResponse(None, media_type="text/plain")
+
+@app.get("/sitemap.xml", include_in_schema=False)
+def sitemap_xml():
+    """Serves sitemap.xml for Google Search Console."""
+    sitemap_file = frontend_dir / "sitemap.xml"
+    if sitemap_file.exists():
+        return FileResponse(str(sitemap_file), media_type="application/xml")
+    return FileResponse(None, media_type="application/xml")
+
 @app.get("/health", tags=["System"])
 def health_check(db: Session = Depends(get_db)):
     """Health check endpoint for monitoring uptime (e.g. UptimeRobot) and cold-start keep-alive."""

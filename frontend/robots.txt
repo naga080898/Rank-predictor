@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rank-predictor-r4ng.onrender.com/sitemap.xml
