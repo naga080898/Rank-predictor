@@ -394,9 +394,30 @@ body {
 /* ==========================================================================
    Predictor / Upload Section
    ========================================================================== */
-.upload-wrapper {
-  max-width: 780px;
+.predictor-layout {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+  max-width: 1000px;
   margin: 0 auto;
+  align-items: stretch;
+}
+
+.upload-wrapper {
+  margin: 0;
+  width: 100%;
+}
+
+.quick-links-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+@media (max-width: 900px) {
+  .predictor-layout {
+    grid-template-columns: 1fr;
+  }
 }
 
 .marking-features-bar {
