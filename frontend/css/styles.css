@@ -498,9 +498,9 @@ body {
    ========================================================================== */
 .predictor-layout {
   display: grid;
-  grid-template-columns: 1.5fr 1fr;
-  gap: 2rem;
-  max-width: 1000px;
+  grid-template-columns: 1.45fr 1fr;
+  gap: 2.75rem;
+  max-width: 1060px;
   margin: 0 auto;
   align-items: stretch;
 }
@@ -513,12 +513,22 @@ body {
 .quick-links-sidebar {
   display: flex;
   flex-direction: column;
-  gap: 1.25rem;
+  gap: 1.75rem;
+  justify-content: space-between;
+}
+
+.quick-links-sidebar .course-card {
+  flex: 1;
 }
 
 @media (max-width: 900px) {
   .predictor-layout {
     grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .quick-links-sidebar {
+    gap: 1.25rem;
   }
 }
 
