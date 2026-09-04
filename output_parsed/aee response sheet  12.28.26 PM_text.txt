@@ -1,0 +1,1125 @@
+=== PAGE 1 ===
+Q.1
+24 is related to 9 following a certain logic. Following the same logic, 120 is related
+to 33. To which of the following is 84 related to, following the same logic?
+(NOTE : Operations should be performed on the whole numbers, without breaking
+down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as
+adding /subtracting /multiplying etc. to 13 can be performed. Breaking down 13
+into 1 and 3 and then performing mathematical operations on 1 and 3 is not
+allowed)
+Ans
+1. 24
+2. 36
+3. 32
+4. 134
+Question ID : 441009585207
+Chosen Option : 2
+Q.2
+Refer to the given letter series and answer the question that follows.
+(Left) X Z O W B Y M F H G U K R E S I A Q T C D (Right)
+How many letters are there in the English alphabetical series between the letter
+which is sixth from the right end and seventh from the left end of the series?
+Ans
+1. Two
+2. Three
+3. Five
+4. Four
+Question ID : 441009797062
+Chosen Option : 1
+AP Vidyut Recruitment Exam 23rd to 27th Aug 2026
+Hall Ticket Number
+APVR0031994
+Participant Name
+SIREESHA
+Test Center Name
+iON Digital Zone iDZ 2 Chinamushidiwada
+Test Time
+9:00 AM - 12:00 PM
+Test Date
+26/08/2026
+Subject
+Electrical Engineering
+Section : General Intelligence and Reasoning
+
+
+=== PAGE 2 ===
+Q.3
+Based on the English alphabetical order, three of the following four letter-clusters
+are alike in a certain way and thus form a group. Which letter-cluster DOES NOT
+belong to that group? (Note: The odd one out is not based on the number of
+consonants/vowels or their position in the letter-cluster.)
+Ans
+1. LHJ
+2. HDF
+           
+3. OKM
+           
+4. FCD
+Question ID : 441009781802
+Chosen Option : 4
+Q.4
+Seven people, A, B, C, D, E, F and G are sitting in a row, facing north. Only five
+people sit between F and G. E sits to the immediate left of G. Only one person sits
+between E and A. C sits at some place to the left of D but at some place to the
+right of B. Who sits second to the right of C?1541
+Ans
+1. D
+2. A
+3. E
+4. B
+Question ID : 441009814183
+Chosen Option : 1
+Q.5
+Based on the English alphabetical order, three of the following four are alike in a
+certain way and thus form a group. Which is the one that does not belong to that
+group?
+(Note: The odd one out is not based on the number of consonants/vowels or their
+position in the letter cluster)
+Ans
+1. KPM
+2. NSQ
+3. RWU
+4. CHF
+Question ID : 441009765196
+Chosen Option : 1
+Q.6
+Who was the President of the Indian National Congress during its Eleventh
+Session in 1895?
+Ans
+1. Dadabhai Naoroji
+2. Gopal Krishna Gokhale
+3. Bal Gangadhar Tilak
+4. Surendranath Banerjee
+Question ID : 4410092115976
+Chosen Option : 1
+Section : General awareness
+
+
+=== PAGE 3 ===
+Q.7
+The Automated Weather Station (AWS) installed at a glacial lake in Sikkim in 2023
+is primarily intended to provide early warning against which hazard?
+Ans
+1. Prolonged drought caused by a weak monsoon
+2. Widespread frost associated with a western disturbance
+3. Coastal storm surge during the retreating monsoon
+4. Glacial Lake Outburst Flood triggered by intense rainfall
+Question ID : 4410092115981
+Chosen Option : 1
+Q.8
+Which of the following mountain ranges is primarily composed of ancient
+metamorphic rocks, considered one of the oldest geological formations in India?
+Ans
+1. The Western Ghats
+2. The Vindhya Range
+3. The Aravalli Range
+4. The Himalayas
+Question ID : 4410092258049
+Chosen Option : 1
+Q.9
+According to the Consolidated FDI Policy circular of 2020, what is the threshold
+for classifying an investment in a listed Indian company as Foreign Direct
+Investment (FDI) rather than Foreign Portfolio Investment (FPI)?
+Ans
+1. 1% or more of the post-issue paid-up equity capital
+2. 5% or more of the post-issue paid-up equity capital
+3. 25% or more of the post-issue paid-up equity capital
+4. 10% or more of the post-issue paid-up equity capital
+Question ID : 4410092200869
+Chosen Option : 2
+Q.10 Who was appointed as the Chairperson of the National Statistical Commission
+(NSC) in June 2026?
+Ans
+1. T. C. A. Anant
+2. Saibal Chattopadhyay
+3. Bimal Kumar Roy
+4. Pronab Sen
+Question ID : 4410091453928
+Chosen Option : 3
+
+
+=== PAGE 4 ===
+Q.11 Which major administrative change did the British implement in India following
+the Revolt of 1857?
+Ans
+1. India was divided into new independent kingdoms
+2. The East India Company’s rule continued
+3. Indian rulers were completely removed
+4. The British Crown took direct control of India
+Question ID : 441009244778
+Chosen Option : 2
+Q.12 Mallika Sarabhai is best known for her expertise in which two classical dance
+forms?
+Ans
+1. Bharatanatyam and Kuchipudi
+2. Kathakali and Mohiniyattam
+3. Odissi and Kathak
+4. Bharatanatyam and Kathakali
+Question ID : 441009284032
+Chosen Option : 1
+Comprehension:
+Read the passage carefully and answer the questions that follow.
+Semiconductor manufacturing has emerged as a strategic priority as geopolitical tensions and
+supply-chain disruptions have exposed the vulnerabilities of excessive dependence on a handful
+of chip-producing economies. Consequently, governments are no longer treating semiconductor
+fabrication merely as an industrial activity but as an instrument of economic resilience and
+technological sovereignty. India's recent Semicon 2.0 initiative extends this logic by coupling
+financial incentives with investments in design capabilities, fabrication facilities, advanced
+packaging, and critical materials rather than pursuing fabrication in isolation. Such an integrated
+approach acknowledges that competitiveness in the semiconductor ecosystem depends less on
+constructing individual fabrication plants than on cultivating an interconnected network of
+research, skilled talent, suppliers, and downstream industries. Accordingly, long-term strategic
+success will be determined not by manufacturing capacity alone but by the sustained integration
+of innovation, industrial collaboration, and resilient supply-chain governance.
+SubQuestion No : 13
+Q.13 Which of the following best summarizes the passage?
+Ans
+1. Semiconductor policies primarily seek to increase the number of fabrication plants
+because manufacturing capacity alone determines technological leadership and long-term
+industrial competitiveness.
+2. India's semiconductor strategy concentrates mainly on financial subsidies for fabrication
+projects because research, packaging, and supplier ecosystems contribute comparatively little to
+competitiveness.
+3. Modern semiconductor initiatives emphasise building an integrated ecosystem
+combining manufacturing, innovation, skills, and supply chains to strengthen economic
+resilience and technological capability.
+4. Geopolitical tensions have permanently disrupted semiconductor trade, compelling
+countries to replace international cooperation entirely with complete domestic production and
+market insulation.
+Question ID : 4410092413408
+Chosen Option : 3
+Section : English
+
+
+=== PAGE 5 ===
+Comprehension:
+Read the passage carefully and answer the questions that follow.
+Semiconductor manufacturing has emerged as a strategic priority as geopolitical tensions and
+supply-chain disruptions have exposed the vulnerabilities of excessive dependence on a handful
+of chip-producing economies. Consequently, governments are no longer treating semiconductor
+fabrication merely as an industrial activity but as an instrument of economic resilience and
+technological sovereignty. India's recent Semicon 2.0 initiative extends this logic by coupling
+financial incentives with investments in design capabilities, fabrication facilities, advanced
+packaging, and critical materials rather than pursuing fabrication in isolation. Such an integrated
+approach acknowledges that competitiveness in the semiconductor ecosystem depends less on
+constructing individual fabrication plants than on cultivating an interconnected network of
+research, skilled talent, suppliers, and downstream industries. Accordingly, long-term strategic
+success will be determined not by manufacturing capacity alone but by the sustained integration
+of innovation, industrial collaboration, and resilient supply-chain governance.
+SubQuestion No : 14
+Q.14 Which option most accurately describes the organisational structure of the
+passage?
+Ans
+1. It introduces a policy initiative, compares it with international semiconductor
+programmes, evaluates their relative effectiveness, and recommends the superior framework.
+2. It outlines the historical evolution of semiconductor manufacturing, examines successive
+technological advances, and predicts future industrial transformation.
+3. It presents an economic problem, critiques existing fiscal incentives, evaluates statistical
+evidence, and argues against government intervention in semiconductor production.
+4. It identifies a contemporary challenge, explains its broader implications, illustrates an
+emerging policy response, and concludes with a general principle about industrial
+competitiveness.
+Question ID : 4410092413409
+Chosen Option : 1
+Q.15 Complete the following sentence by choosing the correct option.
+During the debate, the speaker _____ addressed each criticism, demonstrating
+both logic and composure.
+Ans
+1. silently
+2. systematically
+3. emotionally
+4. confusedly
+Question ID : 4410091711179
+Chosen Option : 1
+Q.16 Change the given sentence into passive voice.
+Nancy has written this letter.
+Ans
+1. This letter has been written by Nancy.
+2. This letter was written by Nancy.
+3. This letter had been written by Nancy.
+4. This letter will have been written by Nancy.
+Question ID : 441009484088
+Chosen Option : 1
+
+
+=== PAGE 6 ===
+Q.17 Substitute one word for the given underlined segment by choosing from the
+following options.
+The court's decision was intended to formally declare a previous judicial ruling or
+law as null and void due to its inconsistency with the new constitution.
+Ans
+1. litigate
+2. codify
+3. abrogate
+4. adjudicate
+Question ID : 4410091713147
+Chosen Option : 1
+Q.18 There are 48 members in group A, 60 members in group B and 42 members in
+group C. All the members of these groups went to a restaurant. The average
+amount spent on each member of group A, B and C is ₹350, ₹383 and ₹460,
+respectively. The total average amount (in ₹) spent per member is:5555
+Ans
+1. 390
+2. 399
+3. 398
+4. 394
+Question ID : 441009582459
+Chosen Option : 1
+Q.19 20% of a number is more than 20% of 700 by 160. The number is:3859
+Ans
+1. 1550
+2. 1600
+3. 1350
+4. 1500
+Question ID : 441009855141
+Chosen Option : 4
+Q.20 The volume of a cuboidal block of silver is 1,536 cm3. If its dimensions are in the
+ratio of 4:3:2, find the cost of gold polishing its entire surface at the rate of ₹2.50
+per cm2.
+Ans
+1. ₹2,140
+2. ₹2,260
+3. ₹2,080
+4. ₹2,380
+Question ID : 4410091556698
+Chosen Option : 4
+Section : Quantitative aptitude
+
+
+=== PAGE 7 ===
+Q.21 Three friends P, Q and R started a business by investing a sum of money in the
+ratio of 8 : 4 : 7. After 6 months Q withdraws half of his capital. If the sum
+invested by P is ₹31000, out of a total annual profit of ₹24000 find the share of Q
+in profit.
+Ans
+1. ₹4835
+2. ₹4000
+3. ₹3225
+4. ₹2230
+Question ID : 441009548027
+Chosen Option : 4
+Q.22 In a 2700 m circular race, Raman finishes one round in 30 seconds and Mohan
+finishes one round in 75 seconds. How many different meeting points are there on
+circumference if they are running in a same direction?
+Ans
+1. 5
+2. 1
+3. 8
+4. 3
+Question ID : 441009538575
+Chosen Option : 2
+Q.23 Two taps can fill a cistern in 2 hours and 44 hours, respectively. A third tap can
+empty it in 44 hours. How long (in hours) will it take to fill half of the empty
+cistern, if all of them are opened together?
+Ans
+1. 2
+2. 3
+3. 1
+4. 4
+Question ID : 441009518586
+Chosen Option : 3
+Q.24 Ten squares of different sizes are pasted on a chart paper adjacent to each. If the
+first ten multiples of three represent the sides in cm of the ten squares, find the
+area (in cm2) of the chart paper covered.
+Ans
+1. 3465
+2. 1155
+3. 385
+4. 10395
+Question ID : 44100913483
+Chosen Option : 1
+
+
+=== PAGE 8 ===
+Q.25 Find the simple interest (in ₹) if a sum of ₹500 is borrowed for 7.5 years at 12%
+per annum rate of interest.
+Ans
+1. 430
+2. 550
+3. 500
+4. 450
+Question ID : 441009852060
+Chosen Option : 4
+Q.26 While editing a presentation in MS PowerPoint, a user needs to adjust the
+dimensions of an inserted image without removing it from the slide. Which feature
+is most appropriate for this task?
+Ans
+1. Animation Pane
+2. Resize handles
+3. Format Painter
+4. Crop tool
+Question ID : 4410092272417
+Chosen Option : 2
+Q.27 A company switches from a traditional hard disk drive system to a hybrid storage
+architecture that combines volatile and non-volatile memory modules for its
+database operations. Which outcome most accurately reflects the effect of this
+change on the system’s data handling and performance?
+Ans
+1. All data is permanently erased when power is lost, regardless of memory type used.
+2. Data retrieval becomes slower because the system checks multiple memory types for
+every operation.
+3. System stability is unaffected, as memory configuration has no impact on data security
+or access speed.
+4. Frequently accessed information is retrieved more quickly due to volatile memory, while
+long-term data remains secure in non-volatile modules.
+Question ID : 4410092276829
+Chosen Option : 4
+Q.28 A research lab wants to interconnect its climate sensors, control systems, and
+local data servers within a single building to allow rapid data exchange and device
+management. Which network configuration, if chosen, would present the most
+significant risk of signal collision and performance bottlenecks as the number of
+connected devices increases, assuming all devices share equal bandwidth
+allocation and operate simultaneously?
+Ans
+1. Implementing a single shared communication channel for all device connections within
+the building
+2. Creating device subgroups with independent bandwidth allocation per group
+3. Assigning bandwidth dynamically to devices based on real-time usage needs
+4. Setting up multiple isolated channels for different building segments
+Question ID : 4410092276899
+Chosen Option : 3
+Section : Computer knowledge
+
+
+=== PAGE 9 ===
+Q.29 A logistics company uses an Excel function to automatically assign delivery
+routes based on a dynamic list of driver locations that updates every hour. Which
+function would most reliably ensure the route assignments always correspond to
+the most recently updated driver data when the spreadsheet recalculates, even if
+drivers are added or removed from the list during the day?
+Ans
+1. OFFSET with static range references fixed at setup
+2. INDEX with dynamic named ranges referencing the updated list
+3. VLOOKUP with a fixed table array defined at initial configuration
+4. INDIRECT with hard-coded cell references for driver data
+Question ID : 4410092276341
+Chosen Option : 2
+Q.30 Which option in MS Word 2021 allows you to change the alignment of text within a
+table cell?
+Ans
+1. Table Layout tab
+2. Review tab
+3. Home tab
+4. Table Design tab
+Question ID : 4410092307500
+Chosen Option : 4
+Q.31 In a medium-length transmission line, which characteristic of the line is mainly
+responsible for the real power loss that occurs due to current flow and results in
+reduced transmission efficiency?
+Ans
+1. Line inductance
+2. Power factor variation
+3. Conductive property of the line material
+4. Line capacitance
+Question ID : 4410091549706
+Chosen Option : 4
+Q.32 In atomic hydrogen electric arc welding, the electric arc struck between two
+tungsten electrodes in an atmosphere of hydrogen. What is the function of
+hydrogen in the process?
+Ans
+1. Hydrogen atmosphere acts as electrode itself for the welds
+2. Hydrogen acts as a cooling agent for the glowing tungsten electrode tips
+3. Hydrogen causes the weld to form oxides and nitrides for high quality of weld
+4. Hydrogen acts as a non-conducting atmosphere for controlling the arc.
+Question ID : 4410091557171
+Chosen Option : 3
+Section : Electrical Engineering
+
+
+=== PAGE 10 ===
+Q.33 As the load on a synchronous motor increases, the inverted V-curve
+corresponding to that load shifts __________:
+Ans
+1. Upward because the motor draws more reactive power.
+2. To the left, indicating that lesser field current is now required for feeding the load at unity
+power factor.
+3. To the right, requiring higher field current to feed the load at unity power factor.
+4. Downward due to increased copper losses.
+Question ID : 4410091549531
+Chosen Option : 3
+Q.34 A single-phase half-wave controlled rectifier with freewheeling diode is supplying
+an RL load with R = 10 Ω and L = 10mH. If the input supply is 220 V, 50 Hz and
+firing angle is 60°, then what is the average output voltage of the rectifier?
+Ans
+1. 
+2. 
+3. 
+4. 
+Question ID : 4410091565576
+Chosen Option : 1
+Q.35 A basic voltage doubler circuit consists of __________.
+Ans
+1. Transistors only
+2. Resistors and inductors
+3. Diodes and capacitors
+4. MOSFETs and resistors
+Question ID : 4410091553474
+Chosen Option : 3
+Q.36 What is the primary distinguishing feature that a Gate Turn-Off (GTO) thyristor
+differs from a conventional Silicon Controlled Rectifier (SCR)?
+Ans
+1. It turns off by reversing the anode-to-cathode voltage (natural commutation).
+2. It can be turned off by applying a large, high-amplitude negative current pulse to the gate
+terminal.
+3. It can be turned off by applying a large, sustained positive current to the gate terminal.
+4. It can be turned off by applying a momentary positive pulse to the gate terminal.
+Question ID : 4410091550325
+Chosen Option : 2
+
+
+=== PAGE 11 ===
+Q.37 In a cathode ray oscilloscope, the voltage of an unknown signal is obtained by
+observing:
+Ans
+1. Time base setting
+2. Vertical deflection per division
+3. Input impedance of CRO
+4. Horizontal sweep frequency
+Question ID : 4410091547204
+Chosen Option : 2
+Q.38 While designing the foundation for a substation structure, which of the following
+loads must be considered to ensure safety and stability?
+Ans
+1. Only wind loads
+2. Only vertical loads
+3. Only lateral loads
+4. Both vertical and lateral loads
+Question ID : 4410091813280
+Chosen Option : 4
+Q.39 The mechanical force on a current-carrying conductor in a magnetic field depends
+on which of the following?
+Ans
+1. Permittivity of the medium
+2. Magnetic flux density
+3. Frequency of electrical supply of the conductor
+4. Resistance of the conductor
+Question ID : 4410091545945
+Chosen Option : 2
+Q.40 In a single-phase half-wave circuit (SPHWC), the discontinuous current occurs
+when:
+Ans
+1. Inductance is large
+2. Firing angle = 0
+3. Supply voltage is high
+4. Current becomes zero before next cycle
+Question ID : 4410091564081
+Chosen Option : 4
+Q.41 Adding an Integral controller typically makes the system _____________.
+Ans
+1. More sluggish
+2. Faster
+3. Overshoot-free
+4. Noise-free
+Question ID : 4410091554040
+Chosen Option : 2
+
+
+=== PAGE 12 ===
+Q.42 In a digital system, which gate would you use to reverse the logical state of a
+signal before it enters another logic circuit?
+Ans
+1. Transmission Gate
+2. AND Gate
+3. NOT Gate
+4. OR Gate
+Question ID : 4410091792640
+Chosen Option : 3
+Q.43 Which of the following statements are valid reasons for limiting the heat-
+production rate at very high frequencies in dielectric heating?
+i. At very high frequencies, tuning the inductance to resonate with the circuit
+capacitance becomes difficult.
+ii. At very high frequencies, achieving a uniform voltage distribution across the
+material becomes very difficult.
+iii. The penetration depth of electromagnetic waves decreases significantly at
+very high frequencies.
+iv. The dielectric constant of the material continues to increase without limit as
+the frequency increases.
+Ans
+1. ii, iii, iv only
+2. i, ii, iv only
+3. i, iii, iv only
+4. i, ii, iii only
+Question ID : 4410091555356
+Chosen Option : 2
+Q.44 Which of the following parameter/s most strongly influences the quality of a flash
+butt weld?
+Ans
+1. Type of shielding gas used
+2. Electrode coating thickness
+3. Welding current and flashing time
+4. Frequency of the supply voltage
+Question ID : 4410091557401
+Chosen Option : 3
+Q.45 During prolonged rainfall, the soil supporting a pedestal transformer foundation
+becomes fully saturated, leading to an increase in pore water pressure. Which soil
+parameter controlling the stability of the foundation is most likely to decrease?
+Ans
+1. Unit weight of soil
+2. Shear strength of soil
+3. Permeability of soil
+4. Compressibility of soil
+Question ID : 4410091813189
+Chosen Option : 1
+
+
+=== PAGE 13 ===
+Q.46 In a single-phase half-wave controlled converter with an RLE load, the thyristor
+turns off at an angle ωt = β after switching on the input supply at t = 0. If the
+minimum firing angle is θ1 = sin-1(E/Vm), and the supply angular frequency is ω
+rad/s, which of the following correctly gives the circuit turn-off time?
+Ans
+1. 
+2. 
+3. 
+4. 
+Question ID : 4410091563174
+Chosen Option : 1
+Q.47 A 3-phase, 5 MVA industry substation is feeding the load at 0.8 power factor
+lagging. However, due to electricity rules, this industry has to maintain its power
+factor at unity and for that the industry decided to install a capacitor bank. What
+will be the per phase rating of the capacitor bank?
+Ans
+1. 3 MVAr
+2. 4 MVAr
+3. 1.33 MVAr
+4. 1 MVAr
+Question ID : 4410091565363
+Chosen Option : 4
+Q.48 When the quantity of conducting material in an auto-transformer is reduced, the
+required window area is also reduced, which ultimately leads to
+____________________.
+Ans
+1. A larger core length and higher core weight
+2. An increase in the core area
+3. A smaller core length and lower core weight
+4. No change in the core dimensions
+Question ID : 4410091545698
+Chosen Option : 3
+Q.49 Line conductance represents:
+Ans
+1. Leakage current at the insulators
+2. Charging current
+3. Corona effect
+4. Magnetic flux
+Question ID : 4410091561457
+Chosen Option : 1
+
+
+=== PAGE 14 ===
+Q.50 A V-to-I converter is also called a/an ________.
+Ans
+1. Comparator
+2. Integrator
+3. Differentiator
+4. Transconductance amplifier
+Question ID : 4410091553516
+Chosen Option : 3
+Q.51 A circuit containing both RC and RL components exhibits:
+Ans
+1. Purely resistive response
+2. Only capacitive behavior
+3. Only inductive behavior
+4. First-order or second-order response depending on topology
+Question ID : 4410091557938
+Chosen Option : 4
+Q.52 Consider a connected graph with 'n' nodes and 'b' branches. The incidence matrix
+'A' is defined such that each row corresponds to a node and each column to a
+branch. Which of the following statements is always true for the incidence matrix
+of a connected graph?
+Ans
+1. The rank of the incidence matrix is always equal to the number of branches b
+2. The incidence matrix is symmetric for all undirected graphs
+3. The product A⋅AT yields a diagonal matrix with branch degrees on the diagonal
+4. The sum of all rows of the incidence matrix is a zero vector
+Question ID : 4410091565535
+Chosen Option : 1
+
+
+=== PAGE 15 ===
+Q.53 For the following circuit, find the values of v1 , v2 , and v3 , respectively.
+Ans
+1. v1 = 35 V, v2 = 15 V, v3 = -20 V
+2. v1 = -35 V, v2 = 15 V, v3 = 20 V
+3. v1 = 35 V, v2 = -15 V, v3 = 20 V
+4. v1 = 35 V, v2 = 15 V, v3 = 20 V
+Question ID : 4410091554790
+Chosen Option : 2
+Q.54 Source transformation is mainly used to:
+Ans
+1. Simplify complex circuit networks
+2. Convert nonlinear elements into linear ones
+3. Reduce total current
+4. Increase circuit voltage
+Question ID : 4410091557582
+Chosen Option : 1
+Q.55 If a substation foundation is constructed in a chemically aggressive soil
+environment, which of the following characteristics of concrete should be
+prioritized to ensure durability?
+Ans
+1. High cement content to increase paste volume in the mix
+2. Fast setting properties to accelerate early strength development
+3. Low slump to decrease workability during placement operations
+4. Low permeability to limit ingress of moisture and harmful chemicals
+Question ID : 4410091816713
+Chosen Option : 2
+
+
+=== PAGE 16 ===
+Q.56 If the block diagram of a control system consists of forward gain G1​ then G2​ in
+series and the feedback path has H(s) (negative) sampling output and subtracting
+at input, the equivalent closed-loop transfer function of the control system is
+___________.
+Ans
+1. (G1G2)/(1+G1G2H)
+2. (G1+G2)/(1+G1G2H)
+3. (G1+G2)/(1+H)
+4. (G1.G2)/(1+H)
+Question ID : 4410091565164
+Chosen Option : 1
+Q.57 Which stability check ensures that a pedestal transformer foundation does not
+rotate due to lateral forces?
+Ans
+1. Overturning Stability
+2. Sliding stability
+3. Settlement control
+4. Bearing capacity check
+Question ID : 4410091813199
+Chosen Option : 1
+Q.58 An ideal inductor has zero current passing through it before t = 0. At t = 0, it is
+suddenly connected to a DC current source. How will the inductor behave right
+after this moment (t = 0+)?
+Ans
+1. It will behave like an ideal current source.
+2. It will behave like a non-ideal current source (with some internal resistance).
+3. It will behave like a short circuit.
+4. It will behave like an open circuit.
+Question ID : 4410091565492
+Chosen Option : 4
+Q.59 A digital voltmeter operates by converting the analog voltage into:
+Ans
+1. Digital form using an ADC
+2. Electrostatic force
+3. Frequency modulation
+4. Magnetic deflection
+Question ID : 4410091547293
+Chosen Option : 1
+
+
+=== PAGE 17 ===
+Q.60 For a fully transposed transmission line, zero-sequence impedance is usually:
+Ans
+1. Zero
+2. Equal to positive sequence impedance
+3. Equal to negative sequence impedance
+4. Higher than both positive and negative sequence impedance
+Question ID : 4410091561259
+Chosen Option : 1
+Q.61 Which of the following methods is used to control the magnitude of the
+fundamental component of the output voltage in a Single-Pulse Modulated
+inverter?
+Ans
+1. Changing the width of the single pulse, δ.
+2. Varying the frequency of the carrier signal.
+3. Implementing a filter network at the output.
+4. Adjusting the DC input voltage, Vs.
+Question ID : 4410091550358
+Chosen Option : 1
+Q.62 Two-reaction theory is applied to:
+Ans
+1. DC generators
+2. Salient pole synchronous machines
+3. Induction motors
+4. Cylindrical rotor alternators
+Question ID : 4410091555063
+Chosen Option : 4
+
+
+=== PAGE 18 ===
+Q.63 A CRO displays a Lissajous pattern, as shown below, for voltages of the same
+frequency but out of phase, which are connected to the Y and X plates of the
+oscilloscope. If the spot generating the pattern moves in an anticlockwise
+direction, what is the phase difference between the two signals?
+Ans
+1. +60°
+2. +30°
+3. –30°
+4. –60°
+Question ID : 4410091537551
+Chosen Option : 4
+Q.64 What is the primary function of the Maxwell's Inductance-Capacitance type
+bridge?
+Ans
+1. To measure the unknown capacitance in terms of known inductance.
+2. To measure the unknown self-inductance (Lx) in terms of a standard capacitor (C1).
+3. To measure very high-quality factor (Q) coils (Q > 10).
+4. To measure the unknown frequency of the AC source.
+Question ID : 4410091544744
+Chosen Option : 2
+
+
+=== PAGE 19 ===
+Q.65 For the Zener diode network shown below, the input voltage
+is Vi = 16 V, series resistance R = 1 kΩ, load resistance RL ​=
+1.2 kΩ and Zener breakdown voltage VZ ​= 10 V. Assume ideal
+Zener diode behavior. The voltage VR across the series
+resistor R is______.
+Ans
+1. 16 V
+2. 10 V
+3. 6 V
+4. 7.27 V
+Question ID : 4410091563107
+Chosen Option : 3
+Q.66 A synchronous MOD-12 counter is designed using T flip-flops. The minimum
+number of T flip-flops required is ______.
+Ans
+1. 6
+2. 12
+3. 5
+4. 4
+Question ID : 4410091576293
+Chosen Option : 1
+Q.67 The 'loading effect', in which a measuring instrument changes the quantity being
+measured, is explicitly referred to as a type of which error subcategory?
+Ans
+1. Gross Error
+2. Environmental Error
+3. Instrumental Error
+4. Observational Error
+Question ID : 4410091544767
+Chosen Option : 2
+
+
+=== PAGE 20 ===
+Q.68 An engineer is tasked with transmitting a high-fidelity audio signal over long
+distances. Considering distortion and noise immunity, which modulation type
+would be most appropriate and why?
+Ans
+1. AM modulation, as it uses less power for long-distance transmission.
+2. AM modulation, due to its lower complexity.
+3. FM modulation, as it requires less bandwidth.
+4. FM modulation, due to its high noise immunity and fidelity.
+Question ID : 4410091805688
+Chosen Option : 1
+Q.69 In AC arc welding machines, the welding transformer is designed to have:
+Ans
+1. Extremely high frequency output
+2. Equal primary and secondary voltages
+3. High secondary voltage and low current
+4. Low secondary voltage and high current
+Question ID : 4410091562239
+Chosen Option : 4
+Q.70 At the resonant frequency, the response curve of a parallel circuit shows
+______________ and the sharpness of the resonance curve in a parallel resonance
+circuit is determined by its _____________.
+Ans
+1. Maximum current, Power rating
+2. Minimum current, Q-factor
+3. Sudden voltage drops, Q-factor
+4. Zero impedance, Frequency tolerance
+Question ID : 4410091546047
+Chosen Option : 2
+Q.71 How does a monostable multivibrator react if retriggered during its high output
+state?
+Ans
+1. Force a second pulse of reduced amplitude
+2. Ignore the trigger and continue existing pulse
+3. Drive the op-amp into slew-rate limiting mode
+4. Retrigger immediately and extend the pulse
+Question ID : 4410091557705
+Chosen Option : 4
+Q.72 Autotransformers are preferred in:
+Ans
+1. Protection circuits
+2. Power Amplifiers
+3. Large transformation ratio
+4. Starting of induction motors
+Question ID : 4410091557248
+Chosen Option : 4
+
+
+=== PAGE 21 ===
+Q.73 During concreting in waterlogged soil, which factor primarily increases the risk of
+washout and loss of cement paste?
+Ans
+1. Low cement content
+2. Floating of coarse aggregates
+3. Insufficient mixing time
+4. Excessive water movement
+Question ID : 4410091792949
+Chosen Option : 1
+Q.74 If an open-loop system has one pole in the right-half of the s-plane, the system is
+_________.
+Ans
+1. Stable
+2. Unstable
+3. Conditionally stable
+4. Marginally stable
+Question ID : 4410091554152
+Chosen Option : 2
+Q.75 For a 20-bus power system with 30 transmission lines, what is the sparsity of the
+Y-bus matrix?
+Ans
+1. 0.80
+2. 0.85
+3. 0.50
+4. 0.65
+Question ID : 4410091572716
+Chosen Option : 4
+Q.76 Which of the following options is correct for the system with transfer function T(s)
+= (s-4)/s(s+3)?
+Ans
+1. It has 1 pole and two zeros and the system is minimum phase system.
+2. It has 2 poles and one zero and the system is minimum phase system.
+3. It has 1 pole and two zeros and the system is non-minimum phase system.
+4. It has 2 poles and one zero and the system is non-minimum phase system.
+Question ID : 4410091565152
+Chosen Option : 2
+
+
+=== PAGE 22 ===
+Q.77 A coil of 500 turns carries 2 A current. If the magnetic path length is 0.5 m and
+relative permeability of the core is 1000, what will be the value of magnetic field
+strength H?
+Ans
+1. 2000 A/m
+2. 1000 A/m
+3. 2000 Tesla
+4. 1000 Tesla
+Question ID : 4410091563526
+Chosen Option : 1
+Q.78 In the phasor diagram of a synchronous motor operating at lagging power factor,
+the excitation emf E leads the terminal voltage V by the load angle δ. If excitation
+is increased while load remains constant, what will the phasor diagram show?
+Ans
+1. δ increases and motor power factor worsens
+2. δ increases and motor power factor improves
+3. δ decreases and motor power factor improves
+4. δ decreases and motor power factor worsens
+Question ID : 4410091563574
+Chosen Option : 2
+Q.79 In electrostatic instruments, controlling torque is provided by:
+Ans
+1. Spring mechanism
+2. Permanent magnet
+3. Air vane
+4. Magnetic shunt
+Question ID : 4410091547683
+Chosen Option : 3
+Q.80 During the load flow analysis of an electrical power system, which quantities are
+unknown for a generator bus and must be found out by solving the power flow
+equations of the system?
+(Note: Pi - net real power input at the bus,
+Qi - net reactive power input at the bus,
+Vi - voltage magnitude at the bus,
+δi - voltage phase angle at the bus)
+Ans
+1. |Vi| and Pi
+2. δi and Qi
+3. Pi and Qi
+4. |Vi| and δi
+Question ID : 4410091572701
+Chosen Option : 3
+
+
+=== PAGE 23 ===
+Q.81 A multiplexer can be used to convert _________
+Ans
+1. Serial data to parallel data
+2. Digital to analog data
+3. Parallel data to serial data
+4. Analog to digital data
+Question ID : 4410091553661
+Chosen Option : 1
+Q.82 If A, B, and C denote the minuend, subtrahend, and previous borrow respectively
+of a full subtractor, the Boolean expression for the borrow output is ________.
+Ans
+1. A'B'C + A'BC' + AB'C' + ABC
+2. A'B+BC+AC
+3. A'B+BC+A'C
+4. AB+BC+AC
+Question ID : 4410091658350
+Chosen Option : 1
+Q.83 Which logic gate would be used in a digital circuit to ensure power is supplied only
+when multiple switches are ON simultaneously?
+Ans
+1. NOR gate
+2. NOT gate
+3. OR gate
+4. AND gate
+Question ID : 4410091792254
+Chosen Option : 4
+Q.84 In fault analysis, the bus impedance matrix is significant because ________.
+Ans
+1. It eliminates the requirement for symmetrical component analysis in fault current studies
+2. It relates bus voltages to injected currents, enabling accurate fault current computation
+3. It directly provides fault current values without requiring further numerical calculation
+4. It remains unaffected by the electrical network configuration or overall system topology
+Question ID : 4410091563848
+Chosen Option : 2
+
+
+=== PAGE 24 ===
+Q.85
+Given the
+, the point of intersection of
+the asymptotes of the root loci with the real axis is
+___________.
+Ans
+1. -3
+2. 4
+3. -1.33
+4. -4
+Question ID : 4410091661829
+Chosen Option : 1
+Q.86 The resolution of a 9-bit Ladder network digital to analog converter which
+produces a maximum analog output value of 5.11 volts is:
+Ans
+1. 5 mV
+2. 10 mV
+3. 20 mV
+4. 5.11 V
+Question ID : 4410091558288
+Chosen Option : 2
+Q.87 Two same frequency signals, with equal amplitudes and with some phase
+difference between them, are applied across the X and Y plates of a CRO. It was
+found that the pattern displayed on screen was an ellipse with its major axis lying
+in the 2nd and 4th quadrant. Which of the following can be a possible phase
+difference between these two signals?
+Ans
+1. 120°
+2. 60°
+3. 30°
+4. 180°
+Question ID : 4410091533313
+Chosen Option : 1
+Q.88 For a third-order system with the characteristic equation s³+as²+bs+c=0, what is
+the necessary and sufficient condition for stability?
+Ans
+1. a>0, b>0, c>0, and ab<c
+2. a>0, b>0, c>0, and ac>b
+3. a>0, b>0, c>0, and ab>c
+4. a>0, b>0, c>0
+Question ID : 4410091553459
+Chosen Option : 3
+
+
+=== PAGE 25 ===
+Q.89 In the FM expression s(t) = Ac cos(2πfct + β sin(2πfmt)), what does the term β
+represent?
+Ans
+1. Modulation index
+2. Carrier amplitude
+3. Carrier frequency
+4. Phase deviation
+Question ID : 4410091807785
+Chosen Option : 1
+Q.90 An alternator's voltage regulation is often highest (positive and largest) while
+supplying _______________.
+Ans
+1. Unity power factor load
+2. Lagging power factor load
+3. Leading power factor load
+4. No load
+Question ID : 4410091545636
+Chosen Option : 1
+Q.91 For the figure given below showing delta connection, find the equivalent
+resistance per phase for the equivalent star connection.
+Ans
+1. 20 Ω
+2. 90 Ω
+3. 30 Ω
+4. 10 Ω
+Question ID : 4410091554862
+Chosen Option : 2
+Q.92 Which of the following limits the high-frequency response of a BJT small-signal
+amplifier?
+Ans
+1. Coupling capacitors
+2. Internal transistor capacitances
+3. DC power supply
+4. Bypass capacitors
+Question ID : 4410091559091
+Chosen Option : 2
+
+
+=== PAGE 26 ===
+Q.93 Determine the equivalent resistance across terminals A and B in the given circuit.
+Ans
+1. 4.187 Ω
+2. 5.725 Ω
+3. 6.937 Ω
+4. 7.562 Ω
+Question ID : 4410091565478
+Chosen Option : 1
+Q.94 In a digital communication system, a shift register is used to convert 8 bits of
+serial data into parallel format. Which property of the D flip-flop makes it the most
+suitable choice for constructing this shift register?
+Ans
+1. Its characteristic where the next state is exactly the present data input.
+2. Its edge-triggered nature which prevents race conditions in the counter.
+3. Its ability to toggle state when a control signal is high.
+4. Its capability to hold data indefinitely as long as power is supplied.
+Question ID : 4410091538982
+Chosen Option : 1
+Q.95 Which of the following describes the role of the braking magnet when a single-
+phase energy meter is undergoing calibration?
+Ans
+1. Adjust and control braking torque
+2. Produce rotating magnetic field
+3. Regulate supply voltage
+4. It minimizes the effect of friction on the disc
+Question ID : 4410091544749
+Chosen Option : 1
+
+
+=== PAGE 27 ===
+Q.96 Which device is a voltage-controlled power transistor?
+Ans
+1. BJT
+2. GTO
+3. SCR
+4. MOSFET
+Question ID : 4410091563100
+Chosen Option : 1
+Q.97 In frequency modulation (FM), which parameter of the carrier signal remains
+constant during transmission?
+Ans
+1. Frequency of the carrier signal
+2. Phase of the message signal
+3. Amplitude of the carrier signal
+4. Modulating frequency
+Question ID : 4410091805686
+Chosen Option : 3
+Q.98 Per-unit impedance diagrams are used because they:
+Ans
+1. Vary with voltage level
+2. Increase complexity
+3. Are difficult to compute
+4. Eliminate transformer turns ratio complications
+Question ID : 4410091561223
+Chosen Option : 4
+Q.99 A quasi square wave inverter is fired at an angle of 30°. Calculate the ratio of 3rd
+harmonic component in the inverter output voltage with respect to Fundamental
+component in the output voltage.
+Ans
+1. 0
+2. 0.11
+3. 0.33
+4. 0.20
+Question ID : 4410091559876
+Chosen Option : 4
+
+
+=== PAGE 28 ===
+"
+Q.100 A quasi square wave inverter is fired in such a way that its 5th harmonic
+component became zero in the output voltage. What is the value of firing angle (α)
+and thus the width (d) of the output voltage, respectively?
+Ans
+1. α = 36°, d = 108°
+2. α = 36°, d = 144°
+3. α = 30°, d = 120°
+4. α = 18°, d = 144°
+Question ID : 4410091559849
+Chosen Option : 2

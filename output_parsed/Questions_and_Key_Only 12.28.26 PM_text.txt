@@ -1,0 +1,988 @@
+=== PAGE 1 ===
+Q.1
+Refer to the following number, symbol series and answer the question. Counting to
+be done from left to right only. (Note: All numbers are single digit numbers only)
+(Left) 2 * £ 5 7 Ω 1 3 8 # $ 9 4 % 5 @ 6 ^ (Right)
+How many such symbols are there each of which is immediately preceded by an odd
+number but not immediately followed by an even number?10143
+Ans
+1. One
+2. None
+3. Two
+4. More than two
+Question ID : 441009796127
+Q.2
+Which of the following letter-clusters should replace # and % so that the pattern and
+relationship followed between the letter-cluster pair on the left side of :: is the same
+as that on the right side of :: ?
+# : DYR :: TOH : %
+Ans
+1. # = MHA, % = KFY
+2. # = MHB, % = KFY
+3. # = MHA, % = KFI
+4. # = NHA, % = KFY
+Question ID : 441009786346
+Q.3
+GWXI is related to KABM in a certain way based on the English alphabetical order. In
+the same way, DTFQ is related to HXJU. To which of the following is LYSE related to,
+following the same logic?6063
+Ans
+1. PCWI
+2. MZTF
+3. PZXF
+4. MCWF
+Question ID : 441009818604
+AP Vidyut Recruitment Exam 23rd to 27th Aug 2026
+Hall Ticket Number
+APVR0016548
+Participant Name
+KRISHNA NAGA VENKATA SAI TEJA
+Test Center Name
+Shree Vijaya Durga I.T Info solutions
+Test Time
+2:30 PM - 5:30 PM
+Test Date
+26/08/2026
+Subject
+Electrical Engineering
+Section : General Intelligence and Reasoning
+
+
+=== PAGE 2 ===
+Q.4
+75 is related to 29 following a certain logic. Following the same logic, 66 is related to
+26. To which of the following is 30 related to, following the same logic?
+(NOTE : Operations should be performed on the whole numbers, without breaking
+down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as
+adding /subtracting /multiplying etc. to 13 can be performed. Breaking down 13 into
+1 and 3 and then performing mathematical operations on 1 and 3 is not allowed)
+Ans
+1. 13
+2. 15
+3. 12
+4. 14
+Question ID : 441009585206
+Q.5
+Seven people, A, B, C, D, E, F and G are sitting in a row, facing north. Only two people
+sit to the left of C. Only three people sit between E and D, neither of whom sits on the
+extreme end. A sits immediately to the right of F. G sits immediately to the left of E.
+Who sits third to the left of D?
+Ans
+1. G
+2. C
+3. A
+4. E
+Question ID : 441009814181
+Q.6
+The Inter Tropical Convergence Zone (ITCZ), sometimes referred to as the monsoon
+trough over the Gangetic plain during July, had been characterised by which of the
+following atmospheric conditions?
+Ans
+1. A high-pressure belt associated with descending dry air currents
+2. A cold air front formed due to polar continental air masses
+3. A low-pressure zone where trade winds converge and air tends to ascend
+4. A permanent subtropical jet stream over north-western India
+Question ID : 4410091800823
+Q.7
+Who was the prominent leader of the Wahabi Movement in India that integrated
+religious revivalism with socio-economic resistance?
+Ans
+1. Birsa Munda
+2. Syed Ahmed Barelvi
+3. Shariatullah Khan
+4. Dadu Mian
+Question ID : 441009865974
+Section : General awareness
+
+
+=== PAGE 3 ===
+Q.8
+The Surat Session of 1907 is remembered for a major split in the Indian National
+Congress. Which of the following was the main consequence of this session for the
+national movement?
+Ans
+1. Proposal for Home Rule League
+2. Adoption of Non-Cooperation Movement
+3. Formation of the Muslim League
+4. Separation of Moderates and Extremists
+Question ID : 4410092115972
+Q.9
+Amid ongoing regional conflicts in 2026, reports indicate that the Chabahar Port
+developed and operated by India has sustained damage. In which country is this
+strategic port located?
+Ans
+1. Oman
+2. Iraq
+3. Egypt
+4. Iran
+Question ID : 4410091496380
+Q.10 Which one of the following languages was conferred the Classical Languages status
+in 2024?
+Ans
+1. Sanskrit
+2. Kannada
+3. Tamil
+4. Marathi
+Question ID : 441009936117
+Q.11 Which of the following statements is INCORRECT with reference to Kamarajar Port?
+Ans
+1. It is the first port in India to become a public company.
+2. It is one of the Minor Ports in India.
+3. It is located on the Coromandel Coast.
+4. It is located in the state of Tamil Nadu.
+Question ID : 44100979775
+
+
+=== PAGE 4 ===
+Q.12 Which factor contributes most to the arid climate of the Thar Desert region in
+northwestern India?
+Ans
+1. Frequent tracks of intense tropical cyclones originating over the Arabian Sea
+2.
+High surface albedo and extreme soil salinity characteristic of the northern plains
+3. The parallel alignment of the Aravalli Range to the direction of the southwest monsoon
+winds
+4. Perennial flooding and high water tables of the Indus river tributaries
+Question ID : 4410092258040
+Comprehension:
+Read the passage carefully and answer the questions that follow.
+The global energy transition is increasingly shaped not only by the expansion of renewable power
+generation but also by advances in battery storage technologies capable of addressing the
+intermittency of solar and wind energy. Recognising this, governments are supporting large-scale
+battery manufacturing, grid-scale storage systems, and research into alternative chemistries that
+reduce dependence on scarce critical minerals. However, experts caution that storage capacity
+alone cannot guarantee energy security unless transmission infrastructure, recycling mechanisms,
+and regulatory frameworks evolve simultaneously. Consequently, recent policy initiatives emphasise
+integrated energy ecosystems rather than isolated technological achievements. This perspective
+suggests that the durability of the clean-energy transition will depend less on individual innovations
+than on the coordinated development of complementary industrial, environmental, and institutional
+capabilities across diverse economies worldwide.
+SubQuestion No : 13
+Q.13 Which of the following can be most reasonably inferred from the passage?
+Ans
+1. Dependence upon critical minerals will inevitably disappear because alternative battery
+chemistries are expected to replace conventional technologies entirely.
+2. Renewable-energy technologies have largely eliminated the operational challenges
+historically associated with electricity transmission and storage infrastructure worldwide.
+3. Expanding battery production without corresponding institutional and infrastructural
+reforms is unlikely to ensure a resilient clean-energy transition.
+4. Government investment in battery manufacturing has become unnecessary since private-
+sector innovation sufficiently addresses long-term energy-security requirements independently.
+Question ID : 4410092414154
+Section : English
+
+
+=== PAGE 5 ===
+Comprehension:
+Read the passage carefully and answer the questions that follow.
+The global energy transition is increasingly shaped not only by the expansion of renewable power
+generation but also by advances in battery storage technologies capable of addressing the
+intermittency of solar and wind energy. Recognising this, governments are supporting large-scale
+battery manufacturing, grid-scale storage systems, and research into alternative chemistries that
+reduce dependence on scarce critical minerals. However, experts caution that storage capacity
+alone cannot guarantee energy security unless transmission infrastructure, recycling mechanisms,
+and regulatory frameworks evolve simultaneously. Consequently, recent policy initiatives emphasise
+integrated energy ecosystems rather than isolated technological achievements. This perspective
+suggests that the durability of the clean-energy transition will depend less on individual innovations
+than on the coordinated development of complementary industrial, environmental, and institutional
+capabilities across diverse economies worldwide.
+SubQuestion No : 14
+Q.14 Which of the following best describes the organisational structure of the passage?
+Ans
+1. It identifies a contemporary challenge, explains an emerging policy response, introduces a
+qualifying limitation, and concludes with a broader strategic implication.
+2. It begins with technological achievements, critiques environmental regulations
+comprehensively, and concludes by questioning the feasibility of renewable-energy adoption
+altogether.
+3. It presents contrasting economic theories regarding renewable investment, evaluates
+supporting statistical evidence, and ultimately endorses one theoretical perspective exclusively.
+4. It traces the historical evolution of battery technologies, compares competing storage
+chemistries, and predicts their future commercial dominance across global markets.
+Question ID : 4410092414155
+Q.15 Change the given sentence into passive voice.
+Inform the mother about your result.2143
+Ans
+1. Let the mother being informed about your result.
+2. Let the mother informed about your result.
+3. Let the mother be informed about your result.
+4. Let the mother be inform about your result.
+Question ID : 441009497397
+Q.16 Complete the following sentence by choosing the correct option.
+The professor asked the students to ____ the main arguments presented in the
+article and compare them to current research.
+Ans
+1. neglect
+2. synthesize
+3. imitate
+4. contradict
+Question ID : 4410091711934
+
+
+=== PAGE 6 ===
+Q.17 Choose the most appropriate one-word substitute for the word in bold:
+The pure and peaceful environment of the cemetery was shattered by the loud
+honking of the cars.
+Ans
+1. seraphic
+2. lustre
+3. embers
+4. aurora
+Question ID : 4410091538212
+Q.18 Find the simple interest (in ₹) if a sum of ₹500 is borrowed for 7.5 years at 20% per
+annum rate of interest.776
+Ans
+1. 850
+2. 750
+3. 800
+4. 730
+Question ID : 441009852058
+Q.19 Three friends P, Q and R started a business by investing a sum of money in the ratio
+of 4 : 9 : 8. After 6 months Q withdraws half of his capital. If the sum invested by P is
+₹80000, out of a total annual profit of ₹15000 find the share of Q in profit.9698
+Ans
+1. ₹3995
+2. ₹5400
+3. ₹5705
+4. ₹5635
+Question ID : 441009548025
+Q.20 Evaluate: 25 ÷ (5 × 5)5415
+Ans
+1. 3
+2. 4
+3. 1
+4. 2
+Question ID : 441009521699
+Section : Quantitative aptitude
+
+
+=== PAGE 7 ===
+Q.21 What is the difference between the average of prime numbers between 50 and 60
+and the average of multiples of 5 between 20 and 50?4036
+Ans
+1. 21
+2. 29
+3. 14
+4. 27
+Question ID : 441009580940
+Q.22 A car covers a distance of 1890 km in 14 hours. Speed of a train is double the speed
+of the car. One-third the speed of the train is equal to the speed of a bike. How much
+distance will the bike cover in 5 hours?10944
+Ans
+1. 453 km
+2. 449 km
+3. 450 km
+4. 458 km
+Question ID : 441009549271
+Q.23 The population of a village was 320000. It increased by 5% in the first year and
+increased by 20% in the second year. Its population after two years is _______.7652
+Ans
+1. 403200
+2. 384000
+3. 336000
+4. 400000
+Question ID : 441009858934
+Q.24 Provisions meant for 104 men will last 15 weeks. If 26 more men join them, for how
+many weeks will the provisions now be sufficient?
+Ans
+1. 14
+2. 10
+3. 12
+4. 16
+Question ID : 441009522917
+
+
+=== PAGE 8 ===
+Q.25 The slant height and the radius of a right circular cone are in the ratio of 5 : 3. If the
+volume of the cone is 4,710 cm3, find its curved surface area.
+(Use π = 3.14).
+Ans
+1. 1,177.5 cm2
+2. 1,198.9 cm2
+3. 1,248.6 cm2
+4. 1,286.7 cm2
+Question ID : 4410091556635
+Q.26 Which menu in MS PowerPoint allows you to open an existing presentation?
+Ans
+1. Insert
+2. Review
+3. File
+4. Design
+Question ID : 4410092273236
+Q.27 While preparing a multi-section annual report in a word processor, you need some
+pages to have landscape orientation for wider tables, while the rest remain in
+portrait. Which approach accurately ensures correct page setup without disrupting
+header and footer continuity?
+Ans
+1. Change only the page margins or scale the tables to fit portrait orientation
+2. Insert section breaks before and after the landscape pages, then adjust the orientation for
+only those sections
+3. Use page breaks to separate each page and change the orientation individually
+4. Set page orientation for each page directly, regardless of section structure
+Question ID : 4410092276857
+Q.28 What is the primary role of the Control Unit in the Central Processing Unit?
+Ans
+1. Stores program data
+2. Directs the execution of instructions
+3. Processes arithmetic calculations
+4. Manages hardware devices
+Question ID : 4410092306929
+Section : Computer knowledge
+
+
+=== PAGE 9 ===
+Q.29 When preparing an Excel worksheet for printing, which option ensures that header
+rows appear at the top of every printed page?
+Ans
+1. Print Titles option
+2. Print Area selection
+3. Row Height adjustment
+4. Page Setup dialog
+Question ID : 4410092307263
+Q.30 A user is sending an email with an important document but wants to avoid sending it
+without the required file. Which action should be performed before clicking the Send
+button?
+Ans
+1. Type the file name in the message body before sending
+2. Check the file name in your computer folder before sending
+3. Verify the attachment is listed in the email draft before sending
+4. Upload the file and send immediately without checking attachment
+Question ID : 4410092307611
+Q.31 Which of the following best describes the function of an OR gate?
+Ans
+1. It outputs 1 only if all inputs are 1
+2. It outputs 1 only if both inputs are the same
+3. It outputs 1 only if all inputs are 0
+4. It outputs 1 if at least one input is 1
+Question ID : 4410091805701
+Q.32 A digital meter has a lowest full-scale range of 20 V and a resolution of 0.001. What
+is its sensitivity?
+Ans
+1. 0.02 V
+2. 0.2 V
+3. 0.002 V
+4. 0.0002 V
+Question ID : 4410091537564
+Section : Electrical Engineering
+
+
+=== PAGE 10 ===
+Q.33 For the figure shown below, find the current i(t) at t = ∞
+Ans
+1. 20 A
+2. 0 A
+3. 15 A
+4. 5 A
+Question ID : 4410091565518
+Q.34 A designer wants to implement a function where the output is HIGH only if all four
+sensors in a system detect a signal producing logic 1. Which gate should be used?
+Ans
+1. A four-input NAND gate
+2. A four-input AND gate
+3. A four-input OR gate
+4. A four-input NOR gate
+Question ID : 4410091792354
+Q.35 A system with insufficient phase margin and high steady-state error is best
+compensated using __________.
+Ans
+1. Rate-feedback compensator
+2. Lag compensator
+3. Lead compensator
+4. Lag-lead compensator
+Question ID : 4410091576318
+
+
+=== PAGE 11 ===
+Q.36 The figure shows a half-wave rectifier. The diode D is ideal. The
+average steady-state current through the diode (in Amperes) is
+approximately ___________.
+Ans
+1. 1
+2. 10
+3. 0
+4. 0.1
+Question ID : 4410091562742
+Q.37 Which of the following options is correct for the negative clamper circuit?
+Ans
+1. A clamper circuit is used to add an ac voltage to its input signal.
+2. Negative clamper circuit uses only diode and resister.
+3. Negative clamper clamps the input signal waveform positively.
+4. A negative dc is added to the input signal in a negative clamper circuit.
+Question ID : 4410091562540
+Q.38 Which AC bridge is specifically employed for determining the relative permittivity
+(dielectric constant) of insulating materials?
+Ans
+1. Schering Bridge
+2. Kelvin Bridge
+3. Wien Bridge
+4. Maxwell Bridge
+Question ID : 4410091547326
+
+
+=== PAGE 12 ===
+Q.39 A cut-set in graph theory of electrical networks is defined as:
+Ans
+1. A set of branches whose removal disconnects all nodes
+2. A minimum set of branches that, when removed, reduces the rank of the graph by one
+3. A set of all links in the graph
+4. A set of branches forming a closed loop
+Question ID : 4410091558150
+Q.40 Select the correct option regarding the following two statements labelled Assertion
+(A) and Reason (R).
+Assertion (A): The economizer in a steam generating station is placed before the
+boiler in the flow path of flue gases.
+Reason (R): The economizer preheats the feedwater using residual heat from the
+exhaust gases.
+Ans
+1. Both (A) and (R) are true but (R) is not the correct explanation of (A)
+2. (A) is true but (R) is false
+3. (A) is false but (R) is true
+4. Both (A) and (R) are true and (R) is the correct explanation of (A)
+Question ID : 4410091572686
+Q.41 Which of the following components in a nuclear reactor is used to slow down
+neutrons?
+Ans
+1. Coolant
+2. Moderator
+3. Control rods
+4. Reactor core
+Question ID : 4410091547023
+Q.42 For a medium line, if shunt capacitance is neglected, the calculated voltage
+regulation will be ___________.
+Ans
+1. Independent of load power factor
+2. Lower than actual
+3. Higher than actual
+4. Equal to actual
+Question ID : 4410091563918
+
+
+=== PAGE 13 ===
+Q.43 The output of a weighted resistor DAC is usually obtained using ______.
+Ans
+1. A comparator
+2. A summing amplifier
+3. A rectifier
+4. A differentiator
+Question ID : 4410091553886
+Q.44 Dielectric heating is most suitable for heating which type of materials?
+Ans
+1. Good electrical conductors
+2. Superconducting materials
+3. Metals with low resistivity
+4. Non-conducting materials such as plastics and wood
+Question ID : 4410091562152
+Q.45 Campbell's modification of the Heaviside bridge is used to:
+Ans
+1. Eliminate detector sensitivity to phase errors
+2. Measure resistance using a known capacitance
+3. Measure mutual inductance using unknown self-inductance
+4. Measure self-inductance using a known mutual inductance
+Question ID : 4410091537582
+Q.46 For a first-order system with transfer function:
+,
+what is the phase angle ϕ(ω) at the frequency ω=1/T?
+Ans
+1. −45°
+2. 0°
+3. −90°
+4. −180°
+Question ID : 4410091553401
+
+
+=== PAGE 14 ===
+Q.47 During the turn-off process of SCR, the SCR requires:
+Ans
+1. The negative voltage pulse should be given to the Gate
+2. The applied Gate current should be reversed
+3. Voltage across the device has to rise above rated value
+4. Current through the device to fall below holding current
+Question ID : 4410091559720
+Q.48 The fixed coil in an electrodynamometer wattmeter is connected in series with the
+load and is known as the _______.
+Ans
+1. Voltage Coil
+2. Current Coil
+3. Controlling Coil
+4. Potential Coil
+Question ID : 4410091544752
+Q.49 Consider a feedback control system with loop transfer function
+The type of the closed loop system is____________.
+Ans
+1. Two
+2. Zero
+3. One
+4. Three
+Question ID : 4410091660327
+Q.50 A voltage quadruple is driven by an AC input. During steady-state operation, which
+one of the following interactions explains how the circuit maintains four times the
+peak input across the output despite only two conduction paths existing per cycle?
+Ans
+1. The circuit uses reverse breakdown of diodes to boost voltage in discrete steps.
+2. Each capacitor doubles its voltage on every cycle until the quadruple level is reached.
+3. The diodes selectively route charge to different capacitors in alternating half-cycles,
+creating a cumulative stacking of capacitor voltages.
+4. Each conduction path simultaneously reinforces the charge on all capacitors every cycle.
+Question ID : 4410091525532
+
+
+=== PAGE 15 ===
+Q.51 Damping in moving iron instruments is generally provided by:
+Ans
+1. Magnetic damping
+2. Electrical damping
+3. Air friction damping
+4. Fluid (other than air) friction damping
+Question ID : 4410091547760
+Q.52 If cracks appear on the surface of a concrete foundation of a substation shortly after
+setting, which of the following is the most likely cause, considering the properties of
+concrete?
+Ans
+1. Low permeability of concrete
+2. Excessive cement content
+3. Shrinkage due to rapid loss of moisture
+4. Slow setting of concrete
+Question ID : 4410091804139
+Q.53 A circuit compares two 4-bit numbers A and B. If A = B, the circuit must output A + B,
+otherwise it must output A - B. Which signal should be used as the MUX select line?
+Ans
+1. A = B
+2. A > B
+3. A < B
+4. (A > B) + (A < B)
+Question ID : 4410091560776
+Q.54 Why are non-metallic conduits often preferred over steel conduits in residential
+buildings?
+Ans
+1. Steel is a conductor (electrical) and prone to corrosion
+2. Steel is an insulator (electrical) and has low thermal expansion
+3. Steel is light-weight and has low strength
+4. Steel provides good thermal insulation
+Question ID : 4410091787013
+
+
+=== PAGE 16 ===
+Q.55 For the figure below, find the values of currents, i1 , i2 , and i3 . Every branch contains
+some element, do not consider them as short circuited branches.
+Ans
+1. i1 = 6 A, i2 = 4 A, i3 = -9A
+2. i1 = -6 A, i2 = 4 A, i3 = -9A
+3. i1 = 6 A, i2 = 4 A, i3 = 9A
+4. i1 = 6 A, i2 = -4 A, i3 = 9A
+Question ID : 4410091554835
+Q.56 In an ideal diode-capacitor peak detector, which condition must be satisfied for the
+output capacitor to charge up to the peak value of the input waveform?
+Ans
+1. The diode must conduct continuously throughout the input cycle.
+2. The diode must remain reverse-biased during the rising portion of the input signal.
+3. The diode must conduct only when the input exceeds the capacitor voltage.
+4. The capacitor must discharge rapidly between peaks to follow the input.
+Question ID : 4410091525527
+Q.57 According to resistance welding, from which source is the heat generated in
+percussion welding?
+Ans
+1. High-frequency induction
+2. Intense electrical discharge for a very short time
+3. Mechanical friction
+4. Continuous arc heating
+Question ID : 4410091558642
+
+
+=== PAGE 17 ===
+Q.58
+Consider the transfer function 
+where 'p' is a positive real parameter. The maximum value of 'p'
+for which Gp(s) remains stable is ___________.
+Ans
+1. 3
+2. 4
+3. 1
+4. 2
+Question ID : 4410091661181
+Q.59 For an inductor operating in DC steady state (i.e., t → ∞), what is the equivalent
+circuit?
+Ans
+1. A voltage source with value L(di/dt)
+2. A short circuit
+3. A resistor with value R = L/ꚍ
+4. An open circuit
+Question ID : 4410091546075
+Q.60 Which of the following sequence currents is ALWAYS zero during a line-to-line fault
+in an electrical power system?
+Ans
+1. Negative sequence current
+2. Positive sequence current
+3. Zero sequence current
+4. None of the sequence currents are zero
+Question ID : 4410091572697
+Q.61 In an electrical network, the voltage across an unknown element is found as 325
+sin(314*t - 45°) volts while the current is found as 25 sin(314*t - 15°) amperes. What
+possible circuit elements (Resistor (R), inductor (L), capacitor (C)) are present in the
+unknown element?
+Ans
+1. R, L and C with XL > Xc
+2. R and L only
+3. R only
+4. R, L and C with XL < Xc
+Question ID : 4410091552279
+
+
+=== PAGE 18 ===
+Q.62 In practical feedback control systems, a pure integral controller Gc(s) = Ki/s is rarely
+used by itself. What is the main drawback that limits its standalone use?
+Ans
+1. It's Bode plot has –20 dB/dec slope throughout
+2. It causes phase lag of –90° at all frequencies
+3. It makes the system type increase by exactly one
+4. It eliminates steady-state error for step input
+Question ID : 4410091576358
+Q.63 Choose the correct statement for the given circuit. Assume diode to be an ideal
+diode.
+S1: It is a shunt Positive clipper circuit.
+S2: During positive half cycle, all the input positive half cycle voltage appears at the
+output.
+S3: During negative half cycle, output voltage is zero.
+Ans
+1. S1,S2 and S3
+2. Only S2 and S3.
+3. Only S2 and S1.
+4. Only S1 and S3.
+Question ID : 4410091562544
+Q.64 According to the magnitude rule of root locus, a point s lies on the root locus if
+_______.
+Ans
+1. The real part of the complex variable s is negative
+2. The phase angle of the open-loop transfer function does not exist
+3. The magnitude of the closed-loop transfer function is unity
+4. The magnitude of the open-loop transfer function is unity
+Question ID : 4410091579140
+
+
+=== PAGE 19 ===
+Q.65 Which of the following statements is TRUE regarding heat distribution inside a
+batch-type resistance furnace?
+Ans
+1. Heat distribution depends only on radiation
+2. Radiation becomes the dominant method of heat distribution due to the circulating fan
+3. Conduction becomes the dominant method of heat distribution due to the circulating fan
+4. Convection becomes the dominant method of heat distribution due to the circulating fan
+Question ID : 4410091555155
+Q.66 What does SCADA stand for?
+Ans
+1. Sequential Control and Data Analysis
+2. Supervisory Control and Data Acquisition
+3. Standard Control and Device Automation
+4. Systematic Coordination and Data Access
+Question ID : 4410091805407
+Q.67 A single-phase energy meter has meter constant of 1000 revolutions per unit and is
+tested for errors. The meter is connected to a load carrying 25 A current at 0.8
+power factor with a voltage of 240 V applied across it for a period of 5 minutes.
+During this period, the number of revolutions made by the meter are 390. Which of
+the following is the error in the meter?
+Ans
+1. 1.5% slower
+2. 3.5% faster
+3. 2.0% slower
+4. 2.5% slower
+Question ID : 4410091533894
+Q.68 Which of the following connections of the sequence network is involved in Line-To-
+Line (L-L) Fault?
+Ans
+1. The positive and zero sequence networks connected in series.
+2. The positive, negative, and zero sequence networks connected in parallel.
+3. The positive, negative, and zero sequence networks connected in series.
+4. The positive and negative sequence networks connected in parallel.
+Question ID : 4410091547036
+
+
+=== PAGE 20 ===
+Q.69 When comparing two concrete mixes for a transmission tower foundation, Mix A has
+a lower water‑cement ratio than Mix B while maintaining adequate workability and
+compaction. What is the likely outcome for Mix A compared to Mix B? Note that the
+water cement ratio of both the mixes not less than 0.4.
+Ans
+1. Mix A will have higher strength and durability
+2. Mix A will set faster
+3. Mix A will be more workable
+4. Mix A will have lower strength
+Question ID : 4410091792932
+Q.70 In three-phase power measurement, phase shifting is essential for accurate reactive
+power indication. Which arrangement is commonly used to obtain the required 90°
+phase shift using phase-shifting transformers?
+Ans
+1. Two single-phase transformers connected in open-delta
+2. Three transformers connected in star–delta conversion
+3. Two autotransformers connected in V–V (open-delta) configuration
+4. Two autotransformers connected in Scott connection
+Question ID : 4410091547404
+Q.71 A step-down (buck) DC chopper is supplied from a stiff DC source of voltage Vs. The
+chopper operates by turning its main switch ON for a duration of Ton and OFF for a
+duration of Toff in each switching cycle. The load is such that current remains
+continuous during its operation. If the switching frequency is kept constant and the
+duty ratio of the chopper is increased, what will happen to the average output
+voltage across the load?
+Ans
+1. It will vary independently of the duty ratio of the chopper.
+2. It will increase due to energy storage in the load.
+3. It will increase in direct proportion to the duty ratio of the chopper.
+4. It will remain fixed at the source voltage Vs of the chopper.
+Question ID : 4410091563178
+Q.72 Which of the following design modifications to a foundation in weak soil conditions
+for a substation helps to distribute load over greater area?
+Ans
+1. Increasing the foundation base area
+2. Reducing the depth of the foundation
+3. Decreasing the base area to concentrate loads
+4. Using massive amounts of reinforcement
+Question ID : 4410091813304
+
+
+=== PAGE 21 ===
+Q.73 Which alternator component accounts for the largest percentage of the overall
+losses at unity power factor and full load?
+Ans
+1. Field Copper Loss
+2. Stray Load Loss
+3. Armature Copper Loss
+4. Friction and Windage Loss
+Question ID : 4410091545574
+Q.74 Why does projection welding allow multiple welds in a single operation?
+Ans
+1. Because the weld pool is protected by inert gas
+2. Because alternating current distributes evenly across the workpiece
+3. Because electrodes are consumable and melt into the joint
+4. Because projections concentrate current at several points simultaneously
+Question ID : 4410091557507
+Q.75 It is referred to as _______________ when a synchronous motor is utilized to control the
+voltage at the end of a transmission line by varying excitation.
+Ans
+1. DC exciter
+2. Series reactor
+3. Induction generator
+4. Synchronous phase modifier
+Question ID : 4410091545646
+Q.76 Energy released per fission of U-235 is approximately:
+Ans
+1. 200 MeV
+2. 2000 MeV
+3. 100 MeV
+4. 10 MeV
+Question ID : 4410091558272
+
+
+=== PAGE 22 ===
+Q.77 In a static Kramer drive, speed control is limited to below synchronous speed
+primarily because:
+Ans
+1. Slip power can flow only from rotor to supply
+2. The stator voltage cannot be controlled externally
+3. Commutation of the inverter restricts operation above synchronous speed
+4. The rotor resistance varies nonlinearly with load
+Question ID : 4410091564230
+Q.78 Which of the following statements about circuits with three-phase delta connections
+is true?
+Ans
+1. Line currents are 60° apart
+2. Line voltage is equal to phase voltage
+3. Line voltage is √3 time of phase voltage
+4. Line current is equal to phase current
+Question ID : 4410091545946
+Q.79 Which significant advantage does the R-2R Ladder DAC architecture possess over
+the Binary-Weighted Resistor DAC architecture regarding the physical
+manufacturing of the circuit?
+Ans
+1. It eliminates the need for a summing amplifier at the output stage.
+2. It allows the reference voltage to vary directly with the digital input code.
+3. It uses capacitors instead of resistors to perform the voltage division, reducing thermal
+noise.
+4. It requires only two specific precision resistor values regardless of the number of bits.
+Question ID : 4410091538857
+Q.80 A designer wants to implement a 2-input NOR gate using only 2-input NAND gates.
+How many minimum 2-input NAND gate is/are used to implement 2-input NOR gate?
+Ans
+1. Five 2-input NAND gates
+2. Six 2-input NAND gates
+3. Eight 2-input NAND gates
+4. Four 2-input NAND gates
+Question ID : 4410091792632
+
+
+=== PAGE 23 ===
+Q.81 A 
+ digit digital voltameter is used for voltage measurement. How the voltage
+value of 5.6279 V will be displayed on a 10 V range?
+Ans
+1. 005.63 V
+2. 5.627 V
+3. 5.6279 V
+4. 05.627 V
+Question ID : 4410091533405
+Q.82 An SR latch starts in the reset state. For the input sequence S = 1, R = 0 → S = 1, R =
+1 → S = 0, R = 0, determine the final output Q.
+Ans
+1. Q = 0
+2. Q = 1
+3. Unpredictable or indeterminate
+4. High impedance
+Question ID : 4410091553986
+Q.83 What is range of the typical overall thermal efficiency of steam power plants?
+Ans
+1. 60-70%
+2. 80-90%
+3. 30-40%
+4. 10-20%
+Question ID : 4410091547028
+Q.84 When designing a voltage control scheme for a single-phase inverter, why is internal
+modulation-based control preferred over varying the DC input voltage?
+Ans
+1. It causes higher switching losses during normal inverter operation.
+2. It causes lower switching losses during normal inverter operation.
+3. It changes the inverter output frequency and phase more slowly (takes more time).
+4. It requires additional external power conditioning equipment.
+Question ID : 4410091555264
+
+
+=== PAGE 24 ===
+Q.85 Which of the following is an advantage of using load-commutated chopper over
+other types of choppers?
+Ans
+1. It uses a more complex and advanced commutation circuit than other types of choppers.
+2. It can operate at much higher frequencies than other types of choppers.
+3. It is capable of giving more output voltage than the input supply.
+4. It allows both voltage and current reversal through the load.
+Question ID : 4410091563181
+Q.86 If the rotor of a single-phase reluctance motor is perfectly cylindrical (no saliency),
+the reluctance torque ______.
+Ans
+1. will be maximum
+2. depends on load
+3. will be zero
+4. will be half of the normal value
+Question ID : 4410091563563
+Q.87 A 200/100 V, 5 kVA two-winding transformer is reconnected as an autotransformer
+to deliver 200 V from a 300 V source. What will be the kVA rating of this
+autotransformer?
+Ans
+1. 7.5 kVA
+2. 12.5 kVA
+3. 10 kVA
+4. 15 kVA
+Question ID : 4410091549547
+Q.88 In a DC shunt generator, the maximum efficiency occurs when:
+Ans
+1. variable armature circuit loss = constant field winding loss + no load rotational loss
+2. variable field winding loss = constant armature circuit loss + no load rotational loss
+3. variable field winding loss + no load rotational loss = constant armature circuit loss
+4. variable armature circuit loss + no load rotational loss = constant field winding loss
+Question ID : 4410091536607
+
+
+=== PAGE 25 ===
+Q.89 Which of the following characteristics is unique to a Star (Y) connection and not
+available in a standard three-wire Delta connection?
+Ans
+1. Three-line conductors
+2. Suitability for high-current applications
+3. Equal line and phase voltages
+4. Provision of a neutral wire
+Question ID : 4410091546016
+Q.90 Earthing in electrical installations of buildings is primarily provided to:
+Ans
+1. Protect people from electric shock by safely dissipating fault current
+2. Increase the voltage supplied to electrical appliances in buildings
+3. Improve the efficiency of the electrical system in buildings
+4. Reduce the overall electricity consumption of appliances
+Question ID : 4410091787015
+Q.91 A reactor is connected between the two converters in a three-phase dual converter
+operating in circulating current mode. What is the primary purpose of this reactor?
+Ans
+1. Improve the input power factor.
+2. Limit the load current ripple.
+3. Minimize the effect of source inductance.
+4. Limit circulating current between the two converters
+Question ID : 4410091550320
+Q.92 In a connected network graph, the number of fundamental cut-sets is equal to:
+Ans
+1. Number of loops
+2. Number of chords
+3. Total number of nodes
+4. Number of twigs
+Question ID : 4410091558155
+
+
+=== PAGE 26 ===
+Q.93 The main components of a single-phase induction motor generally refer to:
+Ans
+1. Stator and Rotor with auxiliary winding
+2. Stator only
+3. Armature and field winding
+4. Rotor only
+Question ID : 4410091554922
+Q.94 In a two-phase AC servomotor operating under normal closed-loop conditions, the
+developed torque becomes zero when ____
+Ans
+1. The error signal applied to the control winding becomes zero
+2. The phase displacement between the reference winding and control winding currents
+becomes zero
+3. The magnitude of the reference winding current remains constant
+4. The rotor reaches synchronous speed
+Question ID : 4410091549503
+Q.95 Consider the single-excited magnetic system shown in the figure. The exciting coil
+of N turns carries a constant current i, and the armature is free to move in the
+horizontal direction (x) under the electromagnetic force Ff (as shown in the figure).
+Which of the following changes in the system will cause an increase in the
+inductance of the exciting coil?
+Ans
+1. Decrease in the permeability of the magnetic core material due to its saturation
+2. Increase in the air gap length due to movement of the armature away from the fixed core
+3. Decrease in the air gap length due to movement of the armature towards the fixed core
+4. Increase in the total magnetic circuit reluctance due to decrease in air gap length
+Question ID : 4410091545941
+
+
+=== PAGE 27 ===
+Q.96 A three-phase semi-converter operates as a six-pulse converter under which
+condition?
+Ans
+1. When the firing angle α is less than 60°
+2. When the firing angle α is equal to 120°
+3. When the firing angle α is greater than 90°
+4. When the firing angle α is greater than 60°
+Question ID : 4410091564128
+Q.97 In a Constant Frequency System of Time Ratio Control in chopper operation, how is
+the average output voltage varied?
+Ans
+1. By keeping the ON-time (TON) constant and varying the OFF-time (TOFF)
+2. By varying the ON-time (TON) while keeping the total time period (T) constant
+3. By varying both TON and TOFF while keeping their ratio constant
+4. By varying the total time period (T) while keeping TON (ON Time) constant
+Question ID : 4410091550660
+Q.98 A designer needs a gate that outputs HIGH only when both inputs are identical,
+regardless of whether they are LOW or HIGH. Which gate should be chosen?
+Ans
+1. NAND
+2. XNOR
+3. AND
+4. NOR
+Question ID : 4410091792326
+Q.99 Which modification in JK flip-flop design removes the possibility of race-around
+condition even when J = K = 1?
+Ans
+1. Using edge triggering
+2. Using NAND gates at outputs
+3. Reducing clock frequency
+4. Increasing propagation delay
+Question ID : 4410091576283
+
+
+=== PAGE 28 ===
+"
+Q.100 A hydro power plant has a head of 50 meters and water is discharged at a rate of 600
+cubic meters per second for electricity generation. It generates an output power of
+255 megawatts. What is the efficiency of the plant?
+{Note: Take acceleration due to gravity, g = 10 m/s2}
+Ans
+1. 95%
+2. 85%
+3. 65%
+4. 75%
+Question ID : 4410091572681

@@ -1,0 +1,1124 @@
+=== PAGE 1 ===
+Q.1
+Which of the following letter-number clusters will replace the question mark (?) in
+the given series to make it logically complete?
+AWE97, JFN105, SOW113, BXF121, ?
+Ans
+1. KHO129
+2. KGO129
+3. EGO129
+4. KGP129
+Question ID : 441009324256
+Chosen Option : 2
+Q.2
+A, B, C, D, E, F and G are sitting around a circular table facing the centre. Only two
+people sit between A and B when counted from the right of A. Only two people sit
+between B and E. Only three people sit between A and G. F sits to the immediate
+left of C. How many people sit between E and F when counted from the left of F?72
+Ans
+1. Two
+2. One
+3. Three
+4. Four
+Question ID : 441009774085
+Chosen Option : 2
+Q.3
+Select the number from among the given options that can replace the question
+mark (?) in the following series.
+13, 18, 28, 43, 63, ?
+Ans
+1. 86
+2. 88
+3. 90
+4. 84
+Question ID : 441009140864
+Chosen Option : 2
+AP Vidyut Recruitment Exam 23rd to 27th Aug 2026
+Hall Ticket Number
+APVR0048215
+Participant Name
+VINEETH HARSHAN
+Test Center Name
+KSRM College of Engineering
+Test Time
+9:00 AM - 12:00 PM
+Test Date
+27/08/2026
+Subject
+Electrical Engineering
+Section : General Intelligence and Reasoning
+
+
+=== PAGE 2 ===
+Q.4
+Refer to the following number, symbol series and answer the question. All numbers
+are single-digit numbers.
+(Left) % 8 4 # @ 5 & 9 3 Σ 2 Ω 1 7 * $ 6 ^ (Right)
+If all the symbols are dropped from the series, which of the following will be sixth
+from the right?
+Ans
+1. 3
+2. 5
+3. 2
+4. 9
+Question ID : 441009796131
+Chosen Option : 4
+Q.5
+Which of the following letter-number clusters will replace the question mark (?) in
+the given series to make it logically complete?
+SXC53, BGL44, KPU35, TYD26, ?
+Ans
+1. CHM17
+2. CIM17
+3. CHM16
+4. DHM17
+Question ID : 441009622
+Chosen Option : 1
+Q.6
+Who was elected to the British House of Commons in 1892 and played a key role in
+presenting the Indian viewpoint through the British Committee of the Indian
+National Congress?
+Ans
+1. G.K. Gokhale
+2. Dadabhai Naoroji
+3. Subramania Iyer
+4. Mahadev Govind Ranade
+Question ID : 44100968588
+Chosen Option : 2
+Q.7
+What is the theme for National Technology Day 2026?
+Ans
+1. Science and Technology for Sustainable Future
+2. Responsible Innovation for Inclusive Growth
+3. Digital India for a New Era
+4. Integrated Approach in S&T for Sustainable Future
+Question ID : 441009310611
+Chosen Option : 4
+Section : General awareness
+
+
+=== PAGE 3 ===
+Q.8
+Which type of unemployment is commonly found in rural agricultural areas in India?
+Ans
+1. Seasonal Unemployment
+2. Structural Unemployment
+3. Cyclical Unemployment
+4. Frictional Unemployment
+Question ID : 44100969978
+Chosen Option : 1
+Q.9
+The Charter Act of 1833 is notable because of which of the following?
+Ans
+1. Granted dominion status to British Indian territories
+2. Established provincial autonomy in major presidencies
+3. Introduced separate electorates for religious communities
+4. Abolished the East India Company's trade monopoly
+Question ID : 4410092115938
+Chosen Option : 3
+Q.10 Which one of the following is NOT a biosphere reserve of India recognised by
+UNESCO’s Man and the Biosphere (MAB) programme as of July, 2026?
+Ans
+1. Nanda Devi Biosphere Reserve
+2. Jim Corbett Biosphere Reserve
+3. Gulf of Mannar Biosphere Reserve
+4. Simlipal Biosphere Reserve
+Question ID : 4410092115944
+Chosen Option : 4
+Q.11 In which state is the famous Pattachitra painting tradition primarily practiced?
+Ans
+1. Assam
+2. Kerala
+3. Odisha
+4. Nagaland
+Question ID : 44100980722
+Chosen Option : 3
+Q.12 Which climatic factor and plant adaptation best explain the distribution of tropical
+deciduous forests in India?
+Ans
+1. Seasonal variation in rainfall determines leaf shedding and regeneration
+2. Soil salinity controls species adaptation in the region
+3. Proximity to rivers affects forest density and diversity
+4. Altitude influences plant composition and distribution
+Question ID : 4410092258042
+Chosen Option : 4
+Section : English
+
+
+=== PAGE 4 ===
+Comprehension:
+Read the passage carefully and answer the questions that follow.
+The rapid proliferation of AI-generated deepfakes has transformed misinformation from an issue
+of content verification into one of institutional trust. While advances in artificial intelligence have
+expanded opportunities for creativity and communication, they have simultaneously enabled
+highly convincing fabrications capable of influencing elections, financial markets, and public
+opinion. Consequently, governments are increasingly complementing legal sanctions with
+technological authentication systems, digital literacy initiatives, and international cooperation.
+Yet experts argue that no regulatory framework can remain effective unless citizens themselves
+develop the capacity to evaluate digital content critically. Moreover, independent journalism,
+transparent platform governance, and continuous public awareness campaigns are becoming
+indispensable safeguards against sophisticated digital manipulation. The challenge, therefore,
+extends beyond detecting manipulated media to cultivating resilient democratic institutions
+capable of sustaining public confidence despite increasingly sophisticated forms of digital
+deception.
+SubQuestion No : 13
+Q.13 Which of the following best expresses the central theme of the passage?
+Ans
+1. Combating AI-generated misinformation requires strengthening institutional resilience
+and public critical literacy alongside technological and legal countermeasures.
+2. The principal consequence of deepfake technology lies in disrupting financial markets
+rather than undermining democratic institutions and public confidence generally.
+3. International cooperation has become the primary solution to digital deception since
+domestic institutions lack meaningful authority over emerging artificial-intelligence
+technologies.
+4. Artificial intelligence has made digital misinformation inevitable because technological
+innovation consistently advances more rapidly than governmental regulatory interventions
+worldwide.
+Question ID : 4410092413879
+Chosen Option : 1
+Comprehension:
+Read the passage carefully and answer the questions that follow.
+The rapid proliferation of AI-generated deepfakes has transformed misinformation from an issue
+of content verification into one of institutional trust. While advances in artificial intelligence have
+expanded opportunities for creativity and communication, they have simultaneously enabled
+highly convincing fabrications capable of influencing elections, financial markets, and public
+opinion. Consequently, governments are increasingly complementing legal sanctions with
+technological authentication systems, digital literacy initiatives, and international cooperation.
+Yet experts argue that no regulatory framework can remain effective unless citizens themselves
+develop the capacity to evaluate digital content critically. Moreover, independent journalism,
+transparent platform governance, and continuous public awareness campaigns are becoming
+indispensable safeguards against sophisticated digital manipulation. The challenge, therefore,
+extends beyond detecting manipulated media to cultivating resilient democratic institutions
+capable of sustaining public confidence despite increasingly sophisticated forms of digital
+deception.
+SubQuestion No : 14
+Q.14 Which of the following situations best reflects the principle advanced in the
+passage?
+Ans
+1. A country permanently prohibits artificial-intelligence research, expecting technological
+restrictions alone to eliminate fabricated digital content across online platforms.
+2. Public institutions rely exclusively upon criminal penalties against content creators while
+disregarding digital-literacy programmes and technological verification mechanisms completely.
+3. Social-media companies remove every controversial post automatically, assuming that
+extensive censorship inevitably strengthens democratic trust among citizens over time.
+4. A government introduces verified digital-content authentication, media-literacy
+education, and coordinated regulations to reduce misinformation during national elections.
+Question ID : 4410092413880
+Chosen Option : 4
+
+
+=== PAGE 5 ===
+Q.15 Complete the following using suitable option for the direct speech.
+He said, "Mother, can I please have a chocolate?"
+He_
+Ans
+1. requested his mother asking her if he could have a chocolate.
+2. asked his mother requesting her if he could have a chocolate.
+3. requested mother asking her if he could have a chocolate.
+4. requested his mother for a chocolate.
+Question ID : 4410091690213
+Chosen Option : 2
+Q.16 Complete the following sentence by choosing the correct option.
+In academic writing, it is important to avoid ____ language that could mislead
+readers.
+Ans
+1. explicit
+2. coherent
+3. ambiguous
+4. concise
+Question ID : 4410091711093
+Chosen Option : 4
+Q.17 Substitute one word for the given underlined segment by choosing from the
+following options.
+International organizations often distribute decision-making authority away from a
+central government to regional or local bodies to increase administrative efficiency.
+Ans
+1. consolidate
+2. devolve
+3. ratify
+4. annex
+Question ID : 4410091713148
+Chosen Option : 4
+Q.18 On a circular track of length 2340 m, Raman completes one round in 45 seconds
+and Mohan completes one round in 130 seconds. If they start together and run in
+the same direction, how many different meeting points will occur on the
+circumference?
+Ans
+1. 26
+2. 17
+3. 14
+4. 20
+Question ID : 441009538574
+Chosen Option : 4
+Section : Quantitative aptitude
+
+
+=== PAGE 6 ===
+Q.19 A water tank built by a municipality to supply water to 28,000 inhabitants at the rate
+of 125 litres per person per day is 48 m long and 35 m broad. When the tank is full,
+it can supply water for 4 days to the inhabitants of the town. Find the depth of the
+tank. (Round off to two decimal places.)
+Ans
+1. 6.22 m
+2. 8.33 m
+3. 7.34 m
+4. 9.56 m
+Question ID : 4410091556680
+Chosen Option : 2
+Q.20 Three friends P, Q and R started a business by investing a sum of money in the ratio
+of 2 : 4 : 7. After 6 months Q withdraws half of his capital. If the sum invested by P
+is ₹32000, out of a total annual profit of ₹78000 find the share of Q in profit.9699
+Ans
+1. ₹20935
+2. ₹19785
+3. ₹20050
+4. ₹19500
+Question ID : 441009548026
+Chosen Option : 4
+Q.21 What is the difference between the average of prime numbers between 40 and 70
+and the average of multiples of 5 between 20 and 50?
+Ans
+1. 18
+2. 10
+3. 21
+4. 12
+Question ID : 441009580941
+Chosen Option : 1
+Q.22 The monthly incomes of two friends, Salil and Mukund, are in the ratio 3 : 4. Each of
+them saves ₹24,000 every month. If the ratio of their monthly expenditures is 1 : 4,
+find the monthly income of Salil (in ₹).
+Ans
+1. 28,000
+2. 37,800
+3. 26,000
+4. 27,000
+Question ID : 441009854151
+Chosen Option : 4
+
+
+=== PAGE 7 ===
+Q.23 Two taps can fill a cistern in 2 hours and 43 hours, respectively. A third tap can
+empty it in 43 hours. How long (in hours) will it take to fill half of the empty cistern,
+if all of them are opened together?
+Ans
+1. 2
+2. 1
+3. 4
+4. 3
+Question ID : 441009518585
+Chosen Option : 2
+Q.24 Find the simple interest (in ₹) if a sum of ₹500 is borrowed for 7.5 years at 16% per
+annum rate of interest.777
+Ans
+1. 600
+2. 650
+3. 700
+4. 580
+Question ID : 441009852059
+Chosen Option : 1
+Q.25 Two ropes of lengths 84 metres and 126 metres are to be cut into pieces of equal
+length. What is the greatest possible length of each piece?
+Ans
+1. 56 metres
+2. 21 metres
+3. 42 metres
+4. 84 metres
+Question ID : 4410093721
+Chosen Option : 3
+Q.26 If you need to calculate the average of values in a list where only certain entries
+meet a specific condition, which Excel function is most appropriate?
+Ans
+1. MAX
+2. COUNT
+3. SUM
+4. AVERAGEIF
+Question ID : 4410092273012
+Chosen Option : 4
+Section : Computer knowledge
+
+
+=== PAGE 8 ===
+Q.27 Which statement best describes a Wide Area Network (WAN)?
+Ans
+1. It links devices limited to one room
+2. It is used only for sharing resources in one classroom
+3. It connects computers over large geographical areas
+4. It connects devices only within a single building
+Question ID : 4410092272834
+Chosen Option : 3
+Q.28 Which option should you choose to apply a template only to certain slides and not
+the whole presentation in MS PowerPoint?
+Ans
+1. Use Reset Slide option in Home tab
+2. Click the theme to apply to all slides
+3. Right-click the theme and select Apply to Selected Slides
+4. Apply template from File menu
+Question ID : 4410092158547
+Chosen Option : 3
+Q.29 A user needs to quickly locate a presentation file created last month but cannot
+recall its name. Which approach most efficiently utilizes Windows OS features to
+narrow down results within the Documents folder?
+Ans
+1. Sort the Documents folder by file size to locate large files
+2. Manually browse each subfolder inside Documents
+3. Apply a date filter in the search box to restrict results to last month’s files
+4. Search by file extension in the Documents folder
+Question ID : 4410092276309
+Chosen Option : 3
+Q.30 An architect is updating a project proposal using a word processor. To emphasize
+specific legal clauses, she chooses to apply a particular formatting style. Which
+action would most effectively ensure these clauses are consistently highlighted
+throughout the document, even if the text is later edited or new content is inserted?
+Ans
+1. Creating a custom header for each legal clause and updating as needed
+2. Using the format painter tool on each clause once content is finalized
+3. Assigning a predefined style to each clause before making further edits
+4. Manually changing the font color of each clause after editing
+Question ID : 4410092276329
+Chosen Option : 1
+Section : Electrical Engineering
+
+
+=== PAGE 9 ===
+Q.31 In an AC induction motor drive, the relation between the torque, Te, and the stator
+supply voltage, V1, is ______.
+Ans
+1. 
+2. Te ∝ V1
+2
+3. Te ∝ V1
+4. 
+Question ID : 441009111605
+Chosen Option : 2
+Q.32 A DC potentiometer is used for the measurement of an unknown resistance. During
+measurement, following readings were observed:
+Voltage drop across unknown resistance = 0.6125 V.
+Voltage drop across 0.1 Ω standard resistance = 1.225 V.
+What is the value of the unknown resistance?
+Ans
+1. 0.2 Ω
+2. 0.02 Ω
+3. 0.5 Ω
+4. 0.05 Ω
+Question ID : 4410091536506
+Chosen Option : 4
+Q.33 The working principle of a single-phase transformer is based on:
+Ans
+1. Electrostatic induction
+2. Self-induction
+3. Lorentz force law
+4. Mutual induction
+Question ID : 4410091557275
+Chosen Option : 4
+Q.34 What are the two parameters that can be adjusted to balance the unknown voltage
+in a Drysdale Polar Potentiometer?
+Ans
+1. Magnitude and Frequency of the voltage
+2. Resistive and Inductive components of the voltage
+3. Real and Imaginary components of the voltage
+4. Magnitude and Phase angle of the voltage
+Question ID : 4410091544790
+Chosen Option : 1
+
+
+=== PAGE 10 ===
+Q.35 Which method is commonly used to improve the load-bearing capacity of weak
+soils under substation foundations?
+Ans
+1. Increasing foundation weight
+2. Compaction of the soil layers
+3. Using lighter transmission towers
+4. Widening the pedestal above foundation level
+Question ID : 4410091813275
+Chosen Option : 4
+Q.36 A GTO is used as a controlled switch in a forced-commutated converter. A junior
+engineer assumes that once the commutation circuit forces the anode current to
+zero, no further gate action is required. Under which of the following conditions
+would this assumption lead to unreliable operation?
+Ans
+1. When the gate-cathode junction is reverse biased after GTO turn-off
+2. When there is large amount of stored charge present in the GTO after turn-off
+3. When the GTO operates at low switching frequency
+4. When a snubber circuit is connected across the GTO
+Question ID : 4410091555229
+Chosen Option : 2
+Q.37 In an AC clamp-on meter, which component functions as the 'single-turn primary
+winding'?
+Ans
+1. The secondary coil inside the meter's jaws.
+2. The internal circuitry of the meter.
+3. The iron core in the jaws.
+4. The conductor (wire) being clamped around.
+Question ID : 4410091544753
+Chosen Option : 4
+Q.38 What is meant by the statement that "no part of the power cycle at any time
+becomes negative" in a purely resistive circuit?
+Ans
+1. The current is very small.
+2. The circuit has a large inductive or capacitive component.
+3. The circuit only uses DC power.
+4. All the electrical energy supplied by the source is continuously dissipated as heat.
+Question ID : 4410091546011
+Chosen Option : 4
+
+
+=== PAGE 11 ===
+Q.39 The primary operating principle of a DC potentiometer relies on _______________.
+Ans
+1. Ohm's Law, measuring the voltage drop across a known resistance.
+2. The electromagnetic induction, generating a counter-EMF to balance the unknown
+voltage.
+3. Kirchhoff's Current Law, ensuring that the current in the circuit remains constant.
+4. Comparing an unknown EMF with a known reference voltage using a null-deflection
+method.
+Question ID : 4410091544797
+Chosen Option : 3
+Q.40 Which of the following statements best explains why Kirchhoff’s Voltage Law (KVL)
+holds true in a closed electrical loop?
+Ans
+1. Because charge accumulate at any point in an ideal conducting loop
+2. Because electric energy supplied and consumed around a closed path must sum to zero
+3. Because the magnetic flux linking the loop is always constant in all practical circuits
+4. Because the algebraic sum of all electric currents entering a node must be zero
+Question ID : 4410091557371
+Chosen Option : 2
+Q.41 A Hay's bridge used for measuring the inductance (L1) and resistance (R1) of a coil
+is balanced at 500 Hz. If the frequency is shifted to 1000 Hz without changing any
+bridge components, which of the following is true?
+Ans
+1. The bridge becomes unbalanced because the balancing expressions for L1 and R1
+involve the frequency term.
+2. The balance point remains the same if the quality factor is less than 10.
+3. The bridge remains balanced because the ratio of impedances is constant.
+4. Only the balance point for resistance R1 is affected by the change in frequency.
+Question ID : 4410091533492
+Chosen Option : 3
+Q.42 For a 1-line to 4-line DEMUX with data input D, select bits S1 (MSB), S0 (LSB) and
+active-high outputs Y3…. Y0, when S1S0 = 10 and D = 1, the output pattern of Y3 Y2
+Y1 Y0 is ______.
+Ans
+1. 1000
+2. 0001
+3. 0100
+4. 0010
+Question ID : 4410091558269
+Chosen Option : 4
+
+
+=== PAGE 12 ===
+Q.43 Which of the following statements describes the output behaviour of a NOT gate
+when the input signal changes from LOW to HIGH?
+Ans
+1. The output transitions from HIGH to LOW.
+2. The output becomes undefined.
+3. The output transitions from LOW to HIGH.
+4. The output remains unchanged.
+Question ID : 4410091792310
+Chosen Option : 1
+Q.44 In order to maintain constant flux in the motor during stator frequency control, the
+inverter must _________
+Ans
+1. Vary stator voltage proportionally with frequency
+2. Use PWM to eliminate harmonics
+3. Increase stator current with frequency
+4. Keep stator voltage constant
+Question ID : 4410091559996
+Chosen Option : 1
+Q.45 In Parallel (R-L and C) circuit, what is the value of effective impedance and Q-factor
+at resonance?
+Ans
+1. 
+2. 
+3. 
+4. 
+Question ID : 4410091546003
+Chosen Option : 2
+Q.46 At resonance, the impedance of a series RLC circuit is _________________.
+Ans
+1. Minimum
+2. Equal to capacitive reactance
+3. Equal to inductive reactance
+4. Maximum
+Question ID : 4410091546061
+Chosen Option : 1
+
+
+=== PAGE 13 ===
+Q.47 A designer must build a 3-bit asynchronous mod-5 counter using T flip-flops, where
+each flip-flop toggles when driven by the output of the previous stage. Which
+design choice ensures correct recycling from the invalid states 101₂, 110₂, and 111₂
+back to 000₂?
+Ans
+1. Use combinational decoding of 101₂ to produce an asynchronous clear
+2. Use a toggle-enable gate on the LSB controlled by the decoded state 010₂
+3. Use a synchronous load input triggered by 101₂
+4. Use an asynchronous preset to force the MSB high when the count reaches 011₂
+Question ID : 4410091538916
+Chosen Option : 4
+Q.48 A parallel RLC network is operating slightly below its resonant frequency. Which of
+the following statements correctly describes its behavior?
+Ans
+1. The circuit appears capacitive and its impedance increases as frequency approaches
+resonant frequency
+2. The circuit appears inductive but its impedance remains constant as frequency
+approaches resonant frequency
+3. The circuit appears capacitive and its impedance decreases as frequency approaches
+resonant frequency
+4. The circuit appears inductive and its impedance increases as frequency approaches
+resonant frequency
+Question ID : 4410091565484
+Chosen Option : 4
+Q.49 In a 25 kV AC traction system, the neutral section is provided primarily to _________.
+Ans
+1. Allow regenerative braking without interference
+2. Prevent circulating currents between adjacent substations
+3. Reduce corona losses in overhead lines
+4. Minimize voltage drop during peak load
+Question ID : 4410091559622
+Chosen Option : 1
+
+
+=== PAGE 14 ===
+Q.50 The power system shown in the given figure has the ratings and per unit
+reactances of all the components as given below. All the resistances have been
+neglected, and the per unit reactance of each component has been calculated on
+its respective rated values. The transmission line reactance is 9.68 Ω. Identify the
+correct per-unit reactance diagram of the system from the given options, taking a
+common base of 50 MVA and taking base voltage for the line section as 220 kV
+(line-to-line) and base voltages for other sections taken accordingly.
+Ans
+1. 
+2. 
+3. 
+
+
+=== PAGE 15 ===
+4. 
+Question ID : 4410091572732
+Chosen Option : 1
+Q.51 Which of the following construction practices is most effective in minimizing the
+risk of honeycombing in concrete foundations for substations?
+Ans
+1. Ensuring proper vibration during placing
+2. Using larger aggregate
+3. Increasing water-cement ratio
+4. Reducing cement content
+Question ID : 4410091816701
+Chosen Option : 1
+Q.52 If the peak current (Im) in a half wave rectifier circuit is 10 A, what is the average
+output current (I)?
+Ans
+1. I = 10 A
+2. I = 10 / π A
+3. I = 5 A
+4. I = 20 / π A
+Question ID : 4410091809811
+Chosen Option : 2
+Q.53 Which of the following is a key advantage of indirect resistance heating over direct
+resistance heating?
+Ans
+1. Elimination of the need for insulation
+2. Higher efficiency due to direct current flow
+3. Reduced thermal losses in the heating element
+4. Ability to heat non-conducting materials uniformly
+Question ID : 4410091555735
+Chosen Option : 4
+
+
+=== PAGE 16 ===
+Q.54 Choose the correct statements for the peak detector circuit.
+S1: A basic peak detector circuit usually consists of diode and capacitor.
+S2: The output of an ideal peak detector is the maximum value of the input.
+S3: The time constant of a peak detector is only C.
+Ans
+1. Only S1 and S3.
+2. Only S1 and S2.
+3. S1,S2 and S3
+4. Only S3 and S2.
+Question ID : 4410091562491
+Chosen Option : 3
+Q.55 What would happen to the armature current of a DC motor if the back EMF is
+suddenly lost or drops drastically (becomes close to zero) while the supply voltage
+remains constant?
+Ans
+1. It would decrease to a much lower value.
+2. It would become dangerously high.
+3. It would keep fluctuating slightly in value for some time before settling on a lower value.
+4. It would remain at nearly the same value as before.
+Question ID : 4410091545934
+Chosen Option : 2
+Q.56 If surface water naturally drains toward a proposed construction site for a
+foundation, which site preparation measure is most effective to prevent water-
+related problems?
+Ans
+1. Reduce foundation dimensions to minimize water exposure
+2. Provide drains or grade the ground to divert water away
+3. Increase foundation depth and use coarse fill at the base
+4. Add sand or gravel layers to improve surface drainage without grading
+Question ID : 4410091813259
+Chosen Option : 4
+Q.57 The self GMD (Geometric Mean Distance) of a conductor used in transmission line
+inductance calculation is equivalent to ________.
+Ans
+1. The spacing distance value measured between the two conductors in the line
+2. The arithmetic mean radius value calculated from conductor diameters
+3. The geometric mean radius value defined for the conductor geometry
+4. The physical radius value considered for the conductor geometry
+Question ID : 4410091563932
+Chosen Option : 3
+
+
+=== PAGE 17 ===
+Q.58 In the transient response of a second order system, delay time td is the time
+required for the response to reach the ______ of the final value the very first time.
+Ans
+1. 10%
+2. 50%
+3. 95%
+4. 90%
+Question ID : 4410091661140
+Chosen Option : 2
+Q.59 A 10-bit DAC has a full-scale output voltage of 10.23 V. What is its resolution in
+mV?
+Ans
+1. 20 mV
+2. 100 mV
+3. 10 mV
+4. 1 mV
+Question ID : 4410091562912
+Chosen Option : 2
+Q.60 In a three-phase dual converter drive, the positive converter determines the motor’s
+operation in which of the following modes?
+Ans
+1. Zero-torque holding mode
+2. Forward rotation of the motor
+3. Regenerative braking in reverse direction
+4. Reverse motoring mode
+Question ID : 4410091555223
+Chosen Option : 3
+Q.61 Which property of building bricks makes them suitable for accommodating
+electrical conduits?
+Ans
+1. Electrical conductivity for grounding purposes
+2. High thermal conductivity for heat dissipation
+3. Uniform shape and adequate compressive strength
+4. High porosity for better ventilation
+Question ID : 4410091787031
+Chosen Option : 2
+
+
+=== PAGE 18 ===
+Q.62 Two identical single-phase induction motors operate at the same speed and load,
+but one draws higher input power under no-load conditions. From the standpoint of
+equivalent circuit modeling, which of the following factors can be the cause for this
+difference?
+Ans
+1. Greater rotor copper losses due to increased slip
+2. Increased mechanical friction due to bearing wear
+3. Larger backward field current due to phase imbalance
+4. Higher magnetic losses in the stator due to core properties
+Question ID : 4410091549472
+Chosen Option : 2
+Q.63 Consider the circuit shown, where the input voltage is v(t) = 4 u(t-3) V and the
+resistor value is R = 8 Ω. What will be the expression for the current I(s) in the s-
+domain (obtained using Laplace Transform)?
+Ans
+1. 
+2. 
+3. 
+4. 
+Question ID : 4410091565110
+Chosen Option : 1
+Q.64 Consider a 1-to-4 demultiplexer where the data input is permanently tied to logic '1.'
+If the selection lines are driven by two binary variables, X and Y, which of the
+following standard combinational logic functions does this circuit strictly perform?
+Ans
+1. 4-to-2 Encoder
+2. 2-bit Magnitude Comparator
+3. 2-to-4 Decoder
+4. 4-to-1 Multiplexer
+Question ID : 4410091538805
+Chosen Option : 2
+
+
+=== PAGE 19 ===
+Q.65 ___________________ is primarily impacted by hysteresis loss.
+Ans
+1. Mechanical efficiency
+2. Magnetic parts of electrical machines
+3. Voltage stability
+4. Cooling system
+Question ID : 4410091545439
+Chosen Option : 2
+Q.66 In an asynchronous BCD ripple counter consisting of four flip-flops, if the
+propagation delay of a single flip-flop is tpd = 20 ns, what is the theoretical
+maximum input clock frequency fmax allowed to ensure the counter reads the
+transition from State 9 (1001) to State 0 (0000) correctly without decoding errors?
+Ans
+1. 25 MHz
+2. 50 MHz
+3. 100 MHz
+4. 12.5 MHz
+Question ID : 4410091538909
+Chosen Option : 4
+Q.67 For a second-order system with natural frequency ωn​ and damping ratio ζ, what is
+the effect on the resonant frequency ωr if ωn​ is held constant while ζ is increased?
+Ans
+1. ωr decreases
+2. ωr​ becomes imaginary
+3. ωr remains unchanged
+4. ωr increases
+Question ID : 4410091553411
+Chosen Option : 3
+Q.68 Campbell’s modification of Heaviside bridge is used for accurate measurement of:
+Ans
+1. Self-inductance in terms of mutual inductance
+2. Capacitance
+3. Dielectric strength
+4. Resistance
+Question ID : 4410091547311
+Chosen Option : 1
+
+
+=== PAGE 20 ===
+Q.69 A civil engineer must select a concrete mix for a substation foundation in a cold
+region. Which of the following measures should be prioritized to ensure long-term
+durability?
+Ans
+1. Reduce mixing water to the lowest possible level
+2. Add steel fibers to enhance crack-bridging flexibility
+3. Increase cement content to maximize paste strength only
+4. Use air-entrained concrete to improve freeze–thaw resistance
+Question ID : 4410091790943
+Chosen Option : 4
+Q.70 During a Gauss-Seidel iteration, if a PV (or voltage-controlled) bus's reactive power
+surpasses certain limits, the bus is transformed into _________.
+Ans
+1. Slack bus
+2. Transmission bus
+3. PQ (or load) bus
+4. Swing bus
+Question ID : 4410091547042
+Chosen Option : 3
+Q.71 When excitation of an alternator operating in parallel is increased, its:
+Ans
+1. Real power increases
+2. Frequency increases
+3. Speed increases
+4. Reactive Power Increases
+Question ID : 4410091555053
+Chosen Option : 4
+Q.72 In 120° mode VSI, how many switches conduct at a time?
+Ans
+1. Two
+2. Three
+3. One
+4. All six
+Question ID : 4410091564033
+Chosen Option : 1
+Q.73 What is the primary function of a SCADA system in industrial automation?
+Ans
+1. To manufacture sensors
+2. To increase energy consumption
+3. To replace human operators entirely
+4. To monitor and control industrial processes
+Question ID : 4410091805400
+Chosen Option : 4
+
+
+=== PAGE 21 ===
+Q.74 "Any set of n-phase unbalanced system can be resolved into (n-1) balanced
+systems and 1 zero sequence system". Which theorem has this statement?
+Ans
+1. Fortesque's theorem
+2. Voltage balancing theorem
+3. Sequence analyzing theorem
+4. Forte's theorem
+Question ID : 4410091560727
+Chosen Option : 1
+Q.75 A double cage rotor in a three-phase induction motor is designed to improve
+starting torque and running efficiency. What is the relative resistance of the two
+cages?
+Ans
+1. the inner cage has high resistance and outer cage has low resistance.
+2. both the cages have low resistances.
+3. both the cages have high resistances.
+4. the inner cage has low resistance and outer cage has high resistance.
+Question ID : 4410091545694
+Chosen Option : 4
+
+
+=== PAGE 22 ===
+Q.76 Assuming the diode to be ideal, choose the correct output
+waveform.
+Ans
+1. 
+2. 
+3. 
+4. 
+Question ID : 4410091567081
+Chosen Option : 1
+
+
+=== PAGE 23 ===
+Q.77 The critical clearing angle refers to:
+Ans
+1. Angle at which transmission line trips
+2. Generator excitation angle
+3. Minimum load angle
+4. Maximum rotor angle permissible before losing synchronism
+Question ID : 4410091561273
+Chosen Option : 4
+Q.78 Which among the following is a commonly used industrial IGBT structure?
+Ans
+1. Punch-Through IGBT
+2. Schottky IGBT
+3. BJT
+4. MCT
+Question ID : 4410091563097
+Chosen Option : 1
+Q.79 If the Nyquist plot does not encircle the point (–1, 0), the system is ________.
+Ans
+1. Stable only if it crosses real axis
+2. Stable if open-loop has no Right Half Plane (RHP) poles
+3. Always unstable
+4. Always marginally stable
+Question ID : 4410091554072
+Chosen Option : 2
+Q.80 Which of the following is the primary effect of source impedance in a single-phase
+full converter?
+Ans
+1. Reduction in average output voltage
+2. Increase in average output voltage
+3. No change in output voltage
+4. Increase in harmonic distortion only
+Question ID : 4410091550393
+Chosen Option : 1
+
+
+=== PAGE 24 ===
+Q.81 Consider a series clipper designed to pass signals above a reference level Vref​ and
+clip everything below it. A silicon diode having a cut-in voltage of 0.7 V has its
+anode connected to the input Vin​ and its cathode connected to the output, as
+shown in the figure. A load resistor RL​ connects the output node to a voltage of −5
+V. The input is a sinusoid with a peak amplitude of 10 V. What is the voltage level of
+the "flat" portion of the output waveform?
+Ans
+1. −5.0 V
+2. −5.7 V
+3. −4.3 V
+4. 0 V
+Question ID : 4410091528664
+Chosen Option : 2
+Q.82 A good-quality electric weld should have:
+Ans
+1. Uniform strength and free from cracks
+2. High internal stresses
+3. Poor fusion at joint surfaces
+4. Brittle structure and porosity
+Question ID : 4410091562228
+Chosen Option : 1
+
+
+=== PAGE 25 ===
+Q.83 The frequency response of a linear system G(jω) is provided in
+the tubular form below.
+G(jω)
+1.3
+1.2
+1.0
+0.8
+0.5
+0.3
+∠G(jω)
+-130°
+-140°
+-150°
+-160°
+-180°
+-200
+The approximate gain margin and phase margin of the system
+are _________.
+Assume following log values with base 10:
+Log 2 = 0.3010: Log 3 = 0.4771: Log 4 = 0.6020.
+Ans
+1. -6 db and -30°
+2. 6 db and -30°
+3. 6 db and 30°
+4. -6 db and 30°
+Question ID : 4410091661806
+Chosen Option : 3
+Q.84 Increasing the number of pulses in a PWM strategy reduces:
+Ans
+1. Harmonic distortion
+2. Switching frequency
+3. Fundamental component
+4. Output voltage
+Question ID : 4410091563134
+Chosen Option : 2
+Q.85 In a digital system, which logic function will result when the outputs of two NOR
+gates are fed as inputs to a third NOR gate? (Assume each of the first two NOR
+gates is used as an inverter)
+Ans
+1. The logic function is equivalent to an OR gate.
+2. The logic function is equivalent to an AND gate.
+3. The logic function is equivalent to a NAND gate.
+4. The logic function is equivalent to an XOR gate.
+Question ID : 4410091792301
+Chosen Option : 2
+
+
+=== PAGE 26 ===
+Q.86 For the circuit given below, find the equivalent resistance between the terminals
+'ab'.
+Ans
+1. 22.5 Ω
+2. 7.5 Ω
+3. 30 Ω
+4. 15 Ω
+Question ID : 4410091554848
+Chosen Option : 2
+Q.87 High torque–to-weight ratio in PMMC meters results in:
+Ans
+1. Higher deflecting torque for a given current, improving scale sensitivity and accuracy
+2. More rapid and steady pointer settling due to effective electromagnetic damping
+3. Increased ability of the moving coil to withstand momentary overload currents
+4. Increased ability of the instrument to measure alternating current without additional
+circuitry
+Question ID : 4410091545855
+Chosen Option : 1
+Q.88 Which feature most directly allows electrodynamometer instruments to remain free
+from hysteresis and eddy current errors?
+Ans
+1. High-permeability laminated iron cores
+2. Permanent magnet flux system
+3. Aluminium damping drum around the coil
+4. Air-cored fixed and moving coils
+Question ID : 4410091537599
+Chosen Option : 4
+Q.89 What is the main advantage of feeding a distributor from both ends compared to
+only using one end?
+Ans
+1. A significantly reduced voltage drops.
+2. It decreases load-carrying capacity.
+3. A simpler protection system.
+4. The distributor is guaranteed to never fail.
+Question ID : 4410091547491
+Chosen Option : 1
+
+
+=== PAGE 27 ===
+Q.90 Choose the correct statement for the effect of derivative-D controller in the control
+system.
+S1: Steady state error increases by the derivative control action.
+S2: The effective damping is increased in the D controller.
+S3: The maximum overshoot reduces.
+Ans
+1. Only S2 and S3.
+2. S1,S2 and S3
+3. Only S2 and S1.
+4. Only S1 and S3.
+Question ID : 4410091563378
+Chosen Option : 3
+Q.91 Select the option that is true regarding the following two statements about low-
+frequency three-phase traction supply, labelled Assertion (A) and Reason (R).
+Assertion (A): A transformer is not required in the locomotive in a three-phase low-
+frequency supply system.
+Reason (R): The line voltage used in this system is already suitable for feeding the
+induction motor.
+Ans
+1. Statements A and R are both true, but R is not the correct explanation of A.
+2. Statements A and R are both true, and R is the correct explanation of A.
+3. Statement A is false, but statement R is true.
+4. Statement A is true, but statement R is false.
+Question ID : 4410091555201
+Chosen Option : 1
+Q.92 Voltage-shunt feedback results in ________.
+Ans
+1. No effect
+2. Decreased input impedance
+3. Increased input impedance
+4. Increased output impedance
+Question ID : 4410091553576
+Chosen Option : 2
+Q.93 For the transfer function 
+ , the asymptotic magnitude slope for
+ω >> 10 is_____
+Ans
+1. -20 dB/decade
+2. 0 dB/decade
+3. -40 dB/decade
+4. +20 dB/decade
+Question ID : 4410091576392
+Chosen Option : 1
+
+
+=== PAGE 28 ===
+Q.94 The capacitance between two conductors in a 3-core cable is measured by _______.
+Ans
+1. Measuring each conductor separately with respect to sheath
+2. Measuring all three conductors together against the sheath
+3. Connecting the 3rd conductor and sheath together to form a common return
+4. Using only the sheath as one terminal and conductor as the other
+Question ID : 4410091565336
+Chosen Option : 3
+Q.95 The base values typically selected while calculating per-unit reactance (or any per-
+unit quantity) for a power system are __________.
+Ans
+1. kVA and kV
+2. kW and ohm
+3. Resistance and quality factor
+4. Current and power factor
+Question ID : 4410091547044
+Chosen Option : 1
+Q.96 In a clamper circuit, a battery of voltage 5V is placed in series with the diode as
+shown in the figure. Which of the following statements correctly describes how this
+battery modifies the clamping action?
+Ans
+1. The output is shifted upward by exactly 5V.
+2. The output clamps at a level determined by the input’s average value, independent of the
+battery.
+3. The output is shifted downward by exactly 5V.
+4. The battery reduces the capacitor’s charging voltage, causing the output to clamp at a
+value lower than the original zero reference.
+Question ID : 4410091528653
+Chosen Option : 4
+
+
+=== PAGE 29 ===
+"
+Q.97 In a DC motor, if the current in the armature is reversed along with the direction of
+the magnetic field, then according to the Fleming’s Left-Hand Rule _________.
+Ans
+1. The direction of rotation will reverse
+2. The direction of rotation will be same
+3. The motor torque will be doubled
+4. The motor will stop rotating
+Question ID : 4410091563505
+Chosen Option : 2
+Q.98 A 4-pole, 50 Hz single-phase induction motor runs at 1000 rpm. What is the value
+of backward slip of the motor?
+Ans
+1. 5/3
+2. 1/3
+3. 4/3
+4. 2/3
+Question ID : 4410091563544
+Chosen Option : 1
+Q.99 A half-wave rectifier without a filter is supplied with a 60 Hz AC input. What is the
+frequency of the rectified output waveform?
+Ans
+1. 30 Hz
+2. 120 Hz
+3. 60 Hz
+4. 0 Hz
+Question ID : 4410091805394
+Chosen Option : 3
+Q.100 The power factor of an AC circuit is defined as the:
+Ans
+1. Ratio of real power to apparent power
+2. Ratio of reactive power to apparent power
+3. Ratio of real power to reactive power
+4. Ratio of voltage to current
+Question ID : 4410091557342
+Chosen Option : 1

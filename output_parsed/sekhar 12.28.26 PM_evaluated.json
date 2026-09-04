@@ -1,0 +1,23 @@
+{
+  "candidate": {
+    "hall_ticket": "",
+    "participant_name": "",
+    "test_center": "",
+    "test_date": "",
+    "test_time": "",
+    "subject": ""
+  },
+  "summary": {
+    "total_questions": 0,
+    "attempted": 0,
+    "unattempted": 0,
+    "correct": 0,
+    "incorrect": 0,
+    "accuracy_percent": 0.0,
+    "positive_marking": 1.0,
+    "negative_marking": 0.25,
+    "final_score": 0
+  },
+  "sections": {},
+  "questions": []
+}

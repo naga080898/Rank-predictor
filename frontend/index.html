@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RankPulse AI — Response Sheet Evaluator & Live Rank Predictor</title>
+  <meta name="description" content="Instant AI-powered DigiALM and TCS iON response sheet parser, marks calculator, live percentile estimator, and shift normalization analytics.">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/jpeg" href="/assets/logo.jpeg">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="/css/styles.css?v=2">
+</head>
+<body>
+
+  <!-- Atmospheric Glow Overlays -->
+  <div class="bg-glow-container">
+    <div class="bg-glow-1"></div>
+    <div class="bg-glow-2"></div>
+    <div class="bg-glow-3"></div>
+  </div>
+
+  <!-- Site Header -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="#" class="brand-logo" id="brand-home-btn">
+        <img src="/assets/logo.jpeg" alt="Next Level Logo" class="brand-logo-img" width="44" height="44" style="width: 44px; height: 44px; max-width: 44px; max-height: 44px; min-width: 44px; min-height: 44px; border-radius: 50%; object-fit: cover; flex-shrink: 0; display: block;">
+        <div class="brand-text-block">
+          <div class="brand-title">Next Level</div>
+          <div class="brand-sub">Rank Predictor</div>
+        </div>
+      </a>
+
+      <!-- Center Tabs -->
+      <nav class="nav-tabs" id="main-nav-tabs">
+        <button class="nav-tab-btn active" data-tab="predictor" id="tab-btn-predictor">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="17 8 12 3 7 8"></polyline><line x1="12" y1="3" x2="12" y2="15"></line></svg>
+          <span>Predictor</span>
+        </button>
+        <button class="nav-tab-btn" data-tab="leaderboard" id="tab-btn-leaderboard">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path><path d="M4 22h16"></path><path d="M10 14.66V17c0 .55-.45 1-1 1H7c-.55 0-1-.45-1-1v-2.34"></path><path d="M18 14.66V17c0 .55-.45 1-1 1h-2c-.55 0-1-.45-1-1v-2.34"></path><path d="M14 2v4a2 2 0 0 1-2 2 2 2 0 0 1-2-2V2z"></path><path d="M18 9a6 6 0 0 1-12 0"></path></svg>
+          <span>Live Leaderboard</span>
+        </button>
+        <button class="nav-tab-btn" data-tab="stats" id="tab-btn-stats">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+          <span>Shift Analytics</span>
+        </button>
+      </nav>
+
+      <!-- Right Header Actions -->
+      <div class="nav-actions">
+        <button class="btn-lookup-header" id="btn-open-lookup">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+          <span>Find Scorecard</span>
+        </button>
+        <div class="status-indicator" id="api-status-badge">
+          <div class="pulse-dot"></div>
+          <span id="api-status-text">API Online</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Container -->
+  <main class="container" style="padding-bottom: 4rem;">
+
+    <!-- ====================================================================
+         VIEW 1: PREDICTOR / UPLOAD VIEW
+         ==================================================================== -->
+    <section id="view-predictor" class="tab-view active">
+      <div class="hero-section">
+        <div class="hero-pill">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"></path></svg>
+          <span>Fast TCS iON & DigiALM Parsing Engine</span>
+        </div>
+        <h1 class="hero-title">Predict Your Rank & <span class="text-gradient">Analyze Performance</span></h1>
+        <p class="hero-subtitle">Upload your response sheet PDF to calculate precise scores, section-wise accuracy, dynamic shift percentiles, and estimated All India Rank in milliseconds.</p>
+      </div>
+
+      <!-- Upload Card (Centered Clean Layout) -->
+      <div class="glass-card glass-card-glow upload-wrapper">
+        <input type="file" id="file-input" accept="application/pdf" style="display: none;">
+        <div class="drop-zone" id="drop-zone">
+          <div class="drop-icon-wrapper">
+            <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+              <polyline points="14 2 14 8 20 8"></polyline>
+              <line x1="12" y1="18" x2="12" y2="12"></line>
+              <polyline points="9 15 12 12 15 15"></polyline>
+            </svg>
+          </div>
+          <h3 class="drop-title">Drop your Response Sheet PDF here</h3>
+          <p class="drop-subtitle">or click to browse files from your computer</p>
+          <div class="file-pill">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14h2v2h-2v-2zm0-10h2v8h-2V6z"/></svg>
+            <span>Supports DigiALM, APPSC, GATE, SSC & PSU Candidate PDFs</span>
+          </div>
+        </div>
+
+        <!-- Selected File Card Preview -->
+        <div class="selected-file-card" id="selected-file-card">
+          <div class="selected-file-info">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline></svg>
+            <div>
+              <div class="file-name" id="file-name-display">response_sheet.pdf</div>
+              <div class="file-meta" id="file-size-display">2.4 MB</div>
+            </div>
+          </div>
+          <button class="btn-remove-file" id="btn-remove-file" title="Remove file">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+          </button>
+        </div>
+
+        <!-- Evaluate Button -->
+        <button class="btn-primary" id="btn-submit-evaluate" disabled style="margin-top: 1.25rem;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+          <span>Evaluate Response Sheet</span>
+        </button>
+
+        <!-- Feature Highlights Bar -->
+        <div class="marking-features-bar">
+          <div class="feature-item">
+            <span class="feature-bullet">✓</span>
+            <span><strong>1 Mark</strong> per Question</span>
+          </div>
+          <div class="feature-item">
+            <span class="feature-bullet">✓</span>
+            <span><strong>No Negative Marking</strong></span>
+          </div>
+          <div class="feature-item">
+            <span class="feature-bullet">✓</span>
+            <span>Instant Rank & Percentile</span>
+          </div>
+        </div>
+
+        <!-- Sample PDF Quick Test Chips -->
+        <div class="sample-bar">
+          <span class="sample-label">🚀 Quick Demo Test:</span>
+          <button class="sample-chip" id="demo-sample-1">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10"/></svg>
+            <span>Candidate 1 (Vineeth • Electrical)</span>
+          </button>
+          <button class="sample-chip" id="demo-sample-2">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10"/></svg>
+            <span>Candidate 2 (AEE Shift 1)</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         VIEW 2: CANDIDATE SCORECARD DASHBOARD VIEW
+         ==================================================================== -->
+    <section id="view-scorecard" class="tab-view">
+      
+      <!-- Top Action Bar -->
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.25rem;">
+        <button class="btn-secondary" id="btn-back-to-upload">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+          <span>Upload Another Sheet</span>
+        </button>
+
+        <div class="scorecard-action-btns">
+          <button class="btn-secondary" id="btn-print-scorecard">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+            <span>Print Scorecard</span>
+          </button>
+          <button class="btn-secondary" id="btn-view-on-leaderboard">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path><path d="M4 22h16"></path><path d="M18 9a6 6 0 0 1-12 0"></path></svg>
+            <span>View on Leaderboard</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Candidate Header Banner -->
+      <div class="candidate-header-card">
+        <div class="candidate-identity">
+          <div class="candidate-avatar" id="sc-avatar">V</div>
+          <div>
+            <h2 class="candidate-name" id="sc-candidate-name">Candidate Name</h2>
+            <div class="candidate-meta-row">
+              <span>Hall Ticket: <strong class="hall-ticket-badge" id="sc-hall-ticket" title="Click to copy">APVR0048215</strong></span>
+              <span id="sc-subject-tag">⚡ Electrical Engineering</span>
+              <span id="sc-test-date-time">📅 2026-08-30 (09:00 AM - 12:00 PM)</span>
+            </div>
+          </div>
+        </div>
+
+        <div style="text-align: right;">
+          <div style="font-size: 0.75rem; color: var(--text-dim); text-transform: uppercase;">Submission ID</div>
+          <div style="font-family: var(--font-mono); font-weight: 700; color: var(--text-main);" id="sc-submission-id">#001</div>
+          <div style="font-size: 0.75rem; color: var(--text-dim);" id="sc-timestamp">Just now</div>
+        </div>
+      </div>
+
+      <!-- 4 Primary Metrics -->
+      <div class="metrics-grid">
+        
+        <!-- Score Card -->
+        <div class="metric-card glass-card-glow">
+          <div class="metric-header">
+            <span class="metric-label">Final Raw Score</span>
+            <div class="metric-icon icon-purple">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+            </div>
+          </div>
+          <div class="metric-value" id="sc-final-score" style="color: var(--primary-light);">70.00</div>
+          <div class="metric-sub" id="sc-score-breakdown">
+            <span style="color: var(--success);" id="sc-pos-marks">70 / 100 Marks</span>
+            <span style="color: var(--text-dim);" id="sc-neg-marks">• No Negative Marking</span>
+          </div>
+        </div>
+
+        <!-- Platform Rank -->
+        <div class="metric-card">
+          <div class="metric-header">
+            <span class="metric-label">Platform Live Rank</span>
+            <div class="metric-icon icon-amber">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path><path d="M18 9a6 6 0 0 1-12 0"></path></svg>
+            </div>
+          </div>
+          <div class="metric-value" id="sc-platform-rank">#1</div>
+          <div class="metric-sub">
+            <span>Out of <strong id="sc-total-submissions">420</strong> candidates</span>
+            <span class="brand-badge" id="sc-percentile-badge">Top 0.2%</span>
+          </div>
+        </div>
+
+        <!-- Predicted AIR Range -->
+        <div class="metric-card">
+          <div class="metric-header">
+            <span class="metric-label">Predicted AIR Range</span>
+            <div class="metric-icon icon-green">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+            </div>
+          </div>
+          <div class="metric-value" id="sc-air-range" style="color: var(--success); font-size: 1.8rem;">1 - 15</div>
+          <div class="metric-sub">
+            <span>Estimated All India Rank</span>
+          </div>
+        </div>
+
+        <!-- Shift Rank & Toughness -->
+        <div class="metric-card">
+          <div class="metric-header">
+            <span class="metric-label">Shift Rank & Difficulty</span>
+            <div class="metric-icon icon-cyan">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 14 14"></polyline></svg>
+            </div>
+          </div>
+          <div class="metric-value" id="sc-shift-rank">#1 / 180</div>
+          <div class="metric-sub">
+            <span id="sc-shift-difficulty">Moderate Shift • 99.4% Tile</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Secondary Stat Chips (Attempted, Correct, Incorrect, Accuracy) -->
+      <div class="stat-chips-grid">
+        <div class="stat-chip-card">
+          <div>
+            <div class="stat-chip-title">Total Questions</div>
+            <div class="stat-chip-num" id="sc-total-q">100</div>
+          </div>
+          <div style="font-size: 0.8rem; color: var(--text-muted);" id="sc-attempted-summary">100 Attempted</div>
+        </div>
+
+        <div class="stat-chip-card" style="border-left: 3px solid var(--success);">
+          <div>
+            <div class="stat-chip-title">Correct Answers</div>
+            <div class="stat-chip-num" style="color: var(--success);" id="sc-correct-cnt">70</div>
+          </div>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--success)" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+        </div>
+
+        <div class="stat-chip-card" style="border-left: 3px solid var(--danger);">
+          <div>
+            <div class="stat-chip-title">Incorrect Answers</div>
+            <div class="stat-chip-num" style="color: var(--danger);" id="sc-incorrect-cnt">30</div>
+          </div>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--danger)" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </div>
+
+        <div class="stat-chip-card" style="border-left: 3px solid var(--accent-cyan);">
+          <div>
+            <div class="stat-chip-title">Accuracy Rate</div>
+            <div class="stat-chip-num" style="color: var(--accent-cyan);" id="sc-accuracy-rate">70.0%</div>
+          </div>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent-cyan)" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M12 6v6l4 2"></path></svg>
+        </div>
+      </div>
+
+      <!-- Section Performance Breakdown Grid -->
+      <h3 style="font-family: var(--font-heading); font-size: 1.25rem; font-weight: 700; margin-bottom: 1rem;">Section-wise Breakdown</h3>
+      <div class="sections-grid" id="sc-sections-container">
+        <!-- Dynamically Rendered Section Cards -->
+      </div>
+
+      <!-- Interactive Question-by-Question Review -->
+      <div class="glass-card questions-card">
+        <div class="questions-filter-bar">
+          <div>
+            <h3 style="font-family: var(--font-heading); font-size: 1.25rem; font-weight: 700; margin-bottom: 0.2rem;">Question-by-Question Evaluation</h3>
+            <p style="font-size: 0.85rem; color: var(--text-muted);">Inspect official answer keys, candidate responses, and marks per question</p>
+          </div>
+
+          <!-- Filters -->
+          <div class="filter-pills-group">
+            <button class="filter-pill active" data-filter="all" id="btn-filter-all">All (<span id="cnt-all">100</span>)</button>
+            <button class="filter-pill filter-correct" data-filter="CORRECT" id="btn-filter-correct">✓ Correct (<span id="cnt-correct">70</span>)</button>
+            <button class="filter-pill filter-incorrect" data-filter="INCORRECT" id="btn-filter-incorrect">✗ Incorrect (<span id="cnt-incorrect">30</span>)</button>
+            <button class="filter-pill filter-unattempted" data-filter="UNATTEMPTED" id="btn-filter-unattempted">– Skipped (<span id="cnt-unattempted">0</span>)</button>
+          </div>
+
+          <!-- Live Search -->
+          <input type="text" class="question-search-input" id="q-search-input" placeholder="Search questions or ID...">
+        </div>
+
+        <!-- Question List Container -->
+        <div class="questions-list" id="questions-list-container">
+          <!-- Dynamically Rendered Question Cards -->
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ====================================================================
+         VIEW 3: LIVE LEADERBOARD VIEW
+         ==================================================================== -->
+    <section id="view-leaderboard" class="tab-view">
+      <div class="leaderboard-hero">
+        <div class="hero-pill">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path><path d="M4 22h16"></path><path d="M18 9a6 6 0 0 1-12 0"></path></svg>
+          <span>Real-time Live Standings</span>
+        </div>
+        <h2 class="hero-title" style="font-size: 2.4rem;">Platform <span class="text-gradient">Leaderboard</span></h2>
+        <p class="hero-subtitle">Rankings dynamically updated as candidates submit their response sheets.</p>
+      </div>
+
+      <!-- Podium Top 3 -->
+      <div class="podium-container" id="podium-container">
+        <!-- Rendered by JS -->
+      </div>
+
+      <!-- Filters & Controls -->
+      <div class="leaderboard-controls">
+        <div class="lb-filters">
+          <select id="lb-subject-select" class="lb-select">
+            <option value="">All Subjects / Branches</option>
+          </select>
+          <select id="lb-shift-select" class="lb-select">
+            <option value="">All Shifts & Dates</option>
+          </select>
+        </div>
+
+        <input type="text" id="lb-search-input" class="form-input" style="width: 240px; padding: 8px 14px;" placeholder="Search candidate or hall ticket...">
+      </div>
+
+      <!-- Leaderboard Table -->
+      <div class="table-responsive glass-card" style="padding: 0;">
+        <table class="custom-table" id="leaderboard-table">
+          <thead>
+            <tr>
+              <th style="width: 80px;">Rank</th>
+              <th>Candidate</th>
+              <th>Subject / Branch</th>
+              <th>Shift / Date</th>
+              <th style="text-align: center;">C / W / S</th>
+              <th style="width: 120px;">Accuracy</th>
+              <th style="text-align: right;">Final Score</th>
+              <th style="text-align: right;">Percentile</th>
+              <th style="text-align: center; width: 100px;">Action</th>
+            </tr>
+          </thead>
+          <tbody id="leaderboard-tbody">
+            <!-- Rendered by JS -->
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         VIEW 4: SHIFT ANALYTICS & STATS VIEW
+         ==================================================================== -->
+    <section id="view-stats" class="tab-view">
+      <div class="stats-hero">
+        <div class="hero-pill">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+          <span>Shift Normalization & Statistical Insights</span>
+        </div>
+        <h2 class="hero-title" style="font-size: 2.4rem;">Exam Analytics & <span class="text-gradient">Shift Toughness</span></h2>
+        <p class="hero-subtitle">Comparative benchmarks, score distribution density, and normalization insights across all shifts.</p>
+      </div>
+
+      <!-- Overall Stats Summary Cards -->
+      <div class="metrics-grid" id="stats-summary-grid">
+        <div class="metric-card">
+          <div class="metric-label">Total Submissions</div>
+          <div class="metric-value" id="stat-total-subs">--</div>
+          <div class="metric-sub">Across all branches</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-label">Platform Average Score</div>
+          <div class="metric-value" style="color: var(--primary-light);" id="stat-avg-score">--</div>
+          <div class="metric-sub" id="stat-median-score">Median: --</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-label">Highest Score Recorded</div>
+          <div class="metric-value" style="color: var(--success);" id="stat-max-score">--</div>
+          <div class="metric-sub" id="stat-min-score">Lowest: --</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-label">Average Accuracy</div>
+          <div class="metric-value" style="color: var(--accent-cyan);" id="stat-avg-accuracy">--</div>
+          <div class="metric-sub" id="stat-std-dev">Std Dev: --</div>
+        </div>
+      </div>
+
+      <!-- Shift Comparison Cards -->
+      <h3 style="font-family: var(--font-heading); font-size: 1.25rem; font-weight: 700; margin: 2rem 0 1rem;">Shift-wise Comparison & Toughness Analysis</h3>
+      <div class="shifts-grid" id="shifts-container">
+        <!-- Rendered by JS -->
+      </div>
+
+      <!-- Score Distribution Histogram -->
+      <div class="glass-card histogram-container">
+        <h3 style="font-family: var(--font-heading); font-size: 1.25rem; font-weight: 700; margin-bottom: 0.25rem;">Score Distribution Density</h3>
+        <p style="font-size: 0.85rem; color: var(--text-muted);">Visual breakdown of candidate marks across 10-point score intervals</p>
+        
+        <div class="histogram-bars" id="histogram-bars-container">
+          <!-- Rendered by JS -->
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ====================================================================
+       LOOKUP MODAL
+       ==================================================================== -->
+  <div class="modal-overlay" id="modal-lookup">
+    <div class="modal-card">
+      <button class="modal-close-btn" id="btn-close-lookup">✕</button>
+      <h3 style="font-family: var(--font-heading); font-size: 1.35rem; font-weight: 700; margin-bottom: 0.5rem;">Find Candidate Scorecard</h3>
+      <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1.25rem;">Enter your Hall Ticket Number or Submission ID to view your live updated rank and scorecard.</p>
+
+      <form id="form-lookup">
+        <div class="form-group">
+          <label class="form-label" for="lookup-identifier-input">Hall Ticket Number or Submission ID</label>
+          <input type="text" id="lookup-identifier-input" class="form-input" placeholder="e.g. APVR0048215 or 1" required>
+        </div>
+        <button type="submit" class="btn-primary" style="margin-top: 1rem;">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+          <span>Search Scorecard</span>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- ====================================================================
+       PARSING & LOADING OVERLAY
+       ==================================================================== -->
+  <div class="loading-overlay" id="loading-overlay">
+    <div class="loading-box">
+      <div class="spinner-ring"></div>
+      <h3 style="font-family: var(--font-heading); font-size: 1.25rem; font-weight: 700; margin-bottom: 0.25rem;">Processing Response Sheet</h3>
+      <p style="font-size: 0.85rem; color: var(--text-muted);">Please wait while PyMuPDF analyzes your PDF...</p>
+
+      <div class="loading-steps">
+        <div class="loading-step-item active" id="step-1">
+          <span>●</span>
+          <span>1. Extracting candidate info & questions</span>
+        </div>
+        <div class="loading-step-item" id="step-2">
+          <span>●</span>
+          <span>2. Identifying green keys (#40c64b) & choices</span>
+        </div>
+        <div class="loading-step-item" id="step-3">
+          <span>●</span>
+          <span>3. Calculating section scores & negative marking</span>
+        </div>
+        <div class="loading-step-item" id="step-4">
+          <span>●</span>
+          <span>4. Computing live percentiles & AIR prediction</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Stack -->
+  <div class="toast-container" id="toast-container"></div>
+
+  <!-- Application Logic -->
+  <script src="/js/app.js"></script>
+</body>
+</html>

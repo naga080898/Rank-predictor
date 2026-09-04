@@ -1,0 +1,1632 @@
+{
+  "candidate": {
+    "hall_ticket": "APVR0031994",
+    "participant_name": "SIREESHA",
+    "test_center": "iON Digital Zone iDZ 2 Chinamushidiwada",
+    "test_date": "26/08/2026",
+    "test_time": "9:00 AM - 12:00 PM",
+    "subject": "Electrical Engineering"
+  },
+  "summary": {
+    "total_questions": 100,
+    "attempted": 100,
+    "unattempted": 0,
+    "correct": 51,
+    "incorrect": 49,
+    "accuracy_percent": 51.0,
+    "positive_marking": 1.0,
+    "negative_marking": 0.25,
+    "final_score": 38.75
+  },
+  "sections": {
+    "General": {
+      "total": 100,
+      "correct": 51,
+      "incorrect": 49,
+      "unattempted": 0,
+      "score": 38.75
+    }
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_id": "441009585207",
+      "section": "General",
+      "question_text": "24 is related to 9 following a certain logic. Following the same logic, 120 is related to 33. To which of the following is 84 related to, following the same logic? (NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 – Operations on 13 such as adding /subtracting /multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed)",
+      "options": {
+        "1": "24",
+        "2": "36",
+        "3": "32",
+        "4": "134"
+      },
+      "chosen_option": 2,
+      "correct_option": 1,
+      "status": "INCORRECT",
+      "marks_awarded": -0.25
+    },
+    {
+      "question_number": 2,
+      "question_id": "441009797062",
+      "section": "General",
+      "question_text": "Refer to the given letter series and answer the question that follows. (Left) X Z O W B Y M F H G U K R E S I A Q T C D (Right) How many letters are there in the English alphabetical series between the letter which is sixth from the right end and seventh from the left end of the series?",
+      "options": {
+        "1": "Two",
+        "2": "Three",
+        "3": "Five",
+        "4": "Four"
+      },
+      "chosen_option": 1,
+      "correct_option": 2,
+      "status": "INCORRECT",
+      "marks_awarded": -0.25
+    },
+    {
+      "question_number": 3,
+      "question_id": "441009781802",
+      "section": "General",
+      "question_text": "Based on the English alphabetical order, three of the following four letter-clusters are alike in a certain way and thus form a group. Which letter-cluster DOES NOT belong to that group? (Note: The odd one out is not based on the number of consonants/vowels or their position in the letter-cluster.)",
+      "options": {
+        "1": "LHJ",
+        "2": "HDF",
+        "3": "OKM",
+        "4": "FCD"
+      },
+      "chosen_option": 4,
+      "correct_option": 4,
+      "status": "CORRECT",
+      "marks_awarded": 1.0
+    },
+    {
+      "question_number": 4,
+      "question_id": "441009814183",
+      "section": "General",
+      "question_text": "Seven people, A, B, C, D, E, F and G are sitting in a row, facing north. Only fi ve people sit between F and G. E sits to the immediate left of G. Only one person sits between E and A. C sits at some place to the left of D but at some place to the right of B. Who sits second to the right of C? 1541",
+      "options": {
+        "1": "D",
+        "2": "A",
+        "3": "E",
+        "4": "B"
+      },
+      "chosen_option": 1,
+      "correct_option": 1,
+      "status": "CORRECT",
+      "marks_awarded": 1.0
+    },
+    {
+      "question_number": 5,
+      "question_id": "441009765196",
+      "section": "General",
+      "question_text": "Based on the English alphabetical order, three of the following four are alike in a certain way and thus form a group. Which is the one that does not belong to that group? (Note: The odd one out is not based on the number of consonants/vowels or their position in the letter cluster)",
+      "options": {
+        "1": "KPM",
+        "2": "NSQ",
+        "3": "RWU",
+        "4": "CHF"
+      },
+      "chosen_option": 1,
+      "correct_option": 1,
+      "status": "CORRECT",
+      "marks_awarded": 1.0
+    },
+    {
+      "question_number": 6,
+      "question_id": "4410092115976",
+      "section": "General",
+      "question_text": "Who was the President of the Indian National Congress during its Eleventh Session in 1895?",
+      "options": {
+        "1": "Dadabhai Naoroji",
+        "2": "Gopal Krishna Gokhale",
+        "3": "Bal Gangadhar Tilak",
+        "4": "Surendranath Banerjee"
+      },
+      "chosen_option": 1,
+      "correct_option": 4,
+      "status": "INCORRECT",
+      "marks_awarded": -0.25
+    },
+    {
+      "question_number": 7,
+      "question_id": "4410092115981",
+      "section": "General",
+      "question_text": "The Automated Weather Station (AWS) installed at a glacial lake in Sikkim in 2023 is primarily intended to provide early warning against which hazard?",
+      "options": {
+        "1": "Prolonged drought caused by a weak monsoon",
+        "2": "Widespread frost associated with a western disturbance",
+        "3": "Coastal storm surge during the retreating monsoon",
+        "4": "Glacial Lake Outburst Flood triggered by intense rainfall"
+      },
+      "chosen_option": 1,
+      "correct_option": 4,
+      "status": "INCORRECT",
+      "marks_awarded": -0.25
+    },
+    {
+      "question_number": 8,
+      "question_id": "4410092258049",
+      "section": "General",
+      "question_text": "Which of the following mountain ranges is primarily composed of ancient metamorphic rocks, considered one of the oldest geological formations in India?",
+      "options": {
+        "1": "The Western Ghats",
+        "2": "The Vindhya Range",
+        "3": "The Aravalli Range",
+        "4": "The Himalayas"
+      },
+      "chosen_option": 1,
+      "correct_option": 3,
+      "status": "INCORRECT",
+      "marks_awarded": -0.25
+    },
+    {
+      "question_number": 9,
+      "question_id": "4410092200869",
+      "section": "General",
+      "question_text": "According to the Consolidated FDI Policy circular of 2020, what is the threshold for classifying an investment in a listed Indian company as Foreign Direct Investment (FDI) rather than Foreign Portfolio Investment (FPI)?",
+      "options": {
+        "1": "1% or more of the post-issue paid-up equity capital",
+        "2": "5% or more of the post-issue paid-up equity capital",
+        "3": "25% or more of the post-issue paid-up equity capital",
+        "4": "10% or more of the post-issue paid-up equity capital"
+      },
+      "chosen_option": 2,
+      "correct_option": 4,
+      "status": "INCORRECT",
+      "marks_awarded": -0.25
+    },
+    {
+      "question_number": 10,
+      "question_id": "4410091453928",
+      "section": "General",
+      "question_text": "Who was appointed as the Chairperson of the National Statistical Commission (NSC) in June 2026?",
+      "options": {
+        "1": "T. C. A. Anant",
+        "2": "Saibal Chattopadhyay",
+        "3": "Bimal Kumar Roy",
+        "4": "Pronab Sen"
+      },
+      "chosen_option": 3,
+      "correct_option": 2,
+      "status": "INCORRECT",
+      "marks_awarded": -0.25
+    },
+    {
+      "question_number": 11,
+      "question_id": "441009244778",
+      "section": "General",
+      "question_text": "Which major administrative change did the British implement in India following the Revolt of 1857?",
+      "options": {
+        "1": "India was divided into new independent kingdoms",
+        "2": "The East India Company’s rule continued",
+        "3": "Indian rulers were completely removed",
+        "4": "The British Crown took direct control of India"
+      },
+      "chosen_option": 2,
+      "correct_option": 4,
+      "status": "INCORRECT",
+      "marks_awarded": -0.25
+    },
+    {
+      "question_number": 12,
+      "question_id": "441009284032",
+      "section": "General",
+      "question_text": "Mallika Sarabhai is best known for her expertise in which two classical dance forms?",
+      "options": {
+        "1": "Bharatanatyam and Kuchipudi",
+        "2": "Kathakali and Mohiniyattam",
+        "3": "Odissi and Kathak",
+        "4": "Bharatanatyam and Kathakali"
+      },
+      "chosen_option": 1,
+      "correct_option": 1,
+      "status": "CORRECT",
+      "marks_awarded": 1.0
+    },
+    {
+      "question_number": 13,
+      "question_id": "4410092413408",
+      "section": "General",
+      "question_text": "Which of the following best summarizes the passage? because manufacturing capacity alone determines technological leadership and long-term industrial competitiveness.",
+      "options": {
+        "1": "Semiconductor policies primarily seek to increase the number of fabrication plants",
+        "2": "India's semiconductor strategy concentrates mainly on financial subsidies for fabrication",
+        "3": "Modern semiconductor initiatives emphasise building an integrated ecosystem",
+        "4": "Geopolitical tensions have permanently disrupted semiconductor trade, compelling"
+      },
+      "chosen_option": 3,
+      "correct_option": 3,
+      "status": "CORRECT",
+      "marks_awarded": 1.0
+    },
+    {
+      "question_number": 14,
+      "question_id": "4410092413409",
+      "section": "General",
+      "question_text": "Which option most accurately describes the organisational structure of the passage? programmes, evaluates their relative effectiveness, and recommends the superior framework.",
+      "options": {
+        "1": "It introduces a policy initiative, compares it with international semiconductor",
+        "2": "It outlines the historical evolution of semiconductor manufacturing, examines successive",
+        "3": "It presents an economic problem, critiques existing fiscal incentives, evaluates statistical",
+        "4": "It identifies a contemporary challenge, explains its broader implications, illustrates an"
+      },
+      "chosen_option": 1,
+      "correct_option": 4,
+      "status": "INCORRECT",
+      "marks_awarded": -0.25
+    },
+    {
+      "question_number": 15,
+      "question_id": "4410091711179",
+      "section": "General",
+      "question_text": "Complete the following sentence by choosing the correct option. During the debate, the speaker _____ addressed each criticism, demonstrating both logic and composure.",
+      "options": {
+        "1": "silently",
+        "2": "systematically",
+        "3": "emotionally",
+        "4": "confusedly"
+      },
+      "chosen_option": 1,
+      "correct_option": 2,
+      "status": "INCORRECT",
+      "marks_awarded": -0.25
+    },
+    {
+      "question_number": 16,
+      "question_id": "441009484088",
+      "section": "General",
+      "question_text": "Change the given sentence into passive voice. Nancy has written this letter.",
+      "options": {
+        "1": "This letter has been written by Nancy.",
+        "2": "This letter was written by Nancy.",
+        "3": "This letter had been written by Nancy.",
+        "4": "This letter will have been written by Nancy."
+      },
+      "chosen_option": 1,
+      "correct_option": 1,
+      "status": "CORRECT",
+      "marks_awarded": 1.0
+    },
+    {
+      "question_number": 17,
+      "question_id": "4410091713147",
+      "section": "General",
+      "question_text": "Substitute one word for the given underlined segment by choosing from the following options. The court's decision was intended to formally declare a previous judicial ruling or law as null and void due to its inconsistency with the new constitution.",
+      "options": {
+        "1": "litigate",
+        "2": "codify",
+        "3": "abrogate",
+        "4": "adjudicate"
+      },
+      "chosen_option": 1,
+      "correct_option": 3,
+      "status": "INCORRECT",
+      "marks_awarded": -0.25
+    },
+    {
+      "question_number": 18,
+      "question_id": "441009582459",
+      "section": "General",
+      "question_text": "There are 48 members in group A, 60 members in group B and 42 members in group C. All the members of these groups went to a restaurant. The average amount spent on each member of group A, B and C is ₹ 350, ₹ 383 and ₹ 460, respectively. The total average amount (in ₹ ) spent per member is: 5555",
+      "options": {
+        "1": "390",
+        "2": "399",
+        "3": "398",
+        "4": "394"
+      },
+      "chosen_option": 1,
+      "correct_option": 4,
+      "status": "INCORRECT",
+      "marks_awarded": -0.25
+    },
+    {
+      "question_number": 19,
+      "question_id": "441009855141",
+      "section": "General",
+      "question_text": "20% of a number is more than 20% of 700 by 160. The number is: 3859",
+      "options": {
+        "1": "1550",
+        "2": "1600",
+        "3": "1350",
+        "4": "1500"
+      },
+      "chosen_option": 4,
+      "correct_option": 4,
+      "status": "CORRECT",
+      "marks_awarded": 1.0
+    },
+    {
+      "question_number": 20,
+      "question_id": "4410091556698",
+      "section": "General",
+      "question_text": "The volume of a cuboidal block of silver is 1,536 cm 3 . If its dimensions are in the ratio of 4:3:2, fi nd the cost of gold polishing its entire surface at the rate of ₹ per cm 2 .",
+      "options": {
+        "2": "₹2,260",
+        "1": "₹2,140",
+        "3": "₹2,080",
+        "4": "₹2,380"
+      },
+      "chosen_option": 4,
+      "correct_option": 3,
+      "status": "INCORRECT",
+      "marks_awarded": -0.25
+    },
+    {
+      "question_number": 21,
+      "question_id": "441009548027",
+      "section": "General",
+      "question_text": "Three friends P, Q and R started a business by investing a sum of money in the ratio of 8 : 4 : 7. After 6 months Q withdraws half of his capital. If the sum invested by P is ₹ 31000, out of a total annual pro fi t of ₹ 24000 fi nd the share of Q in pro fi t.",
+      "options": {
+        "1": "₹4835",
+        "2": "₹4000",
+        "3": "₹3225",
+        "4": "₹2230"
+      },
+      "chosen_option": 4,
+      "correct_option": 2,
+      "status": "INCORRECT",
+      "marks_awarded": -0.25
+    },
+    {
+      "question_number": 22,
+      "question_id": "441009538575",
+      "section": "General",
+      "question_text": "In a 2700 m circular race, Raman fi nishes one round in 30 seconds and Mohan fi nishes one round in 75 seconds. How many different meeting points are there on circumference if they are running in a same direction?",
+      "options": {
+        "1": "5",
+        "2": "1",
+        "3": "8",
+        "4": "3"
+      },
+      "chosen_option": 2,
+      "correct_option": 4,
+      "status": "INCORRECT",
+      "marks_awarded": -0.25
+    },
+    {
+      "question_number": 23,
+      "question_id": "441009518586",
+      "section": "General",
+      "question_text": "Two taps can fi ll a cistern in 2 hours and 44 hours, respectively. A third tap can empty it in 44 hours. How long (in hours) will it take to fi ll half of the empty cistern, if all of them are opened together?",
+      "options": {
+        "1": "2",
+        "2": "3",
+        "3": "1",
+        "4": "4"
+      },
+      "chosen_option": 3,
+      "correct_option": 3,
+      "status": "CORRECT",
+      "marks_awarded": 1.0
+    },
+    {
+      "question_number": 24,
+      "question_id": "44100913483",
+      "section": "General",
+      "question_text": "Ten squares of different sizes are pasted on a chart paper adjacent to each. If the fi rst ten multiples of three represent the sides in cm of the ten squares, fi nd the area (in cm 2 ) of the chart paper covered.",
+      "options": {
+        "1": "3465",
+        "2": "1155",
+        "3": "385",
+        "4": "10395"
+      },
+      "chosen_option": 1,
+      "correct_option": 1,
+      "status": "CORRECT",
+      "marks_awarded": 1.0
+    },
+    {
+      "question_number": 25,
+      "question_id": "441009852060",
+      "section": "General",
+      "question_text": "Find the simple interest (in ₹ ) if a sum of ₹ 500 is borrowed for 7.5 years at 12% per annum rate of interest.",
+      "options": {
+        "1": "430",
+        "2": "550",
+        "3": "500",
+        "4": "450"
+      },
+      "chosen_option": 4,
+      "correct_option": 4,
+      "status": "CORRECT",
+      "marks_awarded": 1.0
+    },
+    {
+      "question_number": 26,
+      "question_id": "4410092272417",
+      "section": "General",
+      "question_text": "While editing a presentation in MS PowerPoint, a user needs to adjust the dimensions of an inserted image without removing it from the slide. Which feature is most appropriate for this task?",
+      "options": {
+        "1": "Animation Pane",
+        "2": "Resize handles",
+        "3": "Format Painter",
+        "4": "Crop tool"
+      },
+      "chosen_option": 2,
+      "correct_option": 2,
+      "status": "CORRECT",
+      "marks_awarded": 1.0
+    },
+    {
+      "question_number": 27,
+      "question_id": "4410092276829",
+      "section": "General",
+      "question_text": "A company switches from a traditional hard disk drive system to a hybrid storage architecture that combines volatile and non-volatile memory modules for its database operations. Which outcome most accurately re fl ects the effect of this change on the system ’ s data handling and performance?",
+      "options": {
+        "1": "All data is permanently erased when power is lost, regardless of memory type used.",
+        "2": "Data retrieval becomes slower because the system checks multiple memory types for",
+        "3": "System stability is unaffected, as memory configuration has no impact on data security",
+        "4": "Frequently accessed information is retrieved more quickly due to volatile memory, while"
+      },
+      "chosen_option": 4,
+      "correct_option": 4,
+      "status": "CORRECT",
+      "marks_awarded": 1.0
+    },
+    {
+      "question_number": 28,
+      "question_id": "4410092276899",
+      "section": "General",
+      "question_text": "A research lab wants to interconnect its climate sensors, control systems, and local data servers within a single building to allow rapid data exchange and device management. Which network con fi guration, if chosen, would present the most signi fi cant risk of signal collision and performance bottlenecks as the number of connected devices increases, assuming all devices share equal bandwidth allocation and operate simultaneously? the building",
+      "options": {
+        "1": "Implementing a single shared communication channel for all device connections within",
+        "2": "Creating device subgroups with independent bandwidth allocation per group",
+        "3": "Assigning bandwidth dynamically to devices based on real-time usage needs",
+        "4": "Setting up multiple isolated channels for different building segments"
+      },
+      "chosen_option": 3,
+      "correct_option": 1,
+      "status": "INCORRECT",
+      "marks_awarded": -0.25
+    },
+    {
+      "question_number": 29,
+      "question_id": "4410092276341",
+      "section": "General",
+      "question_text": "A logistics company uses an Excel function to automatically assign delivery routes based on a dynamic list of driver locations that updates every hour. Which function would most reliably ensure the route assignments always correspond to the most recently updated driver data when the spreadsheet recalculates, even if drivers are added or removed from the list during the day?",
+      "options": {
+        "1": "OFFSET with static range references fixed at setup",
+        "2": "INDEX with dynamic named ranges referencing the updated list",
+        "3": "VLOOKUP with a fixed table array defined at initial configuration",
+        "4": "INDIRECT with hard-coded cell references for driver data"
+      },
+      "chosen_option": 2,
+      "correct_option": 2,
+      "status": "CORRECT",
+      "marks_awarded": 1.0
+    },
+    {
+      "question_number": 30,
+      "question_id": "4410092307500",
+      "section": "General",
+      "question_text": "Which option in MS Word 2021 allows you to change the alignment of text within a table cell?",
+      "options": {
+        "1": "Table Layout tab",
+        "2": "Review tab",
+        "3": "Home tab",
+        "4": "Table Design tab"
+      },
+      "chosen_option": 4,
+      "correct_option": 1,
+      "status": "INCORRECT",
+      "marks_awarded": -0.25
+    },
+    {
+      "question_number": 31,
+      "question_id": "4410091549706",
+      "section": "General",
+      "question_text": "In a medium-length transmission line, which characteristic of the line is mainly responsible for the real power loss that occurs due to current fl ow and results in reduced transmission e ffi ciency?",
+      "options": {
+        "1": "Line inductance",
+        "2": "Power factor variation",
+        "3": "Conductive property of the line material",
+        "4": "Line capacitance"
+      },
+      "chosen_option": 4,
+      "correct_option": 3,
+      "status": "INCORRECT",
+      "marks_awarded": -0.25
+    },
+    {
+      "question_number": 32,
+      "question_id": "4410091557171",
+      "section": "General",
+      "question_text": "In atomic hydrogen electric arc welding, the electric arc struck between two tungsten electrodes in an atmosphere of hydrogen. What is the function of hydrogen in the process?",
+      "options": {
+        "1": "Hydrogen atmosphere acts as electrode itself for the welds",
+        "2": "Hydrogen acts as a cooling agent for the glowing tungsten electrode tips",
+        "3": "Hydrogen causes the weld to form oxides and nitrides for high quality of weld",
+        "4": "Hydrogen acts as a non-conducting atmosphere for controlling the arc."
+      },
+      "chosen_option": 3,
+      "correct_option": 2,
+      "status": "INCORRECT",
+      "marks_awarded": -0.25
+    },
+    {
+      "question_number": 33,
+      "question_id": "4410091549531",
+      "section": "General",
+      "question_text": "As the load on a synchronous motor increases, the inverted V-curve corresponding to that load shifts __________:",
+      "options": {
+        "1": "Upward because the motor draws more reactive power.",
+        "2": "To the left, indicating that lesser field current is now required for feeding the load at unity",
+        "3": "To the right, requiring higher field current to feed the load at unity power factor.",
+        "4": "Downward due to increased copper losses."
+      },
+      "chosen_option": 3,
+      "correct_option": 3,
+      "status": "CORRECT",
+      "marks_awarded": 1.0
+    },
+    {
+      "question_number": 34,
+      "question_id": "4410091565576",
+      "section": "General",
+      "question_text": "A single-phase half-wave controlled recti fi er with freewheeling diode is supplying an RL load with R = 10 Ω and L = 10mH. If the input supply is 220 V, 50 Hz and fi ring angle is 60°, then what is the average output voltage of the recti fi er?",
+      "options": {
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": ""
+      },
+      "chosen_option": 1,
+      "correct_option": 1,
+      "status": "CORRECT",
+      "marks_awarded": 1.0
+    },
+    {
+      "question_number": 35,
+      "question_id": "4410091553474",
+      "section": "General",
+      "question_text": "A basic voltage doubler circuit consists of __________.",
+      "options": {
+        "1": "Transistors only",
+        "2": "Resistors and inductors",
+        "3": "Diodes and capacitors",
+        "4": "MOSFETs and resistors"
+      },
+      "chosen_option": 3,
+      "correct_option": 3,
+      "status": "CORRECT",
+      "marks_awarded": 1.0
+    },
+    {
+      "question_number": 36,
+      "question_id": "4410091550325",
+      "section": "General",
+      "question_text": "What is the primary distinguishing feature that a Gate Turn-Off (GTO) thyristor differs from a conventional Silicon Controlled Recti fi er (SCR)?",
+      "options": {
+        "1": "It turns off by reversing the anode-to-cathode voltage (natural commutation).",
+        "2": "It can be turned off by applying a large, high-amplitude negative current pulse to the gate",
+        "3": "It can be turned off by applying a large, sustained positive current to the gate terminal.",
+        "4": "It can be turned off by applying a momentary positive pulse to the gate terminal."
+      },
+      "chosen_option": 2,
+      "correct_option": 2,
+      "status": "CORRECT",
+      "marks_awarded": 1.0
+    },
+    {
+      "question_number": 37,
+      "question_id": "4410091547204",
+      "section": "General",
+      "question_text": "In a cathode ray oscilloscope, the voltage of an unknown signal is obtained by observing:",
+      "options": {
+        "1": "Time base setting",
+        "2": "Vertical deflection per division",
+        "3": "Input impedance of CRO",
+        "4": "Horizontal sweep frequency"
+      },
+      "chosen_option": 2,
+      "correct_option": 2,
+      "status": "CORRECT",
+      "marks_awarded": 1.0
+    },
+    {
+      "question_number": 38,
+      "question_id": "4410091813280",
+      "section": "General",
+      "question_text": "While designing the foundation for a substation structure, which of the following loads must be considered to ensure safety and stability?",
+      "options": {
+        "1": "Only wind loads",
+        "2": "Only vertical loads",
+        "3": "Only lateral loads",
+        "4": "Both vertical and lateral loads"
+      },
+      "chosen_option": 4,
+      "correct_option": 4,
+      "status": "CORRECT",
+      "marks_awarded": 1.0
+    },
+    {
+      "question_number": 39,
+      "question_id": "4410091545945",
+      "section": "General",
+      "question_text": "The mechanical force on a current-carrying conductor in a magnetic fi eld depends on which of the following?",
+      "options": {
+        "1": "Permittivity of the medium",
+        "2": "Magnetic flux density",
+        "3": "Frequency of electrical supply of the conductor",
+        "4": "Resistance of the conductor"
+      },
+      "chosen_option": 2,
+      "correct_option": 2,
+      "status": "CORRECT",
+      "marks_awarded": 1.0
+    },
+    {
+      "question_number": 40,
+      "question_id": "4410091564081",
+      "section": "General",
+      "question_text": "In a single-phase half-wave circuit (SPHWC), the discontinuous current occurs when:",
+      "options": {
+        "1": "Inductance is large",
+        "2": "Firing angle = 0",
+        "3": "Supply voltage is high",
+        "4": "Current becomes zero before next cycle"
+      },
+      "chosen_option": 4,
+      "correct_option": 4,
+      "status": "CORRECT",
+      "marks_awarded": 1.0
+    },
+    {
+      "question_number": 41,
+      "question_id": "4410091554040",
+      "section": "General",
+      "question_text": "Adding an Integral controller typically makes the system _____________.",
+      "options": {
+        "1": "More sluggish",
+        "2": "Faster",
+        "3": "Overshoot-free",
+        "4": "Noise-free"
+      },
+      "chosen_option": 2,
+      "correct_option": 1,
+      "status": "INCORRECT",
+      "marks_awarded": -0.25
+    },
+    {
+      "question_number": 42,
+      "question_id": "4410091792640",
+      "section": "General",
+      "question_text": "In a digital system, which gate would you use to reverse the logical state of a signal before it enters another logic circuit?",
+      "options": {
+        "1": "Transmission Gate",
+        "2": "AND Gate",
+        "3": "NOT Gate",
+        "4": "OR Gate"
+      },
+      "chosen_option": 3,
+      "correct_option": 3,
+      "status": "CORRECT",
+      "marks_awarded": 1.0
+    },
+    {
+      "question_number": 43,
+      "question_id": "4410091555356",
+      "section": "General",
+      "question_text": "Which of the following statements are valid reasons for limiting the heat- production rate at very high frequencies in dielectric heating? i. At very high frequencies, tuning the inductance to resonate with the circuit capacitance becomes di ffi cult. ii. At very high frequencies, achieving a uniform voltage distribution across the material becomes very di ffi cult. iii. The penetration depth of electromagnetic waves decreases signi fi cantly at very high frequencies. iv. The dielectric constant of the material continues to increase without limit as the frequency increases.",
+      "options": {
+        "1": "ii, iii, iv only",
+        "2": "i, ii, iv only",
+        "3": "i, iii, iv only",
+        "4": "i, ii, iii only"
+      },
+      "chosen_option": 2,
+      "correct_option": 4,
+      "status": "INCORRECT",
+      "marks_awarded": -0.25
+    },
+    {
+      "question_number": 44,
+      "question_id": "4410091557401",
+      "section": "General",
+      "question_text": "Which of the following parameter/s most strongly in fl uences the quality of a fl ash butt weld?",
+      "options": {
+        "1": "Type of shielding gas used",
+        "2": "Electrode coating thickness",
+        "3": "Welding current and flashing time",
+        "4": "Frequency of the supply voltage"
+      },
+      "chosen_option": 3,
+      "correct_option": 3,
+      "status": "CORRECT",
+      "marks_awarded": 1.0
+    },
+    {
+      "question_number": 45,
+      "question_id": "4410091813189",
+      "section": "General",
+      "question_text": "During prolonged rainfall, the soil supporting a pedestal transformer foundation becomes fully saturated, leading to an increase in pore water pressure. Which soil parameter controlling the stability of the foundation is most likely to decrease?",
+      "options": {
+        "1": "Unit weight of soil",
+        "2": "Shear strength of soil",
+        "3": "Permeability of soil",
+        "4": "Compressibility of soil"
+      },
+      "chosen_option": 1,
+      "correct_option": 2,
+      "status": "INCORRECT",
+      "marks_awarded": -0.25
+    },
+    {
+      "question_number": 46,
+      "question_id": "4410091563174",
+      "section": "General",
+      "question_text": "In a single-phase half-wave controlled converter with an RLE load, the thyristor turns off at an angle ω t = β after switching on the input supply at t = 0. If the minimum fi ring angle is θ 1 = sin -1 (E/V m ), and the supply angular frequency is ω rad/s, which of the following correctly gives the circuit turn-off time?",
+      "options": {
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": ""
+      },
+      "chosen_option": 1,
+      "correct_option": 1,
+      "status": "CORRECT",
+      "marks_awarded": 1.0
+    },
+    {
+      "question_number": 47,
+      "question_id": "4410091565363",
+      "section": "General",
+      "question_text": "A 3-phase, 5 MVA industry substation is feeding the load at 0.8 power factor lagging. However, due to electricity rules, this industry has to maintain its power factor at unity and for that the industry decided to install a capacitor bank. What will be the per phase rating of the capacitor bank?",
+      "options": {
+        "1": "3 MVAr",
+        "2": "4 MVAr",
+        "3": "1.33 MVAr",
+        "4": "1 MVAr"
+      },
+      "chosen_option": 4,
+      "correct_option": 4,
+      "status": "CORRECT",
+      "marks_awarded": 1.0
+    },
+    {
+      "question_number": 48,
+      "question_id": "4410091545698",
+      "section": "General",
+      "question_text": "When the quantity of conducting material in an auto-transformer is reduced, the required window area is also reduced, which ultimately leads to ____________________.",
+      "options": {
+        "1": "A larger core length and higher core weight",
+        "2": "An increase in the core area",
+        "3": "A smaller core length and lower core weight",
+        "4": "No change in the core dimensions"
+      },
+      "chosen_option": 3,
+      "correct_option": 3,
+      "status": "CORRECT",
+      "marks_awarded": 1.0
+    },
+    {
+      "question_number": 49,
+      "question_id": "4410091561457",
+      "section": "General",
+      "question_text": "Line conductance represents:",
+      "options": {
+        "1": "Leakage current at the insulators",
+        "2": "Charging current",
+        "3": "Corona effect",
+        "4": "Magnetic flux"
+      },
+      "chosen_option": 1,
+      "correct_option": 1,
+      "status": "CORRECT",
+      "marks_awarded": 1.0
+    },
+    {
+      "question_number": 50,
+      "question_id": "4410091553516",
+      "section": "General",
+      "question_text": "A V-to-I converter is also called a/an ________.",
+      "options": {
+        "1": "Comparator",
+        "2": "Integrator",
+        "3": "Differentiator",
+        "4": "Transconductance amplifier"
+      },
+      "chosen_option": 3,
+      "correct_option": 4,
+      "status": "INCORRECT",
+      "marks_awarded": -0.25
+    },
+    {
+      "question_number": 51,
+      "question_id": "4410091557938",
+      "section": "General",
+      "question_text": "A circuit containing both RC and RL components exhibits:",
+      "options": {
+        "1": "Purely resistive response",
+        "2": "Only capacitive behavior",
+        "3": "Only inductive behavior",
+        "4": "First-order or second-order response depending on topology"
+      },
+      "chosen_option": 4,
+      "correct_option": 4,
+      "status": "CORRECT",
+      "marks_awarded": 1.0
+    },
+    {
+      "question_number": 52,
+      "question_id": "4410091565535",
+      "section": "General",
+      "question_text": "Consider a connected graph with 'n' nodes and 'b' branches. The incidence matrix 'A' is de fi ned such that each row corresponds to a node and each column to a branch. Which of the following statements is always true for the incidence matrix of a connected graph?",
+      "options": {
+        "1": "The rank of the incidence matrix is always equal to the number of branches b",
+        "2": "The incidence matrix is symmetric for all undirected graphs",
+        "3": "The product A",
+        "4": "The sum of all rows of the incidence matrix is a zero vector"
+      },
+      "chosen_option": 1,
+      "correct_option": 4,
+      "status": "INCORRECT",
+      "marks_awarded": -0.25
+    },
+    {
+      "question_number": 53,
+      "question_id": "4410091554790",
+      "section": "General",
+      "question_text": "For the following circuit, fi nd the values of v 1 , v 2 , and v 3 , respectively. 1 = 35 V, v 2 = 15 V, v 3 = -20 V",
+      "options": {
+        "1": "v",
+        "2": "v",
+        "3": "v",
+        "4": "v"
+      },
+      "chosen_option": 2,
+      "correct_option": 4,
+      "status": "INCORRECT",
+      "marks_awarded": -0.25
+    },
+    {
+      "question_number": 54,
+      "question_id": "4410091557582",
+      "section": "General",
+      "question_text": "Source transformation is mainly used to:",
+      "options": {
+        "1": "Simplify complex circuit networks",
+        "2": "Convert nonlinear elements into linear ones",
+        "3": "Reduce total current",
+        "4": "Increase circuit voltage"
+      },
+      "chosen_option": 1,
+      "correct_option": 1,
+      "status": "CORRECT",
+      "marks_awarded": 1.0
+    },
+    {
+      "question_number": 55,
+      "question_id": "4410091816713",
+      "section": "General",
+      "question_text": "If a substation foundation is constructed in a chemically aggressive soil environment, which of the following characteristics of concrete should be prioritized to ensure durability?",
+      "options": {
+        "1": "High cement content to increase paste volume in the mix",
+        "2": "Fast setting properties to accelerate early strength development",
+        "3": "Low slump to decrease workability during placement operations",
+        "4": "Low permeability to limit ingress of moisture and harmful chemicals"
+      },
+      "chosen_option": 2,
+      "correct_option": 4,
+      "status": "INCORRECT",
+      "marks_awarded": -0.25
+    },
+    {
+      "question_number": 56,
+      "question_id": "4410091565164",
+      "section": "General",
+      "question_text": "If the block diagram of a control system consists of forward gain G1​ then G2​ in series and the feedback path has H(s) (negative) sampling output and subtracting at input, the equivalent closed-loop transfer function of the control system is ___________.",
+      "options": {
+        "1": "(G1G2)/(1+G1G2H)",
+        "2": "(G1+G2)/(1+G1G2H)",
+        "3": "(G1+G2)/(1+H)",
+        "4": "(G1.G2)/(1+H)"
+      },
+      "chosen_option": 1,
+      "correct_option": 1,
+      "status": "CORRECT",
+      "marks_awarded": 1.0
+    },
+    {
+      "question_number": 57,
+      "question_id": "4410091813199",
+      "section": "General",
+      "question_text": "Which stability check ensures that a pedestal transformer foundation does not rotate due to lateral forces?",
+      "options": {
+        "1": "Overturning Stability",
+        "2": "Sliding stability",
+        "3": "Settlement control",
+        "4": "Bearing capacity check"
+      },
+      "chosen_option": 1,
+      "correct_option": 1,
+      "status": "CORRECT",
+      "marks_awarded": 1.0
+    },
+    {
+      "question_number": 58,
+      "question_id": "4410091565492",
+      "section": "General",
+      "question_text": "An ideal inductor has zero current passing through it before t = 0. At t = 0, it is suddenly connected to a DC current source. How will the inductor behave right after this moment (t = 0 + )?",
+      "options": {
+        "1": "It will behave like an ideal current source.",
+        "2": "It will behave like a non-ideal current source (with some internal resistance).",
+        "3": "It will behave like a short circuit.",
+        "4": "It will behave like an open circuit."
+      },
+      "chosen_option": 4,
+      "correct_option": 4,
+      "status": "CORRECT",
+      "marks_awarded": 1.0
+    },
+    {
+      "question_number": 59,
+      "question_id": "4410091547293",
+      "section": "General",
+      "question_text": "A digital voltmeter operates by converting the analog voltage into:",
+      "options": {
+        "1": "Digital form using an ADC",
+        "2": "Electrostatic force",
+        "3": "Frequency modulation",
+        "4": "Magnetic deflection"
+      },
+      "chosen_option": 1,
+      "correct_option": 1,
+      "status": "CORRECT",
+      "marks_awarded": 1.0
+    },
+    {
+      "question_number": 60,
+      "question_id": "4410091561259",
+      "section": "General",
+      "question_text": "For a fully transposed transmission line, zero-sequence impedance is usually:",
+      "options": {
+        "1": "Zero",
+        "2": "Equal to positive sequence impedance",
+        "3": "Equal to negative sequence impedance",
+        "4": "Higher than both positive and negative sequence impedance"
+      },
+      "chosen_option": 1,
+      "correct_option": 4,
+      "status": "INCORRECT",
+      "marks_awarded": -0.25
+    },
+    {
+      "question_number": 61,
+      "question_id": "4410091550358",
+      "section": "General",
+      "question_text": "Which of the following methods is used to control the magnitude of the fundamental component of the output voltage in a Single-Pulse Modulated inverter?",
+      "options": {
+        "1": "Changing the width of the single pulse, δ.",
+        "2": "Varying the frequency of the carrier signal.",
+        "3": "Implementing a filter network at the output.",
+        "4": "Adjusting the DC input voltage, V"
+      },
+      "chosen_option": 1,
+      "correct_option": 1,
+      "status": "CORRECT",
+      "marks_awarded": 1.0
+    },
+    {
+      "question_number": 62,
+      "question_id": "4410091555063",
+      "section": "General",
+      "question_text": "Two-reaction theory is applied to:",
+      "options": {
+        "1": "DC generators",
+        "2": "Salient pole synchronous machines",
+        "3": "Induction motors",
+        "4": "Cylindrical rotor alternators"
+      },
+      "chosen_option": 4,
+      "correct_option": 2,
+      "status": "INCORRECT",
+      "marks_awarded": -0.25
+    },
+    {
+      "question_number": 63,
+      "question_id": "4410091537551",
+      "section": "General",
+      "question_text": "A CRO displays a Lissajous pattern, as shown below, for voltages of the same frequency but out of phase, which are connected to the Y and X plates of the oscilloscope. If the spot generating the pattern moves in an anticlockwise direction, what is the phase difference between the two signals?",
+      "options": {
+        "1": "+60°",
+        "2": "+30°",
+        "3": "–30°",
+        "4": "–60°"
+      },
+      "chosen_option": 4,
+      "correct_option": 3,
+      "status": "INCORRECT",
+      "marks_awarded": -0.25
+    },
+    {
+      "question_number": 64,
+      "question_id": "4410091544744",
+      "section": "General",
+      "question_text": "What is the primary function of the Maxwell's Inductance-Capacitance type bridge?",
+      "options": {
+        "1": "To measure the unknown capacitance in terms of known inductance.",
+        "2": "To measure the unknown self-inductance (L",
+        "3": "To measure very high-quality factor (Q) coils (Q > 10).",
+        "4": "To measure the unknown frequency of the AC source."
+      },
+      "chosen_option": 2,
+      "correct_option": 2,
+      "status": "CORRECT",
+      "marks_awarded": 1.0
+    },
+    {
+      "question_number": 65,
+      "question_id": "4410091563107",
+      "section": "General",
+      "question_text": "For the Zener diode network shown below, the input voltage is V i = 16 V, series resistance R = 1 k Ω , load resistance R L ​= Ω and Zener breakdown voltage V Z ​= 10 V. Assume ideal Zener diode behavior. The voltage V R across the series resistor R is______. 16 V",
+      "options": {
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": ""
+      },
+      "chosen_option": 3,
+      "correct_option": 4,
+      "status": "INCORRECT",
+      "marks_awarded": -0.25
+    },
+    {
+      "question_number": 66,
+      "question_id": "4410091576293",
+      "section": "General",
+      "question_text": "A synchronous MOD-12 counter is designed using T fl ip- fl ops. The minimum number of T fl ip- fl ops required is ______.",
+      "options": {
+        "1": "6",
+        "2": "12",
+        "3": "5",
+        "4": "4"
+      },
+      "chosen_option": 1,
+      "correct_option": 4,
+      "status": "INCORRECT",
+      "marks_awarded": -0.25
+    },
+    {
+      "question_number": 67,
+      "question_id": "4410091544767",
+      "section": "General",
+      "question_text": "The 'loading effect', in which a measuring instrument changes the quantity being measured, is explicitly referred to as a type of which error subcategory?",
+      "options": {
+        "1": "Gross Error",
+        "2": "Environmental Error",
+        "3": "Instrumental Error",
+        "4": "Observational Error"
+      },
+      "chosen_option": 2,
+      "correct_option": 3,
+      "status": "INCORRECT",
+      "marks_awarded": -0.25
+    },
+    {
+      "question_number": 68,
+      "question_id": "4410091805688",
+      "section": "General",
+      "question_text": "An engineer is tasked with transmitting a high- fi delity audio signal over long distances. Considering distortion and noise immunity, which modulation type would be most appropriate and why?",
+      "options": {
+        "1": "AM modulation, as it uses less power for long-distance transmission.",
+        "2": "AM modulation, due to its lower complexity.",
+        "3": "FM modulation, as it requires less bandwidth.",
+        "4": "FM modulation, due to its high noise immunity and fidelity."
+      },
+      "chosen_option": 1,
+      "correct_option": 4,
+      "status": "INCORRECT",
+      "marks_awarded": -0.25
+    },
+    {
+      "question_number": 69,
+      "question_id": "4410091562239",
+      "section": "General",
+      "question_text": "In AC arc welding machines, the welding transformer is designed to have:",
+      "options": {
+        "1": "Extremely high frequency output",
+        "2": "Equal primary and secondary voltages",
+        "3": "High secondary voltage and low current",
+        "4": "Low secondary voltage and high current"
+      },
+      "chosen_option": 4,
+      "correct_option": 4,
+      "status": "CORRECT",
+      "marks_awarded": 1.0
+    },
+    {
+      "question_number": 70,
+      "question_id": "4410091546047",
+      "section": "General",
+      "question_text": "At the resonant frequency, the response curve of a parallel circuit shows ______________ and the sharpness of the resonance curve in a parallel resonance circuit is determined by its _____________.",
+      "options": {
+        "1": "Maximum current, Power rating",
+        "2": "Minimum current, Q-factor",
+        "3": "Sudden voltage drops, Q-factor",
+        "4": "Zero impedance, Frequency tolerance"
+      },
+      "chosen_option": 2,
+      "correct_option": 2,
+      "status": "CORRECT",
+      "marks_awarded": 1.0
+    },
+    {
+      "question_number": 71,
+      "question_id": "4410091557705",
+      "section": "General",
+      "question_text": "How does a monostable multivibrator react if retriggered during its high output state?",
+      "options": {
+        "1": "Force a second pulse of reduced amplitude",
+        "2": "Ignore the trigger and continue existing pulse",
+        "3": "Drive the op-amp into slew-rate limiting mode",
+        "4": "Retrigger immediately and extend the pulse"
+      },
+      "chosen_option": 4,
+      "correct_option": 2,
+      "status": "INCORRECT",
+      "marks_awarded": -0.25
+    },
+    {
+      "question_number": 72,
+      "question_id": "4410091557248",
+      "section": "General",
+      "question_text": "Autotransformers are preferred in:",
+      "options": {
+        "1": "Protection circuits",
+        "2": "Power Amplifiers",
+        "3": "Large transformation ratio",
+        "4": "Starting of induction motors"
+      },
+      "chosen_option": 4,
+      "correct_option": 4,
+      "status": "CORRECT",
+      "marks_awarded": 1.0
+    },
+    {
+      "question_number": 73,
+      "question_id": "4410091792949",
+      "section": "General",
+      "question_text": "During concreting in waterlogged soil, which factor primarily increases the risk of washout and loss of cement paste?",
+      "options": {
+        "1": "Low cement content",
+        "2": "Floating of coarse aggregates",
+        "3": "Insufficient mixing time",
+        "4": "Excessive water movement"
+      },
+      "chosen_option": 1,
+      "correct_option": 4,
+      "status": "INCORRECT",
+      "marks_awarded": -0.25
+    },
+    {
+      "question_number": 74,
+      "question_id": "4410091554152",
+      "section": "General",
+      "question_text": "If an open-loop system has one pole in the right-half of the s-plane, the system is _________.",
+      "options": {
+        "1": "Stable",
+        "2": "Unstable",
+        "3": "Conditionally stable",
+        "4": "Marginally stable"
+      },
+      "chosen_option": 2,
+      "correct_option": 2,
+      "status": "CORRECT",
+      "marks_awarded": 1.0
+    },
+    {
+      "question_number": 75,
+      "question_id": "4410091572716",
+      "section": "General",
+      "question_text": "For a 20-bus power system with 30 transmission lines, what is the sparsity of the Y-bus matrix?",
+      "options": {
+        "1": "0.80",
+        "2": "0.85",
+        "3": "0.50",
+        "4": "0.65"
+      },
+      "chosen_option": 4,
+      "correct_option": 1,
+      "status": "INCORRECT",
+      "marks_awarded": -0.25
+    },
+    {
+      "question_number": 76,
+      "question_id": "4410091565152",
+      "section": "General",
+      "question_text": "Which of the following options is correct for the system with transfer function T(s) = (s-4)/s(s+3)?",
+      "options": {
+        "1": "It has 1 pole and two zeros and the system is minimum phase system.",
+        "2": "It has 2 poles and one zero and the system is minimum phase system.",
+        "3": "It has 1 pole and two zeros and the system is non-minimum phase system.",
+        "4": "It has 2 poles and one zero and the system is non-minimum phase system."
+      },
+      "chosen_option": 2,
+      "correct_option": 4,
+      "status": "INCORRECT",
+      "marks_awarded": -0.25
+    },
+    {
+      "question_number": 77,
+      "question_id": "4410091563526",
+      "section": "General",
+      "question_text": "A coil of 500 turns carries 2 A current. If the magnetic path length is 0.5 m and relative permeability of the core is 1000, what will be the value of magnetic fi eld strength H?",
+      "options": {
+        "1": "2000 A/m",
+        "2": "1000 A/m",
+        "3": "2000 Tesla",
+        "4": "1000 Tesla"
+      },
+      "chosen_option": 1,
+      "correct_option": 1,
+      "status": "CORRECT",
+      "marks_awarded": 1.0
+    },
+    {
+      "question_number": 78,
+      "question_id": "4410091563574",
+      "section": "General",
+      "question_text": "In the phasor diagram of a synchronous motor operating at lagging power factor, the excitation emf E leads the terminal voltage V by the load angle δ . If excitation is increased while load remains constant, what will the phasor diagram show?",
+      "options": {
+        "1": "δ increases and motor power factor worsens",
+        "2": "δ increases and motor power factor improves",
+        "3": "δ decreases and motor power factor improves",
+        "4": "δ decreases and motor power factor worsens"
+      },
+      "chosen_option": 2,
+      "correct_option": 3,
+      "status": "INCORRECT",
+      "marks_awarded": -0.25
+    },
+    {
+      "question_number": 79,
+      "question_id": "4410091547683",
+      "section": "General",
+      "question_text": "In electrostatic instruments, controlling torque is provided by:",
+      "options": {
+        "1": "Spring mechanism",
+        "2": "Permanent magnet",
+        "3": "Air vane",
+        "4": "Magnetic shunt"
+      },
+      "chosen_option": 3,
+      "correct_option": 1,
+      "status": "INCORRECT",
+      "marks_awarded": -0.25
+    },
+    {
+      "question_number": 80,
+      "question_id": "4410091572701",
+      "section": "General",
+      "question_text": "During the load fl ow analysis of an electrical power system, which quantities are unknown for a generator bus and must be found out by solving the power fl ow equations of the system? (Note : P i - net real power input at the bus, Q i - net reactive power input at the bus, V i - voltage magnitude at the bus, δ i - voltage phase angle at the bus) i | and P i",
+      "options": {
+        "1": "|V",
+        "2": "δ",
+        "3": "P",
+        "4": "|V"
+      },
+      "chosen_option": 3,
+      "correct_option": 2,
+      "status": "INCORRECT",
+      "marks_awarded": -0.25
+    },
+    {
+      "question_number": 81,
+      "question_id": "4410091553661",
+      "section": "General",
+      "question_text": "A multiplexer can be used to convert _________",
+      "options": {
+        "1": "Serial data to parallel data",
+        "2": "Digital to analog data",
+        "3": "Parallel data to serial data",
+        "4": "Analog to digital data"
+      },
+      "chosen_option": 1,
+      "correct_option": 3,
+      "status": "INCORRECT",
+      "marks_awarded": -0.25
+    },
+    {
+      "question_number": 82,
+      "question_id": "4410091658350",
+      "section": "General",
+      "question_text": "If A, B, and C denote the minuend, subtrahend, and previous borrow respectively of a full subtractor, the Boolean expression for the borrow output is ________.",
+      "options": {
+        "1": "A'B'C + A'BC' + AB'C' + ABC",
+        "2": "A'B+BC+AC",
+        "3": "A'B+BC+A'C",
+        "4": "AB+BC+AC"
+      },
+      "chosen_option": 1,
+      "correct_option": 3,
+      "status": "INCORRECT",
+      "marks_awarded": -0.25
+    },
+    {
+      "question_number": 83,
+      "question_id": "4410091792254",
+      "section": "General",
+      "question_text": "Which logic gate would be used in a digital circuit to ensure power is supplied only when multiple switches are ON simultaneously?",
+      "options": {
+        "1": "NOR gate",
+        "2": "NOT gate",
+        "3": "OR gate",
+        "4": "AND gate"
+      },
+      "chosen_option": 4,
+      "correct_option": 4,
+      "status": "CORRECT",
+      "marks_awarded": 1.0
+    },
+    {
+      "question_number": 84,
+      "question_id": "4410091563848",
+      "section": "General",
+      "question_text": "In fault analysis, the bus impedance matrix is signi fi cant because ________.",
+      "options": {
+        "1": "It eliminates the requirement for symmetrical component analysis in fault current studies",
+        "2": "It relates bus voltages to injected currents, enabling accurate fault current computation",
+        "3": "It directly provides fault current values without requiring further numerical calculation",
+        "4": "It remains unaffected by the electrical network configuration or overall system topology"
+      },
+      "chosen_option": 2,
+      "correct_option": 2,
+      "status": "CORRECT",
+      "marks_awarded": 1.0
+    },
+    {
+      "question_number": 85,
+      "question_id": "4410091661829",
+      "section": "General",
+      "question_text": ", the point of intersection of Given the the asymptotes of the root loci with the real axis is ___________.",
+      "options": {
+        "1": "-3",
+        "2": "4",
+        "3": "-1.33",
+        "4": "-4"
+      },
+      "chosen_option": 1,
+      "correct_option": 3,
+      "status": "INCORRECT",
+      "marks_awarded": -0.25
+    },
+    {
+      "question_number": 86,
+      "question_id": "4410091558288",
+      "section": "General",
+      "question_text": "The resolution of a 9-bit Ladder network digital to analog converter which produces a maximum analog output value of 5.11 volts is:",
+      "options": {
+        "1": "5 mV",
+        "2": "10 mV",
+        "3": "20 mV",
+        "4": "5.11 V"
+      },
+      "chosen_option": 2,
+      "correct_option": 2,
+      "status": "CORRECT",
+      "marks_awarded": 1.0
+    },
+    {
+      "question_number": 87,
+      "question_id": "4410091533313",
+      "section": "General",
+      "question_text": "Two same frequency signals, with equal amplitudes and with some phase difference between them, are applied across the X and Y plates of a CRO. It was found that the pattern displayed on screen was an ellipse with its major axis lying in the 2 nd and 4 th quadrant. Which of the following can be a possible phase difference between these two signals?",
+      "options": {
+        "1": "120°",
+        "2": "60°",
+        "3": "30°",
+        "4": "180°"
+      },
+      "chosen_option": 1,
+      "correct_option": 1,
+      "status": "CORRECT",
+      "marks_awarded": 1.0
+    },
+    {
+      "question_number": 88,
+      "question_id": "4410091553459",
+      "section": "General",
+      "question_text": "For a third-order system with the characteristic equation s³+as²+bs+c=0, what is the necessary and su ffi cient condition for stability?",
+      "options": {
+        "1": "a>0, b>0, c>0, and ab<c",
+        "2": "a>0, b>0, c>0, and ac>b",
+        "3": "a>0, b>0, c>0, and ab>c",
+        "4": "a>0, b>0, c>0"
+      },
+      "chosen_option": 3,
+      "correct_option": 3,
+      "status": "CORRECT",
+      "marks_awarded": 1.0
+    },
+    {
+      "question_number": 89,
+      "question_id": "4410091807785",
+      "section": "General",
+      "question_text": "In the FM expression s(t) = Ac cos(2 π fct + β sin(2 π fmt)), what does the term β represent?",
+      "options": {
+        "1": "Modulation index",
+        "2": "Carrier amplitude",
+        "3": "Carrier frequency",
+        "4": "Phase deviation"
+      },
+      "chosen_option": 1,
+      "correct_option": 1,
+      "status": "CORRECT",
+      "marks_awarded": 1.0
+    },
+    {
+      "question_number": 90,
+      "question_id": "4410091545636",
+      "section": "General",
+      "question_text": "An alternator's voltage regulation is often highest (positive and largest) while supplying _______________.",
+      "options": {
+        "1": "Unity power factor load",
+        "2": "Lagging power factor load",
+        "3": "Leading power factor load",
+        "4": "No load"
+      },
+      "chosen_option": 1,
+      "correct_option": 2,
+      "status": "INCORRECT",
+      "marks_awarded": -0.25
+    },
+    {
+      "question_number": 91,
+      "question_id": "4410091554862",
+      "section": "General",
+      "question_text": "For the fi gure given below showing delta connection, fi nd the equivalent resistance per phase for the equivalent star connection.",
+      "options": {
+        "1": "20 Ω",
+        "2": "90 Ω",
+        "3": "30 Ω",
+        "4": "10 Ω"
+      },
+      "chosen_option": 2,
+      "correct_option": 4,
+      "status": "INCORRECT",
+      "marks_awarded": -0.25
+    },
+    {
+      "question_number": 92,
+      "question_id": "4410091559091",
+      "section": "General",
+      "question_text": "Which of the following limits the high-frequency response of a BJT small-signal ampli fi er?",
+      "options": {
+        "1": "Coupling capacitors",
+        "2": "Internal transistor capacitances",
+        "3": "DC power supply",
+        "4": "Bypass capacitors"
+      },
+      "chosen_option": 2,
+      "correct_option": 2,
+      "status": "CORRECT",
+      "marks_awarded": 1.0
+    },
+    {
+      "question_number": 93,
+      "question_id": "4410091565478",
+      "section": "General",
+      "question_text": "Determine the equivalent resistance across terminals A and B in the given circuit.",
+      "options": {
+        "1": "4.187 Ω",
+        "2": "5.725 Ω",
+        "3": "6.937 Ω",
+        "4": "7.562 Ω"
+      },
+      "chosen_option": 1,
+      "correct_option": 3,
+      "status": "INCORRECT",
+      "marks_awarded": -0.25
+    },
+    {
+      "question_number": 94,
+      "question_id": "4410091538982",
+      "section": "General",
+      "question_text": "In a digital communication system, a shift register is used to convert 8 bits of serial data into parallel format. Which property of the D fl ip- fl op makes it the most suitable choice for constructing this shift register?",
+      "options": {
+        "1": "Its characteristic where the next state is exactly the present data input.",
+        "2": "Its edge-triggered nature which prevents race conditions in the counter.",
+        "3": "Its ability to toggle state when a control signal is high.",
+        "4": "Its capability to hold data indefinitely as long as power is supplied."
+      },
+      "chosen_option": 1,
+      "correct_option": 1,
+      "status": "CORRECT",
+      "marks_awarded": 1.0
+    },
+    {
+      "question_number": 95,
+      "question_id": "4410091544749",
+      "section": "General",
+      "question_text": "Which of the following describes the role of the braking magnet when a single- phase energy meter is undergoing calibration?",
+      "options": {
+        "1": "Adjust and control braking torque",
+        "2": "Produce rotating magnetic field",
+        "3": "Regulate supply voltage",
+        "4": "It minimizes the effect of friction on the disc"
+      },
+      "chosen_option": 1,
+      "correct_option": 1,
+      "status": "CORRECT",
+      "marks_awarded": 1.0
+    },
+    {
+      "question_number": 96,
+      "question_id": "4410091563100",
+      "section": "General",
+      "question_text": "Which device is a voltage-controlled power transistor?",
+      "options": {
+        "1": "BJT",
+        "2": "GTO",
+        "3": "SCR",
+        "4": "MOSFET"
+      },
+      "chosen_option": 1,
+      "correct_option": 4,
+      "status": "INCORRECT",
+      "marks_awarded": -0.25
+    },
+    {
+      "question_number": 97,
+      "question_id": "4410091805686",
+      "section": "General",
+      "question_text": "In frequency modulation (FM), which parameter of the carrier signal remains constant during transmission?",
+      "options": {
+        "1": "Frequency of the carrier signal",
+        "2": "Phase of the message signal",
+        "3": "Amplitude of the carrier signal",
+        "4": "Modulating frequency"
+      },
+      "chosen_option": 3,
+      "correct_option": 3,
+      "status": "CORRECT",
+      "marks_awarded": 1.0
+    },
+    {
+      "question_number": 98,
+      "question_id": "4410091561223",
+      "section": "General",
+      "question_text": "Per-unit impedance diagrams are used because they:",
+      "options": {
+        "1": "Vary with voltage level",
+        "2": "Increase complexity",
+        "3": "Are difficult to compute",
+        "4": "Eliminate transformer turns ratio complications"
+      },
+      "chosen_option": 4,
+      "correct_option": 4,
+      "status": "CORRECT",
+      "marks_awarded": 1.0
+    },
+    {
+      "question_number": 99,
+      "question_id": "4410091559876",
+      "section": "General",
+      "question_text": "A quasi square wave inverter is fi red at an angle of 30°. Calculate the ratio of 3rd harmonic component in the inverter output voltage with respect to Fundamental component in the output voltage.",
+      "options": {
+        "1": "0",
+        "2": "0.11",
+        "3": "0.33",
+        "4": "0.20"
+      },
+      "chosen_option": 4,
+      "correct_option": 1,
+      "status": "INCORRECT",
+      "marks_awarded": -0.25
+    },
+    {
+      "question_number": 100,
+      "question_id": "4410091559849",
+      "section": "General",
+      "question_text": "A quasi square wave inverter is fi red in such a way that its 5 th harmonic component became zero in the output voltage. What is the value of fi ring angle ( α ) and thus the width (d) of the output voltage, respectively?",
+      "options": {
+        "1": "α = 36°, d = 108°",
+        "2": "α = 36°, d = 144°",
+        "3": "α = 30°, d = 120°",
+        "4": "α = 18°, d = 144°"
+      },
+      "chosen_option": 2,
+      "correct_option": 4,
+      "status": "INCORRECT",
+      "marks_awarded": -0.25
+    }
+  ]
+}

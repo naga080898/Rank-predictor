@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: nextlevel-rank-predictor
+    runtime: docker
+    plan: free
+    region: singapore # Closest region to India on Render
+    healthCheckPath: /health
+    autoDeploy: true
+    envVars:
+      - key: DATABASE_URL
+        sync: false
+        # Example: postgresql://user:password@ep-xyz.region.neon.tech/neondb?sslmode=require
+      - key: ALLOWED_ORIGINS
+        value: "*"
