@@ -259,14 +259,6 @@
          ==================================================================== -->
     <section id="view-predictor" class="tab-view active">
       <div class="hero-section">
-        <div class="hero-pill">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path
-              d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83">
-            </path>
-          </svg>
-          <!-- <span></span> -->
-        </div>
         <h1 class="hero-title">AP AEE 2026<span class="text-gradient">Rank Predictor</span></h1>
         <p class="hero-subtitle">Powered by Next level</p>
       </div>
@@ -297,7 +289,6 @@
             </div>
           </div>
 
-          <!-- Selected File Card Preview -->
           <div class="selected-file-card" id="selected-file-card">
             <div class="selected-file-info">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2">
@@ -315,6 +306,66 @@
                 <line x1="6" y1="6" x2="18" y2="18"></line>
               </svg>
             </button>
+          </div>
+
+          <div style="margin: 1.5rem 0; display: flex; align-items: center; gap: 10px;">
+            <hr style="flex-grow: 1; border: none; border-top: 1px solid var(--border-color);">
+            <span style="color: var(--text-muted); font-size: 0.9rem; font-weight: 500;">OR PASTE LINK</span>
+            <hr style="flex-grow: 1; border: none; border-top: 1px solid var(--border-color);">
+          </div>
+
+          <div class="form-group" style="margin-bottom: 0.5rem; text-align: left;">
+            <input type="url" id="url-input" class="form-input"
+              placeholder="Paste DigiALM Response Sheet HTML URL here..." style="width: 100%;">
+          </div>
+
+          <!-- Candidate Details Form -->
+          <div class="candidate-details-form"
+            style="margin-top: 1rem; display: flex; flex-direction: column; gap: 1rem; text-align: left;">
+            <div class="form-group">
+              <label class="form-label" for="gender-select"
+                style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 0.4rem; display: block;">Gender</label>
+              <select id="gender-select" class="form-input">
+                <option value="">Select Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="category-select"
+                style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 0.4rem; display: block;">Category</label>
+              <select id="category-select" class="form-input">
+                <option value="">Select Category</option>
+                <option value="General">General</option>
+                <option value="OBC">OBC</option>
+                <option value="SC">SC</option>
+                <option value="ST">ST</option>
+                <option value="EWS">EWS</option>
+                <option value="PwBD">PwBD</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="zone-select"
+                style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 0.4rem; display: block;">Zone</label>
+              <select id="zone-select" class="form-input">
+                <option value="">Select Zone</option>
+                <optgroup label="APTRANSCO">
+                  <option value="Visakhapatnam">Visakhapatnam</option>
+                  <option value="Rajamahendravaram">Rajamahendravaram</option>
+                  <option value="Vijayawada">Vijayawada</option>
+                  <option value="Amaravati">Amaravati</option>
+                  <option value="Kadapa">Kadapa</option>
+                  <option value="Kurnool">Kurnool</option>
+                </optgroup>
+                <optgroup label="APGENCO">
+                  <option value="Zone 1">Zone 1</option>
+                  <option value="Zone 2">Zone 2</option>
+                  <option value="Zone 3">Zone 3</option>
+                  <option value="Zone 4">Zone 4</option>
+                  <option value="Zone 5">Zone 5</option>
+                </optgroup>
+              </select>
+            </div>
           </div>
 
           <!-- Evaluate Button -->
@@ -375,6 +426,20 @@
             <h3 class="course-title">Explore Our Courses</h3>
             <p class="course-desc">Complete preparation for GATE, Engineering Services, and AEE exams.</p>
             <span class="course-link-arrow">Explore →</span>
+          </a>
+
+          <a href="https://t.me/shankar10GATE" target="_blank" rel="noopener noreferrer" class="course-card glass-card">
+            <div class="course-icon"
+              style="background: linear-gradient(135deg, rgba(0,136,204,0.15), rgba(0,136,204,0.05));">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0088cc" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <line x1="22" y1="2" x2="11" y2="13"></line>
+                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+              </svg>
+            </div>
+            <h3 class="course-title">Join our Telegram</h3>
+            <p class="course-desc">Join our official Telegram group for updates, discussions, and study materials.</p>
+            <span class="course-link-arrow" style="color: #0088cc;">Join Group →</span>
           </a>
         </div>
       </div>
@@ -629,6 +694,38 @@
           </select>
           <select id="lb-shift-select" class="lb-select">
             <option value="">All Shifts & Dates</option>
+          </select>
+          <select id="lb-gender-select" class="lb-select">
+            <option value="">All Genders</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+          </select>
+          <select id="lb-category-select" class="lb-select">
+            <option value="">All Categories</option>
+            <option value="General">General</option>
+            <option value="OBC">OBC</option>
+            <option value="SC">SC</option>
+            <option value="ST">ST</option>
+            <option value="EWS">EWS</option>
+            <option value="PwBD">PwBD</option>
+          </select>
+          <select id="lb-zone-select" class="lb-select">
+            <option value="">All Zones</option>
+            <optgroup label="APTRANSCO">
+              <option value="Visakhapatnam">Visakhapatnam</option>
+              <option value="Rajamahendravaram">Rajamahendravaram</option>
+              <option value="Vijayawada">Vijayawada</option>
+              <option value="Amaravati">Amaravati</option>
+              <option value="Kadapa">Kadapa</option>
+              <option value="Kurnool">Kurnool</option>
+            </optgroup>
+            <optgroup label="APGENCO">
+              <option value="Zone 1">Zone 1</option>
+              <option value="Zone 2">Zone 2</option>
+              <option value="Zone 3">Zone 3</option>
+              <option value="Zone 4">Zone 4</option>
+              <option value="Zone 5">Zone 5</option>
+            </optgroup>
           </select>
         </div>
 

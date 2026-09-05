@@ -199,6 +199,22 @@ function initEventListeners() {
   // Demo Sample PDF evaluation buttons
   DOM.demoSample1.addEventListener('click', () => runDemoSample(1));
   DOM.demoSample2.addEventListener('click', () => runDemoSample(2));
+  
+  // URL Input handler
+  const urlInput = document.getElementById('url-input');
+  if (urlInput) {
+    urlInput.addEventListener('input', (e) => {
+      if (e.target.value.trim() !== '') {
+        DOM.btnSubmitEvaluate.disabled = false;
+        // Optionally clear file if they paste URL
+        if (state.selectedFile) {
+          removeSelectedFile(null);
+        }
+      } else if (!state.selectedFile) {
+        DOM.btnSubmitEvaluate.disabled = true;
+      }
+    });
+  }
 
   // Scorecard Actions
   DOM.btnBackToUpload.addEventListener('click', () => switchTab('predictor'));
@@ -223,6 +239,12 @@ function initEventListeners() {
   // Leaderboard Filters
   DOM.lbSubjectSelect.addEventListener('change', fetchAndRenderLeaderboard);
   DOM.lbShiftSelect.addEventListener('change', fetchAndRenderLeaderboard);
+  const lbGender = document.getElementById('lb-gender-select');
+  if (lbGender) lbGender.addEventListener('change', fetchAndRenderLeaderboard);
+  const lbCategory = document.getElementById('lb-category-select');
+  if (lbCategory) lbCategory.addEventListener('change', fetchAndRenderLeaderboard);
+  const lbZone = document.getElementById('lb-zone-select');
+  if (lbZone) lbZone.addEventListener('change', fetchAndRenderLeaderboard);
   DOM.lbSearchInput.addEventListener('input', debounce(filterLeaderboardLocally, 250));
 
   // Lookup Modal Handlers
@@ -307,6 +329,11 @@ function handleFileSelected(file) {
     showToast('Invalid file. Please select a PDF file.', 'error');
     return;
   }
+  
+  // Clear URL input if they select a file
+  const urlInput = document.getElementById('url-input');
+  if (urlInput) urlInput.value = '';
+  
   state.selectedFile = file;
   DOM.fileNameDisplay.textContent = file.name;
   DOM.fileSizeDisplay.textContent = formatBytes(file.size);
@@ -320,25 +347,47 @@ function removeSelectedFile(e) {
   state.selectedFile = null;
   DOM.fileInput.value = '';
   DOM.selectedFileCard.style.display = 'none';
-  DOM.btnSubmitEvaluate.disabled = true;
+  
+  const urlInput = document.getElementById('url-input');
+  if (!urlInput || urlInput.value.trim() === '') {
+    DOM.btnSubmitEvaluate.disabled = true;
+  }
 }
 
 async function submitEvaluationForm() {
-  if (!state.selectedFile) {
-    showToast('Please select a PDF file to evaluate.', 'error');
+  const urlInput = document.getElementById('url-input')?.value.trim();
+
+  if (!state.selectedFile && !urlInput) {
+    showToast('Please select a PDF file or paste a URL to evaluate.', 'error');
     return;
   }
 
   const formData = new FormData();
-  formData.append('file', state.selectedFile);
   formData.append('positive_marks', 1.0);
   formData.append('negative_marks', 0.0);
+
+  const gender = document.getElementById('gender-select')?.value;
+  const category = document.getElementById('category-select')?.value;
+  const zone = document.getElementById('zone-select')?.value;
+  
+  if (gender) formData.append('gender', gender);
+  if (category) formData.append('category', category);
+  if (zone) formData.append('zone', zone);
 
   showLoadingOverlay(true);
   simulateLoadingSteps();
 
   try {
-    const res = await fetch(`${API_BASE}/api/evaluate`, {
+    let endpoint = `${API_BASE}/api/evaluate`;
+    
+    if (urlInput) {
+      formData.append('url', urlInput);
+      endpoint = `${API_BASE}/api/evaluate/url`;
+    } else {
+      formData.append('file', state.selectedFile);
+    }
+
+    const res = await fetch(endpoint, {
       method: 'POST',
       body: formData
     });
@@ -398,6 +447,12 @@ function renderScorecard(data) {
   const rank = data.rank_estimate || {};
   const sec = data.sections || {};
   const questions = data.questions || [];
+
+  if (sum.correct === 0 && sum.incorrect === 0 && sum.attempted === 0) {
+    setTimeout(() => {
+      alert("We couldn't parse your responses properly. Please join our Telegram channel (https://t.me/shankar10GATE) and raise this issue so we can fix it!");
+    }, 500);
+  }
 
   // Candidate Profile Banner
   const name = cand.participant_name ? cand.participant_name.trim() : 'Anonymous Candidate';
@@ -593,10 +648,16 @@ function renderQuestionsList() {
 async function fetchAndRenderLeaderboard() {
   const subject = DOM.lbSubjectSelect.value;
   const shift = DOM.lbShiftSelect.value;
+  const gender = document.getElementById('lb-gender-select')?.value;
+  const category = document.getElementById('lb-category-select')?.value;
+  const zone = document.getElementById('lb-zone-select')?.value;
 
   let url = `${API_BASE}/api/leaderboard?limit=100`;
   if (subject) url += `&subject=${encodeURIComponent(subject)}`;
   if (shift) url += `&test_time=${encodeURIComponent(shift)}`;
+  if (gender) url += `&gender=${encodeURIComponent(gender)}`;
+  if (category) url += `&category=${encodeURIComponent(category)}`;
+  if (zone) url += `&zone=${encodeURIComponent(zone)}`;
 
   try {
     const res = await fetch(url);

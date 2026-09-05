@@ -55,28 +55,37 @@ def extract_candidate_info(doc: pymupdf.Document) -> Dict[str, str]:
         "test_time": "",
         "subject": ""
     }
-    
+
+    raw_pages_text = []
     for page_idx in range(min(4, len(doc))):
         text = doc[page_idx].get_text("text")
-        
-        ht_m = re.search(r'Hall Ticket Number\s*\n\s*([^\n]+)', text)
-        if ht_m and not info["hall_ticket"]: info["hall_ticket"] = ht_m.group(1).strip()
-        
-        name_m = re.search(r'Participant Name\s*\n\s*([^\n]+)', text)
-        if name_m and not info["participant_name"]: info["participant_name"] = name_m.group(1).strip()
-        
-        center_m = re.search(r'Test Center Name\s*\n\s*([^\n]+)', text)
-        if center_m and not info["test_center"]: info["test_center"] = center_m.group(1).strip()
-        
-        date_m = re.search(r'Test Date\s*\n\s*([^\n]+)', text)
-        if date_m and not info["test_date"]: info["test_date"] = date_m.group(1).strip()
+        raw_pages_text.append(f"--- Page {page_idx + 1} ---\n{text}")
 
-        time_m = re.search(r'Test Time\s*\n\s*([^\n]+)', text)
-        if time_m and not info["test_time"]: info["test_time"] = time_m.group(1).strip()
-        
-        subj_m = re.search(r'Subject\s*\n\s*([^\n]+)', text)
-        if subj_m and not info["subject"]: info["subject"] = subj_m.group(1).strip()
+        if not info["hall_ticket"]:
+            ht_m = re.search(r'Hall Ticket Number\s*\n\s*([^\n]+)', text)
+            if ht_m: info["hall_ticket"] = ht_m.group(1).strip()
 
+        if not info["participant_name"]:
+            name_m = re.search(r'Participant Name\s*\n\s*([^\n]+)', text)
+            if name_m: info["participant_name"] = name_m.group(1).strip()
+
+        if not info["test_center"]:
+            center_m = re.search(r'Test Center Name\s*\n\s*([^\n]+)', text)
+            if center_m: info["test_center"] = center_m.group(1).strip()
+
+        if not info["test_date"]:
+            date_m = re.search(r'Test Date\s*\n\s*([^\n]+)', text)
+            if date_m: info["test_date"] = date_m.group(1).strip()
+
+        if not info["test_time"]:
+            time_m = re.search(r'Test Time\s*\n\s*([^\n]+)', text)
+            if time_m: info["test_time"] = time_m.group(1).strip()
+
+        if not info["subject"]:
+            subj_m = re.search(r'Subject\s*\n\s*([^\n]+)', text)
+            if subj_m: info["subject"] = subj_m.group(1).strip()
+
+    info["raw_header_text"] = "\n".join(raw_pages_text)
     return info
 
 def parse_pdf_bytes_or_file(
@@ -112,6 +121,22 @@ def parse_pdf_bytes_or_file(
             raise ValueError("The provided PDF has 0 pages.")
 
         candidate_info = extract_candidate_info(doc)
+        
+        unidentified_page_text = None
+        if any(not candidate_info.get(k) for k in ["hall_ticket", "participant_name", "test_center", "test_date", "test_time", "subject"]):
+            if len(doc) > 0:
+                unidentified_page_text = doc[0].get_text("text")
+                try:
+                    import time
+                    out_dir = Path("unidentified_candidates")
+                    out_dir.mkdir(exist_ok=True)
+                    safe_fname = (filename or "unknown").replace("/", "_").replace("\\", "_")
+                    save_path = out_dir / f"unidentified_{int(time.time())}_{safe_fname}.txt"
+                    save_path.write_text(unidentified_page_text, encoding="utf-8")
+                    logger.warning(f"Candidate info missing. Saved first page text to {save_path}")
+                except Exception as e:
+                    logger.error(f"Failed to save unidentified candidate info locally: {e}")
+
         logger.info(
             f"Candidate Info: name='{candidate_info['participant_name']}', "
             f"hall_ticket='{candidate_info['hall_ticket']}', "
@@ -290,7 +315,9 @@ def parse_pdf_bytes_or_file(
                 "final_score": final_score
             },
             "sections": sections_summary,
-            "questions": questions_list
+            "questions": questions_list,
+            "raw_header_text": candidate_info.pop("raw_header_text", ""),
+            "unidentified_page_text": unidentified_page_text
         }
 
     finally:

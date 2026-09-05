@@ -262,17 +262,47 @@ def get_leaderboard_data(
     subject: Optional[str] = None,
     test_date: Optional[str] = None,
     test_time: Optional[str] = None,
+    gender: Optional[str] = None,
+    category: Optional[str] = None,
+    zone: Optional[str] = None,
     limit: int = 50,
     offset: int = 0
 ) -> List[Dict[str, Any]]:
-    """Returns top ranked candidates with filters and percentiles."""
-    query = db.query(CandidateSubmission)
+    """Returns top ranked candidates with filters and percentiles.
+    Deduplicates by (participant_name, subject, final_score), keeping only the
+    latest submission per unique candidate+score combination.
+    """
+    from sqlalchemy import func as sqlfunc
+
+    # Build a subquery: for each (participant_name, subject, final_score) group,
+    # pick the MAX (latest) submission id to deduplicate re-uploads of the same candidate.
+    dedup_subq = (
+        db.query(sqlfunc.max(CandidateSubmission.id).label("max_id"))
+        .group_by(
+            CandidateSubmission.participant_name,
+            CandidateSubmission.subject,
+            CandidateSubmission.final_score
+        )
+        .subquery()
+    )
+
+    # Main query restricted to the deduplicated set
+    query = db.query(CandidateSubmission).filter(
+        CandidateSubmission.id.in_(db.query(dedup_subq.c.max_id))
+    )
+
     if subject:
         query = query.filter(CandidateSubmission.subject == subject)
     if test_date:
         query = query.filter(CandidateSubmission.test_date == test_date)
     if test_time:
         query = query.filter(CandidateSubmission.test_time == test_time)
+    if gender:
+        query = query.filter(CandidateSubmission.gender == gender)
+    if category:
+        query = query.filter(CandidateSubmission.category == category)
+    if zone:
+        query = query.filter(CandidateSubmission.zone == zone)
 
     total_in_pool = query.count()
 
@@ -300,6 +330,9 @@ def get_leaderboard_data(
             "subject": cand.subject,
             "test_date": cand.test_date,
             "test_time": cand.test_time,
+            "gender": cand.gender,
+            "category": cand.category,
+            "zone": cand.zone,
             "correct": cand.correct,
             "incorrect": cand.incorrect,
             "unattempted": cand.unattempted,

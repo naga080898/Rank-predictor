@@ -9,6 +9,9 @@ class CandidateInfoSchema(BaseModel):
     test_date: Optional[str] = ""
     test_time: Optional[str] = ""
     subject: Optional[str] = ""
+    gender: Optional[str] = None
+    category: Optional[str] = None
+    zone: Optional[str] = None
 
 class QuestionDetailSchema(BaseModel):
     question_number: int
@@ -66,6 +69,9 @@ class LeaderboardEntrySchema(BaseModel):
     subject: Optional[str] = ""
     test_date: Optional[str] = ""
     test_time: Optional[str] = ""
+    gender: Optional[str] = None
+    category: Optional[str] = None
+    zone: Optional[str] = None
     correct: int
     incorrect: int
     unattempted: int

@@ -6,7 +6,7 @@ from fastapi import APIRouter, Depends, UploadFile, File, Form, HTTPException, R
 from sqlalchemy.orm import Session
 
 from backend.database import get_db
-from backend.models import CandidateSubmission
+from backend.models import CandidateSubmission, UnidentifiedCandidate
 from backend.schemas import EvaluationResponseSchema
 from backend.parser_engine import parse_pdf_bytes_or_file
 from backend.services.rank_service import calculate_rank_estimate
@@ -32,11 +32,23 @@ def _process_and_save_result(
     summary = parsed_result["summary"]
     sections = parsed_result["sections"]
     questions = parsed_result["questions"]
+    unidentified_text = parsed_result.get("unidentified_page_text")
+
+    if unidentified_text:
+        logger.info(f"Saving unidentified page text for {file_name}")
+        unidentified_record = UnidentifiedCandidate(
+            file_name=file_name,
+            page_text=unidentified_text
+        )
+        db.add(unidentified_record)
 
     hall_ticket = candidate_info.get("hall_ticket", "").strip()
     subject = candidate_info.get("subject", "").strip()
 
     submission = None
+    participant_name = candidate_info.get("participant_name", "").strip()
+    final_score = summary.get("final_score", 0.0)
+
     if hall_ticket:
         submission = (
             db.query(CandidateSubmission)
@@ -47,12 +59,28 @@ def _process_and_save_result(
             .first()
         )
 
+    # Fallback dedup: match by name + subject + score when no hall ticket or no match found
+    if not submission and participant_name:
+        submission = (
+            db.query(CandidateSubmission)
+            .filter(
+                CandidateSubmission.participant_name == participant_name,
+                CandidateSubmission.subject == subject,
+                CandidateSubmission.final_score == final_score
+            )
+            .order_by(CandidateSubmission.id.desc())
+            .first()
+        )
+
     if submission:
         logger.info(f"Updating existing submission for Hall Ticket: {hall_ticket}")
         submission.participant_name = candidate_info.get("participant_name") or submission.participant_name
         submission.test_center = candidate_info.get("test_center") or submission.test_center
         submission.test_date = candidate_info.get("test_date") or submission.test_date
         submission.test_time = candidate_info.get("test_time") or submission.test_time
+        submission.gender = candidate_info.get("gender") or submission.gender
+        submission.category = candidate_info.get("category") or submission.category
+        submission.zone = candidate_info.get("zone") or submission.zone
         submission.total_questions = summary["total_questions"]
         submission.attempted = summary["attempted"]
         submission.unattempted = summary["unattempted"]
@@ -85,7 +113,10 @@ def _process_and_save_result(
             final_score=summary["final_score"],
             sections_json=json.dumps(sections),
             file_name=file_name,
-            ip_address=client_ip
+            ip_address=client_ip,
+            gender=candidate_info.get("gender"),
+            category=candidate_info.get("category"),
+            zone=candidate_info.get("zone")
         )
         db.add(submission)
 
@@ -117,6 +148,9 @@ async def evaluate_response_sheet(
     positive_marks: float = Form(1.0, description="Marks awarded for each correct answer"),
     negative_marks: float = Form(0.0, description="Marks deducted for each incorrect answer"),
     estimated_total_candidates: Optional[int] = Form(None, description="Optional custom estimate of total exam candidates"),
+    gender: Optional[str] = Form(None),
+    category: Optional[str] = Form(None),
+    zone: Optional[str] = Form(None),
     db: Session = Depends(get_db)
 ):
     """
@@ -142,6 +176,10 @@ async def evaluate_response_sheet(
             negative_marks=negative_marks,
             filename=file.filename
         )
+        
+        parsed_result["candidate"]["gender"] = gender
+        parsed_result["candidate"]["category"] = category
+        parsed_result["candidate"]["zone"] = zone
 
         client_ip = request.client.host if request.client else None
         return _process_and_save_result(
@@ -160,6 +198,75 @@ async def evaluate_response_sheet(
     except Exception as e:
         logger.exception(f"Unexpected error evaluating PDF: {e}")
         raise HTTPException(status_code=500, detail=f"Failed to process response sheet: {str(e)}")
+
+
+@router.post("/evaluate/url", response_model=EvaluationResponseSchema)
+async def evaluate_response_sheet_url(
+    request: Request,
+    url: str = Form(..., description="The DigiALM / TCS iON Response Sheet URL"),
+    positive_marks: float = Form(1.0, description="Marks awarded for each correct answer"),
+    negative_marks: float = Form(0.0, description="Marks deducted for each incorrect answer"),
+    estimated_total_candidates: Optional[int] = Form(None, description="Optional custom estimate of total exam candidates"),
+    gender: Optional[str] = Form(None),
+    category: Optional[str] = Form(None),
+    zone: Optional[str] = Form(None),
+    db: Session = Depends(get_db)
+):
+    """
+    Downloads HTML from a DigiALM response sheet URL, parses it, evaluates score,
+    records submission in the database, and returns candidate performance and rank estimate.
+    """
+    logger.info(f"Received URL evaluate request: {url}")
+    
+    import httpx
+    from backend.html_parser_engine import parse_html_response_sheet
+
+    try:
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36",
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+            "Accept-Language": "en-US,en;q=0.9",
+        }
+        async with httpx.AsyncClient(timeout=15.0, headers=headers) as client:
+            resp = await client.get(url)
+            resp.raise_for_status()
+            html_content = resp.text
+
+        if "rightAns" not in html_content and "questionRowTbl" not in html_content and "question-pnl" not in html_content:
+            raise ValueError("The downloaded URL does not appear to be a valid DigiALM response sheet.")
+
+        parsed_result = parse_html_response_sheet(
+            html_content=html_content,
+            positive_marks=positive_marks,
+            negative_marks=negative_marks
+        )
+        
+        parsed_result["candidate"]["gender"] = gender
+        parsed_result["candidate"]["category"] = category
+        parsed_result["candidate"]["zone"] = zone
+
+        client_ip = request.client.host if request.client else None
+        return _process_and_save_result(
+            parsed_result=parsed_result,
+            file_name=url,
+            client_ip=client_ip,
+            estimated_total_candidates=estimated_total_candidates,
+            db=db
+        )
+
+    except httpx.HTTPStatusError as e:
+        logger.error(f"HTTP Error fetching URL: {e}")
+        raise HTTPException(status_code=400, detail=f"Failed to download response sheet from URL. HTTP Status: {e.response.status_code}")
+    except httpx.RequestError as e:
+        logger.error(f"Network error fetching URL: {e}")
+        raise HTTPException(status_code=400, detail="Failed to connect to the provided URL.")
+    except ValueError as ve:
+        logger.warning(f"Validation error during HTML parsing: {ve}")
+        raise HTTPException(status_code=422, detail=str(ve))
+    except Exception as e:
+        logger.exception(f"Unexpected error evaluating URL: {e}")
+        raise HTTPException(status_code=500, detail=f"Failed to process response sheet URL: {str(e)}")
+
 
 
 @router.post("/evaluate-sample/{sample_id}", response_model=EvaluationResponseSchema)
@@ -239,7 +346,10 @@ def get_candidate_evaluation(
             "test_center": sub.test_center or "",
             "test_date": sub.test_date or "",
             "test_time": sub.test_time or "",
-            "subject": sub.subject or ""
+            "subject": sub.subject or "",
+            "gender": sub.gender,
+            "category": sub.category,
+            "zone": sub.zone
         },
         "summary": {
             "total_questions": sub.total_questions,

@@ -14,6 +14,9 @@ class CandidateSubmission(Base):
     test_date = Column(String(50), index=True, nullable=True)
     test_time = Column(String(100), index=True, nullable=True)  # Shift/Session
     subject = Column(String(150), index=True, nullable=True)
+    gender = Column(String(50), nullable=True)
+    category = Column(String(50), nullable=True)
+    zone = Column(String(150), nullable=True)
 
     # Scoring & Evaluation Metrics
     total_questions = Column(Integer, default=0)
@@ -28,6 +31,7 @@ class CandidateSubmission(Base):
 
     # Detailed Structured JSON payloads
     sections_json = Column(Text, nullable=True)   # JSON string for per-section stats
+    raw_header_text = Column(Text, nullable=True)  # Raw text from PDF header pages (for regex debugging)
 
     # System & Audit info
     ip_address = Column(String(50), nullable=True)
@@ -40,3 +44,11 @@ class CandidateSubmission(Base):
         Index("idx_subj_score", "subject", "final_score"),
         Index("idx_subj_date_time_score", "subject", "test_date", "test_time", "final_score"),
     )
+
+class UnidentifiedCandidate(Base):
+    __tablename__ = "unidentified_candidates"
+
+    id = Column(Integer, primary_key=True, index=True, autoincrement=True)
+    file_name = Column(String(255), nullable=True)
+    page_text = Column(Text, nullable=False)
+    created_at = Column(DateTime, default=datetime.datetime.utcnow, index=True)
