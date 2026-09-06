@@ -49,79 +49,95 @@ def _process_and_save_result(
     participant_name = candidate_info.get("participant_name", "").strip()
     final_score = summary.get("final_score", 0.0)
 
-    if hall_ticket:
-        submission = (
-            db.query(CandidateSubmission)
-            .filter(
-                CandidateSubmission.hall_ticket == hall_ticket,
-                CandidateSubmission.subject == subject
-            )
-            .first()
-        )
+    is_valid_score = (final_score != 0)
 
-    # Fallback dedup: match by name + subject + score when no hall ticket or no match found
-    if not submission and participant_name:
-        submission = (
-            db.query(CandidateSubmission)
-            .filter(
-                CandidateSubmission.participant_name == participant_name,
-                CandidateSubmission.subject == subject,
-                CandidateSubmission.final_score == final_score
+    if is_valid_score:
+        if hall_ticket:
+            submission = (
+                db.query(CandidateSubmission)
+                .filter(
+                    CandidateSubmission.hall_ticket == hall_ticket,
+                    CandidateSubmission.subject == subject
+                )
+                .first()
             )
-            .order_by(CandidateSubmission.id.desc())
-            .first()
-        )
 
-    if submission:
-        logger.info(f"Updating existing submission for Hall Ticket: {hall_ticket}")
-        submission.participant_name = candidate_info.get("participant_name") or submission.participant_name
-        submission.test_center = candidate_info.get("test_center") or submission.test_center
-        submission.test_date = candidate_info.get("test_date") or submission.test_date
-        submission.test_time = candidate_info.get("test_time") or submission.test_time
-        submission.gender = candidate_info.get("gender") or submission.gender
-        submission.category = candidate_info.get("category") or submission.category
-        submission.zone = candidate_info.get("zone") or submission.zone
-        submission.total_questions = summary["total_questions"]
-        submission.attempted = summary["attempted"]
-        submission.unattempted = summary["unattempted"]
-        submission.correct = summary["correct"]
-        submission.incorrect = summary["incorrect"]
-        submission.accuracy_percent = summary["accuracy_percent"]
-        submission.positive_marking = summary["positive_marking"]
-        submission.negative_marking = summary["negative_marking"]
-        submission.final_score = summary["final_score"]
-        submission.sections_json = json.dumps(sections)
-        submission.file_name = file_name
-        submission.ip_address = client_ip
+        # Fallback dedup: match by name + subject + score when no hall ticket or no match found
+        if not submission and participant_name:
+            submission = (
+                db.query(CandidateSubmission)
+                .filter(
+                    CandidateSubmission.participant_name == participant_name,
+                    CandidateSubmission.subject == subject,
+                    CandidateSubmission.final_score == final_score
+                )
+                .order_by(CandidateSubmission.id.desc())
+                .first()
+            )
+
+        if submission:
+            logger.info(f"Updating existing submission for Hall Ticket: {hall_ticket}")
+            submission.participant_name = candidate_info.get("participant_name") or submission.participant_name
+            submission.test_center = candidate_info.get("test_center") or submission.test_center
+            submission.test_date = candidate_info.get("test_date") or submission.test_date
+            submission.test_time = candidate_info.get("test_time") or submission.test_time
+            submission.gender = candidate_info.get("gender") or submission.gender
+            submission.category = candidate_info.get("category") or submission.category
+            submission.zone = candidate_info.get("zone") or submission.zone
+            submission.total_questions = summary["total_questions"]
+            submission.attempted = summary["attempted"]
+            submission.unattempted = summary["unattempted"]
+            submission.correct = summary["correct"]
+            submission.incorrect = summary["incorrect"]
+            submission.accuracy_percent = summary["accuracy_percent"]
+            submission.positive_marking = summary["positive_marking"]
+            submission.negative_marking = summary["negative_marking"]
+            submission.final_score = summary["final_score"]
+            submission.sections_json = json.dumps(sections)
+            submission.file_name = file_name
+            submission.ip_address = client_ip
+        else:
+            logger.info(f"Creating new submission record for Hall Ticket: {hall_ticket or 'Anonymous'}")
+            submission = CandidateSubmission(
+                hall_ticket=hall_ticket,
+                participant_name=candidate_info.get("participant_name"),
+                test_center=candidate_info.get("test_center"),
+                test_date=candidate_info.get("test_date"),
+                test_time=candidate_info.get("test_time"),
+                subject=subject,
+                total_questions=summary["total_questions"],
+                attempted=summary["attempted"],
+                unattempted=summary["unattempted"],
+                correct=summary["correct"],
+                incorrect=summary["incorrect"],
+                accuracy_percent=summary["accuracy_percent"],
+                positive_marking=summary["positive_marking"],
+                negative_marking=summary["negative_marking"],
+                final_score=summary["final_score"],
+                sections_json=json.dumps(sections),
+                file_name=file_name,
+                ip_address=client_ip,
+                gender=candidate_info.get("gender"),
+                category=candidate_info.get("category"),
+                zone=candidate_info.get("zone")
+            )
+            db.add(submission)
+
+        db.commit()
+        db.refresh(submission)
+        
+        submission_id = submission.id
+        submitted_at = submission.submitted_at
     else:
-        logger.info(f"Creating new submission record for Hall Ticket: {hall_ticket or 'Anonymous'}")
+        logger.info(f"Not saving submission to DB because final_score is 0 for {hall_ticket}")
         submission = CandidateSubmission(
             hall_ticket=hall_ticket,
-            participant_name=candidate_info.get("participant_name"),
-            test_center=candidate_info.get("test_center"),
-            test_date=candidate_info.get("test_date"),
-            test_time=candidate_info.get("test_time"),
             subject=subject,
-            total_questions=summary["total_questions"],
-            attempted=summary["attempted"],
-            unattempted=summary["unattempted"],
-            correct=summary["correct"],
-            incorrect=summary["incorrect"],
-            accuracy_percent=summary["accuracy_percent"],
-            positive_marking=summary["positive_marking"],
-            negative_marking=summary["negative_marking"],
-            final_score=summary["final_score"],
-            sections_json=json.dumps(sections),
-            file_name=file_name,
-            ip_address=client_ip,
-            gender=candidate_info.get("gender"),
-            category=candidate_info.get("category"),
-            zone=candidate_info.get("zone")
+            final_score=final_score
         )
-        db.add(submission)
-
-    db.commit()
-    db.refresh(submission)
+        submission_id = -1
+        import datetime
+        submitted_at = datetime.datetime.utcnow()
 
     # Compute dynamic rank & percentile estimates
     rank_estimate = calculate_rank_estimate(
@@ -131,13 +147,13 @@ def _process_and_save_result(
     )
 
     return {
-        "submission_id": submission.id,
+        "submission_id": submission_id,
         "candidate": candidate_info,
         "summary": summary,
         "rank_estimate": rank_estimate,
         "sections": sections,
         "questions": questions,
-        "submitted_at": submission.submitted_at
+        "submitted_at": submitted_at
     }
 
 
@@ -151,6 +167,7 @@ async def evaluate_response_sheet(
     gender: Optional[str] = Form(None),
     category: Optional[str] = Form(None),
     zone: Optional[str] = Form(None),
+    hall_ticket: str = Form(..., description="The candidate's hall ticket number"),
     db: Session = Depends(get_db)
 ):
     """
@@ -180,6 +197,8 @@ async def evaluate_response_sheet(
         parsed_result["candidate"]["gender"] = gender
         parsed_result["candidate"]["category"] = category
         parsed_result["candidate"]["zone"] = zone
+        if hall_ticket and not parsed_result["candidate"].get("hall_ticket"):
+            parsed_result["candidate"]["hall_ticket"] = hall_ticket
 
         client_ip = request.client.host if request.client else None
         return _process_and_save_result(
@@ -210,6 +229,7 @@ async def evaluate_response_sheet_url(
     gender: Optional[str] = Form(None),
     category: Optional[str] = Form(None),
     zone: Optional[str] = Form(None),
+    hall_ticket: str = Form(..., description="The candidate's hall ticket number"),
     db: Session = Depends(get_db)
 ):
     """
@@ -244,6 +264,8 @@ async def evaluate_response_sheet_url(
         parsed_result["candidate"]["gender"] = gender
         parsed_result["candidate"]["category"] = category
         parsed_result["candidate"]["zone"] = zone
+        if hall_ticket and not parsed_result["candidate"].get("hall_ticket"):
+            parsed_result["candidate"]["hall_ticket"] = hall_ticket
 
         client_ip = request.client.host if request.client else None
         return _process_and_save_result(

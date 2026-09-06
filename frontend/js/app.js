@@ -366,10 +366,18 @@ async function submitEvaluationForm() {
   formData.append('positive_marks', 1.0);
   formData.append('negative_marks', 0.0);
 
+  const hallTicket = document.getElementById('hall-ticket-input')?.value.trim();
+  
+  if (!hallTicket) {
+    showToast('Please enter your Hall Ticket Number.', 'error');
+    return;
+  }
+
   const gender = document.getElementById('gender-select')?.value;
   const category = document.getElementById('category-select')?.value;
   const zone = document.getElementById('zone-select')?.value;
-  
+
+  formData.append('hall_ticket', hallTicket);
   if (gender) formData.append('gender', gender);
   if (category) formData.append('category', category);
   if (zone) formData.append('zone', zone);
