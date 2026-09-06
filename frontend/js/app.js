@@ -664,7 +664,15 @@ async function fetchAndRenderLeaderboard() {
 
   let url = `${API_BASE}/api/leaderboard?limit=100`;
   if (subject) url += `&subject=${encodeURIComponent(subject)}`;
-  if (shift) url += `&test_time=${encodeURIComponent(shift)}`;
+  if (shift) {
+    const parts = shift.split('|');
+    if (parts.length === 2) {
+      if (parts[0]) url += `&test_date=${encodeURIComponent(parts[0])}`;
+      if (parts[1]) url += `&test_time=${encodeURIComponent(parts[1])}`;
+    } else {
+      url += `&test_time=${encodeURIComponent(shift)}`; // Fallback
+    }
+  }
   if (gender) url += `&gender=${encodeURIComponent(gender)}`;
   if (category) url += `&category=${encodeURIComponent(category)}`;
   if (zone) url += `&zone=${encodeURIComponent(zone)}`;
@@ -700,12 +708,22 @@ function populateLeaderboardFilters(data) {
   }
 
   if (DOM.lbShiftSelect.options.length <= 1) {
-    const shifts = [...new Set(data.map(d => d.test_time).filter(Boolean))];
-    shifts.forEach(sh => {
-      const opt = document.createElement('option');
-      opt.value = sh;
-      opt.textContent = sh;
-      DOM.lbShiftSelect.appendChild(opt);
+    const shiftSet = new Set();
+    data.forEach(d => {
+      if (d.test_date || d.test_time) {
+        shiftSet.add(`${d.test_date || ''}|${d.test_time || ''}`);
+      }
+    });
+    
+    Array.from(shiftSet).forEach(sh => {
+      const [date, time] = sh.split('|');
+      const displayStr = `${date} ${time}`.trim();
+      if (displayStr) {
+        const opt = document.createElement('option');
+        opt.value = sh;
+        opt.textContent = displayStr;
+        DOM.lbShiftSelect.appendChild(opt);
+      }
     });
   }
 }
