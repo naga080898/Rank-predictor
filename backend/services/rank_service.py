@@ -10,6 +10,103 @@ from backend.config import DEFAULT_TOTAL_EXAM_TAKERS
 
 logger = logging.getLogger(__name__)
 
+def calculate_normalized_score(db: Session, submission: CandidateSubmission) -> float:
+    """
+    Calculates the normalized score using the provided formula:
+    M_hat_ij = ((M_t_g - M_q_g) / (M_ti - M_iq)) * (M_ij - M_iq) + M_q_gm
+    """
+    subj = submission.subject
+    
+    # Base query for the specific subject
+    subj_query = db.query(CandidateSubmission).filter(CandidateSubmission.subject == subj)
+    
+    total_candidates = subj_query.count()
+    if total_candidates == 0:
+        return submission.final_score
+        
+    m_ij = submission.final_score
+    
+    # Calculate M_q_g (overall mean + overall stddev)
+    # Note: SQLite stddev might not be available out-of-box, but PostgreSQL has stddev_samp
+    try:
+        overall_stats = subj_query.with_entities(
+            func.avg(CandidateSubmission.final_score),
+            func.stddev_samp(CandidateSubmission.final_score)
+        ).first()
+        overall_mean = float(overall_stats[0]) if overall_stats and overall_stats[0] is not None else 0.0
+        overall_std = float(overall_stats[1]) if overall_stats and overall_stats[1] is not None else 0.0
+    except Exception as e:
+        logger.warning(f"stddev_samp failed for overall stats, falling back to 0. {e}")
+        overall_mean = float(subj_query.with_entities(func.avg(CandidateSubmission.final_score)).scalar() or 0.0)
+        overall_std = 0.0
+        
+    m_q_g = overall_mean + overall_std
+    
+    # Calculate M_t_g (average marks of the top 0.1% candidates considering all shifts)
+    top_0_1_percent_count = max(1, math.ceil(total_candidates * 0.001))
+    top_overall_query = subj_query.order_by(CandidateSubmission.final_score.desc()).limit(top_0_1_percent_count)
+    top_overall_avg = db.query(func.avg(top_overall_query.subquery().c.final_score)).scalar()
+    m_t_g = float(top_overall_avg) if top_overall_avg is not None else overall_mean
+    
+    # Calculate shift specific stats
+    shift_query = subj_query.filter(
+        CandidateSubmission.test_date == submission.test_date,
+        CandidateSubmission.test_time == submission.test_time
+    )
+    shift_candidates = shift_query.count()
+    
+    if shift_candidates == 0:
+        return m_ij
+        
+    try:
+        shift_stats = shift_query.with_entities(
+            func.avg(CandidateSubmission.final_score),
+            func.stddev_samp(CandidateSubmission.final_score)
+        ).first()
+        shift_mean = float(shift_stats[0]) if shift_stats and shift_stats[0] is not None else 0.0
+        shift_std = float(shift_stats[1]) if shift_stats and shift_stats[1] is not None else 0.0
+    except Exception as e:
+        logger.warning(f"stddev_samp failed for shift stats, falling back to 0. {e}")
+        shift_mean = float(shift_query.with_entities(func.avg(CandidateSubmission.final_score)).scalar() or 0.0)
+        shift_std = 0.0
+        
+    m_iq = shift_mean + shift_std
+    
+    # M_ti = average marks of top 0.1% of the candidates in the ith shift
+    top_0_1_percent_shift_count = max(1, math.ceil(shift_candidates * 0.001))
+    top_shift_query = shift_query.order_by(CandidateSubmission.final_score.desc()).limit(top_0_1_percent_shift_count)
+    top_shift_avg = db.query(func.avg(top_shift_query.subquery().c.final_score)).scalar()
+    m_ti = float(top_shift_avg) if top_shift_avg is not None else shift_mean
+    
+    # M_q_gm = sum of mean marks and standard deviation of candidates in the shift having maximum mean + stddev
+    try:
+        shift_groups = subj_query.with_entities(
+            CandidateSubmission.test_date,
+            CandidateSubmission.test_time,
+            func.avg(CandidateSubmission.final_score).label('s_mean'),
+            func.stddev_samp(CandidateSubmission.final_score).label('s_std')
+        ).group_by(CandidateSubmission.test_date, CandidateSubmission.test_time).all()
+        
+        max_shift_sum = 0.0
+        for sg in shift_groups:
+            s_m = float(sg.s_mean) if sg.s_mean is not None else 0.0
+            s_s = float(sg.s_std) if sg.s_std is not None else 0.0
+            if (s_m + s_s) > max_shift_sum:
+                max_shift_sum = s_m + s_s
+                
+        m_q_gm = max_shift_sum if max_shift_sum > 0 else m_q_g
+    except Exception as e:
+        logger.warning(f"Failed to calculate max shift sum, falling back to overall m_q_g. {e}")
+        m_q_gm = m_q_g
+        
+    denominator = m_ti - m_iq
+    if denominator == 0:
+        denominator = 1.0 # fallback
+        
+    normalized_score = ((m_t_g - m_q_g) / denominator) * (m_ij - m_iq) + m_q_gm
+    
+    return round(normalized_score, 5)
+
 def mask_identifier(val: Optional[str]) -> str:
     """Masks hall ticket or identifier for public display (e.g. APVR0048215 -> APVR***8215)."""
     if not val:

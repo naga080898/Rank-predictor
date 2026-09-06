@@ -59,6 +59,7 @@ const DOM = {
   scSubmissionId: document.getElementById('sc-submission-id'),
   scTimestamp: document.getElementById('sc-timestamp'),
   scFinalScore: document.getElementById('sc-final-score'),
+  scNormalizedScore: document.getElementById('sc-normalized-score'),
   scPosMarks: document.getElementById('sc-pos-marks'),
   scNegMarks: document.getElementById('sc-neg-marks'),
   scPlatformRank: document.getElementById('sc-platform-rank'),
@@ -478,7 +479,8 @@ function renderScorecard(data) {
 
   // Primary Metrics
   DOM.scFinalScore.textContent = sum.final_score.toFixed(2);
-  DOM.scPosMarks.textContent = `${sum.correct} / ${sum.total_questions} Marks`;
+  DOM.scNormalizedScore.textContent = sum.normalized_score != null ? sum.normalized_score.toFixed(4) : '--';
+  DOM.scPosMarks.textContent = `${sum.correct * sum.positive_marking} / ${sum.total_questions * sum.positive_marking} Marks`;
   DOM.scNegMarks.textContent = `• No Negative Marking`;
 
   DOM.scPlatformRank.textContent = `#${rank.platform_rank}`;
@@ -804,6 +806,9 @@ function renderLeaderboardTable(data) {
         </td>
         <td style="text-align: right; font-family: var(--font-heading); font-weight: 700; font-size: 1.1rem; color: var(--primary-light);">
           ${item.final_score.toFixed(2)}
+        </td>
+        <td style="text-align: right; font-family: var(--font-heading); font-weight: 700; font-size: 1.1rem; color: #c084fc;">
+          ${item.normalized_score != null ? item.normalized_score.toFixed(4) : '--'}
         </td>
         <td style="text-align: right; font-family: var(--font-mono); font-size: 0.85rem; color: var(--accent-cyan);">
           ${item.percentile}%ile

@@ -342,8 +342,18 @@
               <select id="category-select" class="form-input">
                 <option value="">Select Category</option>
                 <option value="General">General</option>
-                <option value="OBC">OBC</option>
-                <option value="SC">SC</option>
+                <optgroup label="OBC">
+                  <option value="BC-A">BC-A</option>
+                  <option value="BC-B">BC-B</option>
+                  <option value="BC-C">BC-C</option>
+                  <option value="BC-D">BC-D</option>
+                  <option value="BC-E">BC-E</option>
+                </optgroup>
+                <optgroup label="SC">
+                  <option value="SC group-1">SC group-1</option>
+                  <option value="SC group-2">SC group-2</option>
+                  <option value="SC group-3">SC group-3</option>
+                </optgroup>
                 <option value="ST">ST</option>
                 <option value="EWS">EWS</option>
                 <option value="PwBD">PwBD</option>
@@ -529,6 +539,22 @@
           </div>
         </div>
 
+        <!-- Normalized Score -->
+        <div class="metric-card">
+          <div class="metric-header">
+            <span class="metric-label">Normalized Score</span>
+            <div class="metric-icon icon-purple">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+              </svg>
+            </div>
+          </div>
+          <div class="metric-value" id="sc-normalized-score" style="color: #c084fc;">--</div>
+          <div class="metric-sub">
+            <span style="color: var(--text-dim);">Based on relative shift difficulty</span>
+          </div>
+        </div>
+
         <!-- Platform Rank -->
         <div class="metric-card">
           <div class="metric-header">
@@ -708,8 +734,18 @@
           <select id="lb-category-select" class="lb-select">
             <option value="">All Categories</option>
             <option value="General">General</option>
-            <option value="OBC">OBC</option>
-            <option value="SC">SC</option>
+            <optgroup label="OBC">
+              <option value="BC-A">BC-A</option>
+              <option value="BC-B">BC-B</option>
+              <option value="BC-C">BC-C</option>
+              <option value="BC-D">BC-D</option>
+              <option value="BC-E">BC-E</option>
+            </optgroup>
+            <optgroup label="SC">
+              <option value="SC group-1">SC group-1</option>
+              <option value="SC group-2">SC group-2</option>
+              <option value="SC group-3">SC group-3</option>
+            </optgroup>
             <option value="ST">ST</option>
             <option value="EWS">EWS</option>
             <option value="PwBD">PwBD</option>
@@ -750,6 +786,7 @@
               <th style="text-align: center;">C / W / S</th>
               <th style="width: 120px;">Accuracy</th>
               <th style="text-align: right;">Final Score</th>
+              <th style="text-align: right; color: var(--primary-light);">Norm. Score</th>
               <th style="text-align: right;">Percentile</th>
               <th style="text-align: center; width: 100px;">Action</th>
             </tr>

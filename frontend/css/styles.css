@@ -563,7 +563,7 @@ body {
 .drop-zone {
   border: 2px dashed var(--border-subtle);
   border-radius: var(--radius-md);
-  padding: 2rem 1.5rem;
+  padding: 1.5rem 1rem;
   text-align: center;
   cursor: pointer;
   background: rgba(15, 23, 42, 0.4);
@@ -573,7 +573,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 220px;
+  min-height: 160px;
 }
 
 .drop-zone:hover, .drop-zone.dragover {
@@ -583,15 +583,15 @@ body {
 }
 
 .drop-icon-wrapper {
-  width: 72px;
-  height: 72px;
+  width: 56px;
+  height: 56px;
   border-radius: 50%;
   background: rgba(99, 102, 241, 0.1);
   display: flex;
   align-items: center;
   justify-content: center;
   color: var(--primary-light);
-  margin-bottom: 1.25rem;
+  margin-bottom: 0.75rem;
   border: 1px solid rgba(99, 102, 241, 0.25);
   transition: transform 0.3s ease;
 }

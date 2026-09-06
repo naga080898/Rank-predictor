@@ -9,7 +9,7 @@ from backend.database import get_db
 from backend.models import CandidateSubmission, UnidentifiedCandidate
 from backend.schemas import EvaluationResponseSchema
 from backend.parser_engine import parse_pdf_bytes_or_file
-from backend.services.rank_service import calculate_rank_estimate
+from backend.services.rank_service import calculate_rank_estimate, calculate_normalized_score
 
 logger = logging.getLogger(__name__)
 
@@ -138,6 +138,16 @@ def _process_and_save_result(
         submission_id = -1
         import datetime
         submitted_at = datetime.datetime.utcnow()
+
+    # Calculate normalized score if valid
+    normalized_score = None
+    if is_valid_score:
+        normalized_score = calculate_normalized_score(db, submission)
+        submission.normalized_score = normalized_score
+        db.commit()
+        db.refresh(submission)
+        
+    summary["normalized_score"] = normalized_score
 
     # Compute dynamic rank & percentile estimates
     rank_estimate = calculate_rank_estimate(

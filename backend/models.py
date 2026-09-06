@@ -28,6 +28,7 @@ class CandidateSubmission(Base):
     positive_marking = Column(Float, default=1.0)
     negative_marking = Column(Float, default=0.25)
     final_score = Column(Float, index=True, nullable=False)
+    normalized_score = Column(Float, index=True, nullable=True)
 
     # Detailed Structured JSON payloads
     sections_json = Column(Text, nullable=True)   # JSON string for per-section stats
